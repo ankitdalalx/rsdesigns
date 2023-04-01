@@ -1,0 +1,1002 @@
+.mkdf-page, .mkdf-meta-box {width: device-width;}
+.mkdf-page html, .mkdf-meta-box html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+.mkdf-page body, .mkdf-meta-box body {margin: 0;}
+.mkdf-page article, .mkdf-page aside, .mkdf-page details, .mkdf-page figcaption, .mkdf-page figure, .mkdf-page footer, .mkdf-page header, .mkdf-page hgroup, .mkdf-page main, .mkdf-page nav, .mkdf-page section, .mkdf-page summary, .mkdf-meta-box article, .mkdf-meta-box aside, .mkdf-meta-box details, .mkdf-meta-box figcaption, .mkdf-meta-box figure, .mkdf-meta-box footer, .mkdf-meta-box header, .mkdf-meta-box hgroup, .mkdf-meta-box main, .mkdf-meta-box nav, .mkdf-meta-box section, .mkdf-meta-box summary {display: block;}
+.mkdf-page audio, .mkdf-page canvas, .mkdf-page progress, .mkdf-page video, .mkdf-meta-box audio, .mkdf-meta-box canvas, .mkdf-meta-box progress, .mkdf-meta-box video {display: inline-block;vertical-align: baseline;}
+.mkdf-page audio:not([controls]), .mkdf-meta-box audio:not([controls]) {display: none;height: 0;}
+.mkdf-page [hidden], .mkdf-page template, .mkdf-meta-box [hidden], .mkdf-meta-box template {display: none;}
+.mkdf-page a, .mkdf-meta-box a {background: transparent;}
+.mkdf-page a:active, .mkdf-page a:hover, .mkdf-meta-box a:active, .mkdf-meta-box a:hover {outline: 0;}
+.mkdf-page abbr[title], .mkdf-meta-box abbr[title] {border-bottom: 1px dotted;}
+.mkdf-page b, .mkdf-page strong, .mkdf-meta-box b, .mkdf-meta-box strong {font-weight: bold;}
+.mkdf-page dfn, .mkdf-meta-box dfn {font-style: italic;}
+.mkdf-page h1, .mkdf-meta-box h1 {font-size: 2em;margin: .67em 0;}
+.mkdf-page mark, .mkdf-meta-box mark {background: #ff0;color: #000;}
+.mkdf-page small, .mkdf-meta-box small {display: inline;float: none;width: auto;font-size: 80%;}
+.mkdf-page sub, .mkdf-page sup, .mkdf-meta-box sub, .mkdf-meta-box sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}
+.mkdf-page sup, .mkdf-meta-box sup {top: -.5em;}
+.mkdf-page sub, .mkdf-meta-box sub {bottom: -.25em;}
+.mkdf-page img, .mkdf-meta-box img {border: 0;}
+.mkdf-page svg:not(:root), .mkdf-meta-box svg:not(:root) {overflow: hidden;}
+.mkdf-page figure, .mkdf-meta-box figure {margin: 1em 40px;}
+.mkdf-page hr, .mkdf-meta-box hr {-moz-box-sizing: content-box;box-sizing: content-box;height: 0;}
+.mkdf-page pre, .mkdf-meta-box pre {overflow: auto;}
+.mkdf-page code, .mkdf-page kbd, .mkdf-page pre, .mkdf-page samp, .mkdf-meta-box code, .mkdf-meta-box kbd, .mkdf-meta-box pre, .mkdf-meta-box samp {font-family: monospace,monospace;font-size: 1em;}
+.mkdf-page button, .mkdf-page input, .mkdf-page optgroup, .mkdf-page select, .mkdf-page textarea, .mkdf-meta-box button, .mkdf-meta-box input, .mkdf-meta-box optgroup, .mkdf-meta-box select, .mkdf-meta-box textarea {color: inherit;font: inherit;margin: 0;}
+.mkdf-page button, .mkdf-meta-box button {overflow: visible;}
+.mkdf-page button, .mkdf-page select, .mkdf-meta-box button, .mkdf-meta-box select {text-transform: none;}
+.mkdf-page button, .mkdf-page html input[type="button"], .mkdf-page input[type="reset"], .mkdf-page input[type="submit"], .mkdf-meta-box button, .mkdf-meta-box html input[type="button"], .mkdf-meta-box input[type="reset"], .mkdf-meta-box input[type="submit"] {-webkit-appearance: button;cursor: pointer;}
+.mkdf-page button[disabled], .mkdf-page html input[disabled], .mkdf-meta-box button[disabled], .mkdf-meta-box html input[disabled] {cursor: default;}
+.mkdf-page button::-moz-focus-inner, .mkdf-page input::-moz-focus-inner, .mkdf-meta-box button::-moz-focus-inner, .mkdf-meta-box input::-moz-focus-inner {border: 0;padding: 0;}
+.mkdf-page input, .mkdf-meta-box input {line-height: normal;}
+.mkdf-page input[type="checkbox"], .mkdf-page input[type="radio"], .mkdf-meta-box input[type="checkbox"], .mkdf-meta-box input[type="radio"] {box-sizing: border-box;padding: 0;}
+.mkdf-page input[type="number"]::-webkit-inner-spin-button, .mkdf-page input[type="number"]::-webkit-outer-spin-button, .mkdf-meta-box input[type="number"]::-webkit-inner-spin-button, .mkdf-meta-box input[type="number"]::-webkit-outer-spin-button {height: auto;}
+.mkdf-page input[type="search"], .mkdf-meta-box input[type="search"] {-webkit-appearance: textfield;-moz-box-sizing: content-box;-webkit-box-sizing: content-box;box-sizing: content-box;}
+.mkdf-page input[type="search"]::-webkit-search-cancel-button, .mkdf-page input[type="search"]::-webkit-search-decoration, .mkdf-meta-box input[type="search"]::-webkit-search-cancel-button, .mkdf-meta-box input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+.mkdf-page fieldset, .mkdf-meta-box fieldset {border: 1px solid #c0c0c0;margin: 0 2px;padding: .35em .625em .75em;}
+.mkdf-page legend, .mkdf-meta-box legend {border: 0;padding: 0;}
+.mkdf-page textarea, .mkdf-meta-box textarea {overflow: auto;}
+.mkdf-page optgroup, .mkdf-meta-box optgroup {font-weight: bold;}
+.mkdf-page table, .mkdf-meta-box table {border-collapse: collapse;border-spacing: 0;}
+.mkdf-page td, .mkdf-page th, .mkdf-meta-box td, .mkdf-meta-box th {padding: 0;}
+@media print {.mkdf-page *, .mkdf-meta-box * {text-shadow: none !important;color: #000 !important;background: transparent !important;box-shadow: none !important;}
+	.mkdf-page a, .mkdf-page a:visited, .mkdf-meta-box a, .mkdf-meta-box a:visited {text-decoration: underline;}
+	.mkdf-page a[href]:after, .mkdf-meta-box a[href]:after {content: " (" attr(href) ")";}
+	.mkdf-page abbr[title]:after, .mkdf-meta-box abbr[title]:after {content: " (" attr(title) ")";}
+	.mkdf-page a[href^="javascript:"]:after, .mkdf-page a[href^="#"]:after, .mkdf-meta-box a[href^="javascript:"]:after, .mkdf-meta-box a[href^="#"]:after {content: "";}
+	.mkdf-page pre, .mkdf-page blockquote, .mkdf-meta-box pre, .mkdf-meta-box blockquote {border: 1px solid #999;page-break-inside: avoid;}
+	.mkdf-page thead, .mkdf-meta-box thead {display: table-header-group;}
+	.mkdf-page tr, .mkdf-page img, .mkdf-meta-box tr, .mkdf-meta-box img {page-break-inside: avoid;}
+	.mkdf-page img, .mkdf-meta-box img {max-width: 100% !important;}
+	.mkdf-page p, .mkdf-page h2, .mkdf-page h3, .mkdf-meta-box p, .mkdf-meta-box h2, .mkdf-meta-box h3 {orphans: 3;widows: 3;}
+	.mkdf-page h2, .mkdf-page h3, .mkdf-meta-box h2, .mkdf-meta-box h3 {page-break-after: avoid;}
+	.mkdf-page select, .mkdf-meta-box select {background: #fff !important;}
+	.mkdf-page .navbar, .mkdf-meta-box .navbar {display: none;}
+	.mkdf-page .table td, .mkdf-page .table th, .mkdf-meta-box .table td, .mkdf-meta-box .table th {background-color: #fff !important;}
+	.mkdf-page .btn > .caret, .mkdf-page .dropup > .btn > .caret, .mkdf-meta-box .btn > .caret, .mkdf-meta-box .dropup > .btn > .caret {border-top-color: #000 !important;}
+	.mkdf-page .label, .mkdf-meta-box .label {border: 1px solid #000;}
+	.mkdf-page .table, .mkdf-meta-box .table {border-collapse: collapse !important;}
+	.mkdf-page .table-bordered th, .mkdf-page .table-bordered td, .mkdf-meta-box .table-bordered th, .mkdf-meta-box .table-bordered td {border: 1px solid #ddd !important;}}
+.mkdf-page *, .mkdf-meta-box * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.mkdf-page *:before, .mkdf-page *:after, .mkdf-meta-box *:before, .mkdf-meta-box *:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.mkdf-page html, .mkdf-meta-box html {font-size: 62.5%;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.mkdf-page body, .mkdf-meta-box body {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 14px;line-height: 1.42857;color: #333;background-color: white;}
+.mkdf-page input, .mkdf-page button, .mkdf-page select, .mkdf-page textarea, .mkdf-meta-box input, .mkdf-meta-box button, .mkdf-meta-box select, .mkdf-meta-box textarea {font-family: inherit;font-size: inherit;line-height: inherit;}
+.mkdf-page a, .mkdf-meta-box a {color: #428bca;text-decoration: none;}
+.mkdf-page a:hover, .mkdf-page a:focus, .mkdf-meta-box a:hover, .mkdf-meta-box a:focus {color: #2a6496;text-decoration: underline;}
+.mkdf-page a:focus, .mkdf-meta-box a:focus {outline: thin dotted;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;}
+.mkdf-page figure, .mkdf-meta-box figure {margin: 0;}
+.mkdf-page img, .mkdf-meta-box img {vertical-align: middle;}
+.mkdf-page .img-responsive, .mkdf-meta-box .img-responsive {display: block;max-width: 100%;height: auto;}
+.mkdf-page .img-rounded, .mkdf-meta-box .img-rounded {border-radius: 6px;}
+.mkdf-page .img-thumbnail, .mkdf-meta-box .img-thumbnail {padding: 4px;line-height: 1.42857;background-color: white;border: 1px solid #ddd;border-radius: 4px;-webkit-transition: all .2s ease-in-out;transition: all .2s ease-in-out;display: inline-block;max-width: 100%;height: auto;}
+.mkdf-page .img-circle, .mkdf-meta-box .img-circle {border-radius: 50%;}
+.mkdf-page hr, .mkdf-meta-box hr {margin-top: 20px;margin-bottom: 20px;border: 0;border-top: 1px solid #eee;}
+.mkdf-page .sr-only, .mkdf-meta-box .sr-only {position: absolute;width: 1px;height: 1px;margin: -1px;padding: 0;overflow: hidden;clip: rect(0,0,0,0);border: 0;}
+.mkdf-page code, .mkdf-page kbd, .mkdf-page pre, .mkdf-page samp, .mkdf-meta-box code, .mkdf-meta-box kbd, .mkdf-meta-box pre, .mkdf-meta-box samp {font-family: Menlo,Monaco,Consolas,"Courier New",monospace;}
+.mkdf-page code, .mkdf-meta-box code {padding: 2px 4px;font-size: 90%;color: #c7254e;background-color: #f9f2f4;white-space: nowrap;border-radius: 4px;}
+.mkdf-page kbd, .mkdf-meta-box kbd {padding: 2px 4px;font-size: 90%;color: white;background-color: #333;border-radius: 3px;box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);}
+.mkdf-page pre, .mkdf-meta-box pre {display: block;padding: 9.5px;margin: 0 0 10px;font-size: 13px;line-height: 1.42857;word-break: break-all;word-wrap: break-word;color: #333;background-color: whitesmoke;border: 1px solid #ccc;border-radius: 4px;}
+.mkdf-page pre code, .mkdf-meta-box pre code {padding: 0;font-size: inherit;color: inherit;white-space: pre-wrap;background-color: transparent;border-radius: 0;}
+.mkdf-page .pre-scrollable, .mkdf-meta-box .pre-scrollable {max-height: 340px;overflow-y: scroll;}
+.mkdf-page .container, .mkdf-meta-box .container {margin-right: auto;margin-left: auto;padding-left: 15px;padding-right: 15px;}
+.mkdf-page .container:before, .mkdf-page .container:after, .mkdf-meta-box .container:before, .mkdf-meta-box .container:after {content: " ";display: table;}
+.mkdf-page .container:after, .mkdf-meta-box .container:after {clear: both;}
+@media (min-width: 768px) {.mkdf-page .container, .mkdf-meta-box .container {width: 750px;}}
+@media (min-width: 992px) {.mkdf-page .container, .mkdf-meta-box .container {width: 970px;}}
+@media (min-width: 1200px) {.mkdf-page .container, .mkdf-meta-box .container {width: 1170px;}}
+.mkdf-page .container-fluid, .mkdf-meta-box .container-fluid {margin-right: auto;margin-left: auto;padding-left: 15px;padding-right: 15px;}
+.mkdf-page .container-fluid:before, .mkdf-page .container-fluid:after, .mkdf-meta-box .container-fluid:before, .mkdf-meta-box .container-fluid:after {content: " ";display: table;}
+.mkdf-page .container-fluid:after, .mkdf-meta-box .container-fluid:after {clear: both;}
+.mkdf-page .row, .mkdf-meta-box .row {margin-left: -15px;margin-right: -15px;}
+.mkdf-page .row.next-row, .mkdf-meta-box .row.next-row {margin-top: 20px;}
+.mkdf-page .row:before, .mkdf-page .row:after, .mkdf-meta-box .row:before, .mkdf-meta-box .row:after {content: " ";display: table;}
+.mkdf-page .row:after, .mkdf-meta-box .row:after {clear: both;}
+.mkdf-page .col-xs-1, .mkdf-page .col-sm-1, .mkdf-page .col-md-1, .mkdf-page .col-lg-1, .mkdf-page .col-xs-2, .mkdf-page .col-sm-2, .mkdf-page .col-md-2, .mkdf-page .col-lg-2, .mkdf-page .col-xs-3, .mkdf-page .col-sm-3, .mkdf-page .col-md-3, .mkdf-page .col-lg-3, .mkdf-page .col-xs-4, .mkdf-page .col-sm-4, .mkdf-page .col-md-4, .mkdf-page .col-lg-4, .mkdf-page .col-xs-5, .mkdf-page .col-sm-5, .mkdf-page .col-md-5, .mkdf-page .col-lg-5, .mkdf-page .col-xs-6, .mkdf-page .col-sm-6, .mkdf-page .col-md-6, .mkdf-page .col-lg-6, .mkdf-page .col-xs-7, .mkdf-page .col-sm-7, .mkdf-page .col-md-7, .mkdf-page .col-lg-7, .mkdf-page .col-xs-8, .mkdf-page .col-sm-8, .mkdf-page .col-md-8, .mkdf-page .col-lg-8, .mkdf-page .col-xs-9, .mkdf-page .col-sm-9, .mkdf-page .col-md-9, .mkdf-page .col-lg-9, .mkdf-page .col-xs-10, .mkdf-page .col-sm-10, .mkdf-page .col-md-10, .mkdf-page .col-lg-10, .mkdf-page .col-xs-11, .mkdf-page .col-sm-11, .mkdf-page .col-md-11, .mkdf-page .col-lg-11, .mkdf-page .col-xs-12, .mkdf-page .col-sm-12, .mkdf-page .col-md-12, .mkdf-page .col-lg-12, .mkdf-meta-box .col-xs-1, .mkdf-meta-box .col-sm-1, .mkdf-meta-box .col-md-1, .mkdf-meta-box .col-lg-1, .mkdf-meta-box .col-xs-2, .mkdf-meta-box .col-sm-2, .mkdf-meta-box .col-md-2, .mkdf-meta-box .col-lg-2, .mkdf-meta-box .col-xs-3, .mkdf-meta-box .col-sm-3, .mkdf-meta-box .col-md-3, .mkdf-meta-box .col-lg-3, .mkdf-meta-box .col-xs-4, .mkdf-meta-box .col-sm-4, .mkdf-meta-box .col-md-4, .mkdf-meta-box .col-lg-4, .mkdf-meta-box .col-xs-5, .mkdf-meta-box .col-sm-5, .mkdf-meta-box .col-md-5, .mkdf-meta-box .col-lg-5, .mkdf-meta-box .col-xs-6, .mkdf-meta-box .col-sm-6, .mkdf-meta-box .col-md-6, .mkdf-meta-box .col-lg-6, .mkdf-meta-box .col-xs-7, .mkdf-meta-box .col-sm-7, .mkdf-meta-box .col-md-7, .mkdf-meta-box .col-lg-7, .mkdf-meta-box .col-xs-8, .mkdf-meta-box .col-sm-8, .mkdf-meta-box .col-md-8, .mkdf-meta-box .col-lg-8, .mkdf-meta-box .col-xs-9, .mkdf-meta-box .col-sm-9, .mkdf-meta-box .col-md-9, .mkdf-meta-box .col-lg-9, .mkdf-meta-box .col-xs-10, .mkdf-meta-box .col-sm-10, .mkdf-meta-box .col-md-10, .mkdf-meta-box .col-lg-10, .mkdf-meta-box .col-xs-11, .mkdf-meta-box .col-sm-11, .mkdf-meta-box .col-md-11, .mkdf-meta-box .col-lg-11, .mkdf-meta-box .col-xs-12, .mkdf-meta-box .col-sm-12, .mkdf-meta-box .col-md-12, .mkdf-meta-box .col-lg-12 {position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px;}
+.mkdf-page .col-xs-1, .mkdf-page .col-xs-2, .mkdf-page .col-xs-3, .mkdf-page .col-xs-4, .mkdf-page .col-xs-5, .mkdf-page .col-xs-6, .mkdf-page .col-xs-7, .mkdf-page .col-xs-8, .mkdf-page .col-xs-9, .mkdf-page .col-xs-10, .mkdf-page .col-xs-11, .mkdf-page .col-xs-12, .mkdf-meta-box .col-xs-1, .mkdf-meta-box .col-xs-2, .mkdf-meta-box .col-xs-3, .mkdf-meta-box .col-xs-4, .mkdf-meta-box .col-xs-5, .mkdf-meta-box .col-xs-6, .mkdf-meta-box .col-xs-7, .mkdf-meta-box .col-xs-8, .mkdf-meta-box .col-xs-9, .mkdf-meta-box .col-xs-10, .mkdf-meta-box .col-xs-11, .mkdf-meta-box .col-xs-12 {float: left;}
+.mkdf-page .col-xs-1, .mkdf-meta-box .col-xs-1 {width: 8.33333%;}
+.mkdf-page .col-xs-2, .mkdf-meta-box .col-xs-2 {width: 16.66667%;}
+.mkdf-page .col-xs-3, .mkdf-meta-box .col-xs-3 {width: 25%;}
+.mkdf-page .col-xs-4, .mkdf-meta-box .col-xs-4 {width: 33.33333%;}
+.mkdf-page .col-xs-5, .mkdf-meta-box .col-xs-5 {width: 41.66667%;}
+.mkdf-page .col-xs-6, .mkdf-meta-box .col-xs-6 {width: 50%;}
+.mkdf-page .col-xs-7, .mkdf-meta-box .col-xs-7 {width: 58.33333%;}
+.mkdf-page .col-xs-8, .mkdf-meta-box .col-xs-8 {width: 66.66667%;}
+.mkdf-page .col-xs-9, .mkdf-meta-box .col-xs-9 {width: 75%;}
+.mkdf-page .col-xs-10, .mkdf-meta-box .col-xs-10 {width: 83.33333%;}
+.mkdf-page .col-xs-11, .mkdf-meta-box .col-xs-11 {width: 91.66667%;}
+.mkdf-page .col-xs-12, .mkdf-meta-box .col-xs-12 {width: 100%;}
+.mkdf-page .col-xs-pull-0, .mkdf-meta-box .col-xs-pull-0 {right: 0%;}
+.mkdf-page .col-xs-pull-1, .mkdf-meta-box .col-xs-pull-1 {right: 8.33333%;}
+.mkdf-page .col-xs-pull-2, .mkdf-meta-box .col-xs-pull-2 {right: 16.66667%;}
+.mkdf-page .col-xs-pull-3, .mkdf-meta-box .col-xs-pull-3 {right: 25%;}
+.mkdf-page .col-xs-pull-4, .mkdf-meta-box .col-xs-pull-4 {right: 33.33333%;}
+.mkdf-page .col-xs-pull-5, .mkdf-meta-box .col-xs-pull-5 {right: 41.66667%;}
+.mkdf-page .col-xs-pull-6, .mkdf-meta-box .col-xs-pull-6 {right: 50%;}
+.mkdf-page .col-xs-pull-7, .mkdf-meta-box .col-xs-pull-7 {right: 58.33333%;}
+.mkdf-page .col-xs-pull-8, .mkdf-meta-box .col-xs-pull-8 {right: 66.66667%;}
+.mkdf-page .col-xs-pull-9, .mkdf-meta-box .col-xs-pull-9 {right: 75%;}
+.mkdf-page .col-xs-pull-10, .mkdf-meta-box .col-xs-pull-10 {right: 83.33333%;}
+.mkdf-page .col-xs-pull-11, .mkdf-meta-box .col-xs-pull-11 {right: 91.66667%;}
+.mkdf-page .col-xs-pull-12, .mkdf-meta-box .col-xs-pull-12 {right: 100%;}
+.mkdf-page .col-xs-push-0, .mkdf-meta-box .col-xs-push-0 {left: 0%;}
+.mkdf-page .col-xs-push-1, .mkdf-meta-box .col-xs-push-1 {left: 8.33333%;}
+.mkdf-page .col-xs-push-2, .mkdf-meta-box .col-xs-push-2 {left: 16.66667%;}
+.mkdf-page .col-xs-push-3, .mkdf-meta-box .col-xs-push-3 {left: 25%;}
+.mkdf-page .col-xs-push-4, .mkdf-meta-box .col-xs-push-4 {left: 33.33333%;}
+.mkdf-page .col-xs-push-5, .mkdf-meta-box .col-xs-push-5 {left: 41.66667%;}
+.mkdf-page .col-xs-push-6, .mkdf-meta-box .col-xs-push-6 {left: 50%;}
+.mkdf-page .col-xs-push-7, .mkdf-meta-box .col-xs-push-7 {left: 58.33333%;}
+.mkdf-page .col-xs-push-8, .mkdf-meta-box .col-xs-push-8 {left: 66.66667%;}
+.mkdf-page .col-xs-push-9, .mkdf-meta-box .col-xs-push-9 {left: 75%;}
+.mkdf-page .col-xs-push-10, .mkdf-meta-box .col-xs-push-10 {left: 83.33333%;}
+.mkdf-page .col-xs-push-11, .mkdf-meta-box .col-xs-push-11 {left: 91.66667%;}
+.mkdf-page .col-xs-push-12, .mkdf-meta-box .col-xs-push-12 {left: 100%;}
+.mkdf-page .col-xs-offset-0, .mkdf-meta-box .col-xs-offset-0 {margin-left: 0%;}
+.mkdf-page .col-xs-offset-1, .mkdf-meta-box .col-xs-offset-1 {margin-left: 8.33333%;}
+.mkdf-page .col-xs-offset-2, .mkdf-meta-box .col-xs-offset-2 {margin-left: 16.66667%;}
+.mkdf-page .col-xs-offset-3, .mkdf-meta-box .col-xs-offset-3 {margin-left: 25%;}
+.mkdf-page .col-xs-offset-4, .mkdf-meta-box .col-xs-offset-4 {margin-left: 33.33333%;}
+.mkdf-page .col-xs-offset-5, .mkdf-meta-box .col-xs-offset-5 {margin-left: 41.66667%;}
+.mkdf-page .col-xs-offset-6, .mkdf-meta-box .col-xs-offset-6 {margin-left: 50%;}
+.mkdf-page .col-xs-offset-7, .mkdf-meta-box .col-xs-offset-7 {margin-left: 58.33333%;}
+.mkdf-page .col-xs-offset-8, .mkdf-meta-box .col-xs-offset-8 {margin-left: 66.66667%;}
+.mkdf-page .col-xs-offset-9, .mkdf-meta-box .col-xs-offset-9 {margin-left: 75%;}
+.mkdf-page .col-xs-offset-10, .mkdf-meta-box .col-xs-offset-10 {margin-left: 83.33333%;}
+.mkdf-page .col-xs-offset-11, .mkdf-meta-box .col-xs-offset-11 {margin-left: 91.66667%;}
+.mkdf-page .col-xs-offset-12, .mkdf-meta-box .col-xs-offset-12 {margin-left: 100%;}
+@media (min-width: 768px) {.mkdf-page .col-sm-1, .mkdf-page .col-sm-2, .mkdf-page .col-sm-3, .mkdf-page .col-sm-4, .mkdf-page .col-sm-5, .mkdf-page .col-sm-6, .mkdf-page .col-sm-7, .mkdf-page .col-sm-8, .mkdf-page .col-sm-9, .mkdf-page .col-sm-10, .mkdf-page .col-sm-11, .mkdf-page .col-sm-12, .mkdf-meta-box .col-sm-1, .mkdf-meta-box .col-sm-2, .mkdf-meta-box .col-sm-3, .mkdf-meta-box .col-sm-4, .mkdf-meta-box .col-sm-5, .mkdf-meta-box .col-sm-6, .mkdf-meta-box .col-sm-7, .mkdf-meta-box .col-sm-8, .mkdf-meta-box .col-sm-9, .mkdf-meta-box .col-sm-10, .mkdf-meta-box .col-sm-11, .mkdf-meta-box .col-sm-12 {float: left;}
+	.mkdf-page .col-sm-1, .mkdf-meta-box .col-sm-1 {width: 8.33333%;}
+	.mkdf-page .col-sm-2, .mkdf-meta-box .col-sm-2 {width: 16.66667%;}
+	.mkdf-page .col-sm-3, .mkdf-meta-box .col-sm-3 {width: 25%;}
+	.mkdf-page .col-sm-4, .mkdf-meta-box .col-sm-4 {width: 33.33333%;}
+	.mkdf-page .col-sm-5, .mkdf-meta-box .col-sm-5 {width: 41.66667%;}
+	.mkdf-page .col-sm-6, .mkdf-meta-box .col-sm-6 {width: 50%;}
+	.mkdf-page .col-sm-7, .mkdf-meta-box .col-sm-7 {width: 58.33333%;}
+	.mkdf-page .col-sm-8, .mkdf-meta-box .col-sm-8 {width: 66.66667%;}
+	.mkdf-page .col-sm-9, .mkdf-meta-box .col-sm-9 {width: 75%;}
+	.mkdf-page .col-sm-10, .mkdf-meta-box .col-sm-10 {width: 83.33333%;}
+	.mkdf-page .col-sm-11, .mkdf-meta-box .col-sm-11 {width: 91.66667%;}
+	.mkdf-page .col-sm-12, .mkdf-meta-box .col-sm-12 {width: 100%;}
+	.mkdf-page .col-sm-pull-0, .mkdf-meta-box .col-sm-pull-0 {right: 0%;}
+	.mkdf-page .col-sm-pull-1, .mkdf-meta-box .col-sm-pull-1 {right: 8.33333%;}
+	.mkdf-page .col-sm-pull-2, .mkdf-meta-box .col-sm-pull-2 {right: 16.66667%;}
+	.mkdf-page .col-sm-pull-3, .mkdf-meta-box .col-sm-pull-3 {right: 25%;}
+	.mkdf-page .col-sm-pull-4, .mkdf-meta-box .col-sm-pull-4 {right: 33.33333%;}
+	.mkdf-page .col-sm-pull-5, .mkdf-meta-box .col-sm-pull-5 {right: 41.66667%;}
+	.mkdf-page .col-sm-pull-6, .mkdf-meta-box .col-sm-pull-6 {right: 50%;}
+	.mkdf-page .col-sm-pull-7, .mkdf-meta-box .col-sm-pull-7 {right: 58.33333%;}
+	.mkdf-page .col-sm-pull-8, .mkdf-meta-box .col-sm-pull-8 {right: 66.66667%;}
+	.mkdf-page .col-sm-pull-9, .mkdf-meta-box .col-sm-pull-9 {right: 75%;}
+	.mkdf-page .col-sm-pull-10, .mkdf-meta-box .col-sm-pull-10 {right: 83.33333%;}
+	.mkdf-page .col-sm-pull-11, .mkdf-meta-box .col-sm-pull-11 {right: 91.66667%;}
+	.mkdf-page .col-sm-pull-12, .mkdf-meta-box .col-sm-pull-12 {right: 100%;}
+	.mkdf-page .col-sm-push-0, .mkdf-meta-box .col-sm-push-0 {left: 0%;}
+	.mkdf-page .col-sm-push-1, .mkdf-meta-box .col-sm-push-1 {left: 8.33333%;}
+	.mkdf-page .col-sm-push-2, .mkdf-meta-box .col-sm-push-2 {left: 16.66667%;}
+	.mkdf-page .col-sm-push-3, .mkdf-meta-box .col-sm-push-3 {left: 25%;}
+	.mkdf-page .col-sm-push-4, .mkdf-meta-box .col-sm-push-4 {left: 33.33333%;}
+	.mkdf-page .col-sm-push-5, .mkdf-meta-box .col-sm-push-5 {left: 41.66667%;}
+	.mkdf-page .col-sm-push-6, .mkdf-meta-box .col-sm-push-6 {left: 50%;}
+	.mkdf-page .col-sm-push-7, .mkdf-meta-box .col-sm-push-7 {left: 58.33333%;}
+	.mkdf-page .col-sm-push-8, .mkdf-meta-box .col-sm-push-8 {left: 66.66667%;}
+	.mkdf-page .col-sm-push-9, .mkdf-meta-box .col-sm-push-9 {left: 75%;}
+	.mkdf-page .col-sm-push-10, .mkdf-meta-box .col-sm-push-10 {left: 83.33333%;}
+	.mkdf-page .col-sm-push-11, .mkdf-meta-box .col-sm-push-11 {left: 91.66667%;}
+	.mkdf-page .col-sm-push-12, .mkdf-meta-box .col-sm-push-12 {left: 100%;}
+	.mkdf-page .col-sm-offset-0, .mkdf-meta-box .col-sm-offset-0 {margin-left: 0%;}
+	.mkdf-page .col-sm-offset-1, .mkdf-meta-box .col-sm-offset-1 {margin-left: 8.33333%;}
+	.mkdf-page .col-sm-offset-2, .mkdf-meta-box .col-sm-offset-2 {margin-left: 16.66667%;}
+	.mkdf-page .col-sm-offset-3, .mkdf-meta-box .col-sm-offset-3 {margin-left: 25%;}
+	.mkdf-page .col-sm-offset-4, .mkdf-meta-box .col-sm-offset-4 {margin-left: 33.33333%;}
+	.mkdf-page .col-sm-offset-5, .mkdf-meta-box .col-sm-offset-5 {margin-left: 41.66667%;}
+	.mkdf-page .col-sm-offset-6, .mkdf-meta-box .col-sm-offset-6 {margin-left: 50%;}
+	.mkdf-page .col-sm-offset-7, .mkdf-meta-box .col-sm-offset-7 {margin-left: 58.33333%;}
+	.mkdf-page .col-sm-offset-8, .mkdf-meta-box .col-sm-offset-8 {margin-left: 66.66667%;}
+	.mkdf-page .col-sm-offset-9, .mkdf-meta-box .col-sm-offset-9 {margin-left: 75%;}
+	.mkdf-page .col-sm-offset-10, .mkdf-meta-box .col-sm-offset-10 {margin-left: 83.33333%;}
+	.mkdf-page .col-sm-offset-11, .mkdf-meta-box .col-sm-offset-11 {margin-left: 91.66667%;}
+	.mkdf-page .col-sm-offset-12, .mkdf-meta-box .col-sm-offset-12 {margin-left: 100%;}}
+@media (min-width: 992px) {.mkdf-page .col-md-1, .mkdf-page .col-md-2, .mkdf-page .col-md-3, .mkdf-page .col-md-4, .mkdf-page .col-md-5, .mkdf-page .col-md-6, .mkdf-page .col-md-7, .mkdf-page .col-md-8, .mkdf-page .col-md-9, .mkdf-page .col-md-10, .mkdf-page .col-md-11, .mkdf-page .col-md-12, .mkdf-meta-box .col-md-1, .mkdf-meta-box .col-md-2, .mkdf-meta-box .col-md-3, .mkdf-meta-box .col-md-4, .mkdf-meta-box .col-md-5, .mkdf-meta-box .col-md-6, .mkdf-meta-box .col-md-7, .mkdf-meta-box .col-md-8, .mkdf-meta-box .col-md-9, .mkdf-meta-box .col-md-10, .mkdf-meta-box .col-md-11, .mkdf-meta-box .col-md-12 {float: left;}
+	.mkdf-page .col-md-1, .mkdf-meta-box .col-md-1 {width: 8.33333%;}
+	.mkdf-page .col-md-2, .mkdf-meta-box .col-md-2 {width: 16.66667%;}
+	.mkdf-page .col-md-3, .mkdf-meta-box .col-md-3 {width: 25%;}
+	.mkdf-page .col-md-4, .mkdf-meta-box .col-md-4 {width: 33.33333%;}
+	.mkdf-page .col-md-5, .mkdf-meta-box .col-md-5 {width: 41.66667%;}
+	.mkdf-page .col-md-6, .mkdf-meta-box .col-md-6 {width: 50%;}
+	.mkdf-page .col-md-7, .mkdf-meta-box .col-md-7 {width: 58.33333%;}
+	.mkdf-page .col-md-8, .mkdf-meta-box .col-md-8 {width: 66.66667%;}
+	.mkdf-page .col-md-9, .mkdf-meta-box .col-md-9 {width: 75%;}
+	.mkdf-page .col-md-10, .mkdf-meta-box .col-md-10 {width: 83.33333%;}
+	.mkdf-page .col-md-11, .mkdf-meta-box .col-md-11 {width: 91.66667%;}
+	.mkdf-page .col-md-12, .mkdf-meta-box .col-md-12 {width: 100%;}
+	.mkdf-page .col-md-pull-0, .mkdf-meta-box .col-md-pull-0 {right: 0%;}
+	.mkdf-page .col-md-pull-1, .mkdf-meta-box .col-md-pull-1 {right: 8.33333%;}
+	.mkdf-page .col-md-pull-2, .mkdf-meta-box .col-md-pull-2 {right: 16.66667%;}
+	.mkdf-page .col-md-pull-3, .mkdf-meta-box .col-md-pull-3 {right: 25%;}
+	.mkdf-page .col-md-pull-4, .mkdf-meta-box .col-md-pull-4 {right: 33.33333%;}
+	.mkdf-page .col-md-pull-5, .mkdf-meta-box .col-md-pull-5 {right: 41.66667%;}
+	.mkdf-page .col-md-pull-6, .mkdf-meta-box .col-md-pull-6 {right: 50%;}
+	.mkdf-page .col-md-pull-7, .mkdf-meta-box .col-md-pull-7 {right: 58.33333%;}
+	.mkdf-page .col-md-pull-8, .mkdf-meta-box .col-md-pull-8 {right: 66.66667%;}
+	.mkdf-page .col-md-pull-9, .mkdf-meta-box .col-md-pull-9 {right: 75%;}
+	.mkdf-page .col-md-pull-10, .mkdf-meta-box .col-md-pull-10 {right: 83.33333%;}
+	.mkdf-page .col-md-pull-11, .mkdf-meta-box .col-md-pull-11 {right: 91.66667%;}
+	.mkdf-page .col-md-pull-12, .mkdf-meta-box .col-md-pull-12 {right: 100%;}
+	.mkdf-page .col-md-push-0, .mkdf-meta-box .col-md-push-0 {left: 0%;}
+	.mkdf-page .col-md-push-1, .mkdf-meta-box .col-md-push-1 {left: 8.33333%;}
+	.mkdf-page .col-md-push-2, .mkdf-meta-box .col-md-push-2 {left: 16.66667%;}
+	.mkdf-page .col-md-push-3, .mkdf-meta-box .col-md-push-3 {left: 25%;}
+	.mkdf-page .col-md-push-4, .mkdf-meta-box .col-md-push-4 {left: 33.33333%;}
+	.mkdf-page .col-md-push-5, .mkdf-meta-box .col-md-push-5 {left: 41.66667%;}
+	.mkdf-page .col-md-push-6, .mkdf-meta-box .col-md-push-6 {left: 50%;}
+	.mkdf-page .col-md-push-7, .mkdf-meta-box .col-md-push-7 {left: 58.33333%;}
+	.mkdf-page .col-md-push-8, .mkdf-meta-box .col-md-push-8 {left: 66.66667%;}
+	.mkdf-page .col-md-push-9, .mkdf-meta-box .col-md-push-9 {left: 75%;}
+	.mkdf-page .col-md-push-10, .mkdf-meta-box .col-md-push-10 {left: 83.33333%;}
+	.mkdf-page .col-md-push-11, .mkdf-meta-box .col-md-push-11 {left: 91.66667%;}
+	.mkdf-page .col-md-push-12, .mkdf-meta-box .col-md-push-12 {left: 100%;}
+	.mkdf-page .col-md-offset-0, .mkdf-meta-box .col-md-offset-0 {margin-left: 0%;}
+	.mkdf-page .col-md-offset-1, .mkdf-meta-box .col-md-offset-1 {margin-left: 8.33333%;}
+	.mkdf-page .col-md-offset-2, .mkdf-meta-box .col-md-offset-2 {margin-left: 16.66667%;}
+	.mkdf-page .col-md-offset-3, .mkdf-meta-box .col-md-offset-3 {margin-left: 25%;}
+	.mkdf-page .col-md-offset-4, .mkdf-meta-box .col-md-offset-4 {margin-left: 33.33333%;}
+	.mkdf-page .col-md-offset-5, .mkdf-meta-box .col-md-offset-5 {margin-left: 41.66667%;}
+	.mkdf-page .col-md-offset-6, .mkdf-meta-box .col-md-offset-6 {margin-left: 50%;}
+	.mkdf-page .col-md-offset-7, .mkdf-meta-box .col-md-offset-7 {margin-left: 58.33333%;}
+	.mkdf-page .col-md-offset-8, .mkdf-meta-box .col-md-offset-8 {margin-left: 66.66667%;}
+	.mkdf-page .col-md-offset-9, .mkdf-meta-box .col-md-offset-9 {margin-left: 75%;}
+	.mkdf-page .col-md-offset-10, .mkdf-meta-box .col-md-offset-10 {margin-left: 83.33333%;}
+	.mkdf-page .col-md-offset-11, .mkdf-meta-box .col-md-offset-11 {margin-left: 91.66667%;}
+	.mkdf-page .col-md-offset-12, .mkdf-meta-box .col-md-offset-12 {margin-left: 100%;}}
+@media (min-width: 1200px) {.mkdf-page .col-lg-1, .mkdf-page .col-lg-2, .mkdf-page .col-lg-3, .mkdf-page .col-lg-4, .mkdf-page .col-lg-5, .mkdf-page .col-lg-6, .mkdf-page .col-lg-7, .mkdf-page .col-lg-8, .mkdf-page .col-lg-9, .mkdf-page .col-lg-10, .mkdf-page .col-lg-11, .mkdf-page .col-lg-12, .mkdf-meta-box .col-lg-1, .mkdf-meta-box .col-lg-2, .mkdf-meta-box .col-lg-3, .mkdf-meta-box .col-lg-4, .mkdf-meta-box .col-lg-5, .mkdf-meta-box .col-lg-6, .mkdf-meta-box .col-lg-7, .mkdf-meta-box .col-lg-8, .mkdf-meta-box .col-lg-9, .mkdf-meta-box .col-lg-10, .mkdf-meta-box .col-lg-11, .mkdf-meta-box .col-lg-12 {float: left;}
+	.mkdf-page .col-lg-1, .mkdf-meta-box .col-lg-1 {width: 8.33333%;}
+	.mkdf-page .col-lg-2, .mkdf-meta-box .col-lg-2 {width: 16.66667%;}
+	.mkdf-page .col-lg-3, .mkdf-meta-box .col-lg-3 {width: 25%;}
+	.mkdf-page .col-lg-4, .mkdf-meta-box .col-lg-4 {width: 33.33333%;}
+	.mkdf-page .col-lg-5, .mkdf-meta-box .col-lg-5 {width: 41.66667%;}
+	.mkdf-page .col-lg-6, .mkdf-meta-box .col-lg-6 {width: 50%;}
+	.mkdf-page .col-lg-7, .mkdf-meta-box .col-lg-7 {width: 58.33333%;}
+	.mkdf-page .col-lg-8, .mkdf-meta-box .col-lg-8 {width: 66.66667%;}
+	.mkdf-page .col-lg-9, .mkdf-meta-box .col-lg-9 {width: 75%;}
+	.mkdf-page .col-lg-10, .mkdf-meta-box .col-lg-10 {width: 83.33333%;}
+	.mkdf-page .col-lg-11, .mkdf-meta-box .col-lg-11 {width: 91.66667%;}
+	.mkdf-page .col-lg-12, .mkdf-meta-box .col-lg-12 {width: 100%;}
+	.mkdf-page .col-lg-pull-0, .mkdf-meta-box .col-lg-pull-0 {right: 0%;}
+	.mkdf-page .col-lg-pull-1, .mkdf-meta-box .col-lg-pull-1 {right: 8.33333%;}
+	.mkdf-page .col-lg-pull-2, .mkdf-meta-box .col-lg-pull-2 {right: 16.66667%;}
+	.mkdf-page .col-lg-pull-3, .mkdf-meta-box .col-lg-pull-3 {right: 25%;}
+	.mkdf-page .col-lg-pull-4, .mkdf-meta-box .col-lg-pull-4 {right: 33.33333%;}
+	.mkdf-page .col-lg-pull-5, .mkdf-meta-box .col-lg-pull-5 {right: 41.66667%;}
+	.mkdf-page .col-lg-pull-6, .mkdf-meta-box .col-lg-pull-6 {right: 50%;}
+	.mkdf-page .col-lg-pull-7, .mkdf-meta-box .col-lg-pull-7 {right: 58.33333%;}
+	.mkdf-page .col-lg-pull-8, .mkdf-meta-box .col-lg-pull-8 {right: 66.66667%;}
+	.mkdf-page .col-lg-pull-9, .mkdf-meta-box .col-lg-pull-9 {right: 75%;}
+	.mkdf-page .col-lg-pull-10, .mkdf-meta-box .col-lg-pull-10 {right: 83.33333%;}
+	.mkdf-page .col-lg-pull-11, .mkdf-meta-box .col-lg-pull-11 {right: 91.66667%;}
+	.mkdf-page .col-lg-pull-12, .mkdf-meta-box .col-lg-pull-12 {right: 100%;}
+	.mkdf-page .col-lg-push-0, .mkdf-meta-box .col-lg-push-0 {left: 0%;}
+	.mkdf-page .col-lg-push-1, .mkdf-meta-box .col-lg-push-1 {left: 8.33333%;}
+	.mkdf-page .col-lg-push-2, .mkdf-meta-box .col-lg-push-2 {left: 16.66667%;}
+	.mkdf-page .col-lg-push-3, .mkdf-meta-box .col-lg-push-3 {left: 25%;}
+	.mkdf-page .col-lg-push-4, .mkdf-meta-box .col-lg-push-4 {left: 33.33333%;}
+	.mkdf-page .col-lg-push-5, .mkdf-meta-box .col-lg-push-5 {left: 41.66667%;}
+	.mkdf-page .col-lg-push-6, .mkdf-meta-box .col-lg-push-6 {left: 50%;}
+	.mkdf-page .col-lg-push-7, .mkdf-meta-box .col-lg-push-7 {left: 58.33333%;}
+	.mkdf-page .col-lg-push-8, .mkdf-meta-box .col-lg-push-8 {left: 66.66667%;}
+	.mkdf-page .col-lg-push-9, .mkdf-meta-box .col-lg-push-9 {left: 75%;}
+	.mkdf-page .col-lg-push-10, .mkdf-meta-box .col-lg-push-10 {left: 83.33333%;}
+	.mkdf-page .col-lg-push-11, .mkdf-meta-box .col-lg-push-11 {left: 91.66667%;}
+	.mkdf-page .col-lg-push-12, .mkdf-meta-box .col-lg-push-12 {left: 100%;}
+	.mkdf-page .col-lg-offset-0, .mkdf-meta-box .col-lg-offset-0 {margin-left: 0%;}
+	.mkdf-page .col-lg-offset-1, .mkdf-meta-box .col-lg-offset-1 {margin-left: 8.33333%;}
+	.mkdf-page .col-lg-offset-2, .mkdf-meta-box .col-lg-offset-2 {margin-left: 16.66667%;}
+	.mkdf-page .col-lg-offset-3, .mkdf-meta-box .col-lg-offset-3 {margin-left: 25%;}
+	.mkdf-page .col-lg-offset-4, .mkdf-meta-box .col-lg-offset-4 {margin-left: 33.33333%;}
+	.mkdf-page .col-lg-offset-5, .mkdf-meta-box .col-lg-offset-5 {margin-left: 41.66667%;}
+	.mkdf-page .col-lg-offset-6, .mkdf-meta-box .col-lg-offset-6 {margin-left: 50%;}
+	.mkdf-page .col-lg-offset-7, .mkdf-meta-box .col-lg-offset-7 {margin-left: 58.33333%;}
+	.mkdf-page .col-lg-offset-8, .mkdf-meta-box .col-lg-offset-8 {margin-left: 66.66667%;}
+	.mkdf-page .col-lg-offset-9, .mkdf-meta-box .col-lg-offset-9 {margin-left: 75%;}
+	.mkdf-page .col-lg-offset-10, .mkdf-meta-box .col-lg-offset-10 {margin-left: 83.33333%;}
+	.mkdf-page .col-lg-offset-11, .mkdf-meta-box .col-lg-offset-11 {margin-left: 91.66667%;}
+	.mkdf-page .col-lg-offset-12, .mkdf-meta-box .col-lg-offset-12 {margin-left: 100%;}}
+.mkdf-page table, .mkdf-meta-box table {max-width: 100%;background-color: transparent;}
+.mkdf-page th, .mkdf-meta-box th {text-align: left;}
+.mkdf-page .table, .mkdf-meta-box .table {width: 100%;margin-bottom: 20px;}
+.mkdf-page .table > thead > tr > th, .mkdf-page .table > thead > tr > td, .mkdf-page .table > tbody > tr > th, .mkdf-page .table > tbody > tr > td, .mkdf-page .table > tfoot > tr > th, .mkdf-page .table > tfoot > tr > td, .mkdf-meta-box .table > thead > tr > th, .mkdf-meta-box .table > thead > tr > td, .mkdf-meta-box .table > tbody > tr > th, .mkdf-meta-box .table > tbody > tr > td, .mkdf-meta-box .table > tfoot > tr > th, .mkdf-meta-box .table > tfoot > tr > td {padding: 8px;line-height: 1.42857;vertical-align: top;border-top: 1px solid #ddd;}
+.mkdf-page .table > thead > tr > th, .mkdf-meta-box .table > thead > tr > th {vertical-align: bottom;border-bottom: 2px solid #ddd;}
+.mkdf-page .table > caption + thead > tr:first-child > th, .mkdf-page .table > caption + thead > tr:first-child > td, .mkdf-page .table > colgroup + thead > tr:first-child > th, .mkdf-page .table > colgroup + thead > tr:first-child > td, .mkdf-page .table > thead:first-child > tr:first-child > th, .mkdf-page .table > thead:first-child > tr:first-child > td, .mkdf-meta-box .table > caption + thead > tr:first-child > th, .mkdf-meta-box .table > caption + thead > tr:first-child > td, .mkdf-meta-box .table > colgroup + thead > tr:first-child > th, .mkdf-meta-box .table > colgroup + thead > tr:first-child > td, .mkdf-meta-box .table > thead:first-child > tr:first-child > th, .mkdf-meta-box .table > thead:first-child > tr:first-child > td {border-top: 0;}
+.mkdf-page .table > tbody + tbody, .mkdf-meta-box .table > tbody + tbody {border-top: 2px solid #ddd;}
+.mkdf-page .table .table, .mkdf-meta-box .table .table {background-color: white;}
+.mkdf-page .table-condensed > thead > tr > th, .mkdf-page .table-condensed > thead > tr > td, .mkdf-page .table-condensed > tbody > tr > th, .mkdf-page .table-condensed > tbody > tr > td, .mkdf-page .table-condensed > tfoot > tr > th, .mkdf-page .table-condensed > tfoot > tr > td, .mkdf-meta-box .table-condensed > thead > tr > th, .mkdf-meta-box .table-condensed > thead > tr > td, .mkdf-meta-box .table-condensed > tbody > tr > th, .mkdf-meta-box .table-condensed > tbody > tr > td, .mkdf-meta-box .table-condensed > tfoot > tr > th, .mkdf-meta-box .table-condensed > tfoot > tr > td {padding: 5px;}
+.mkdf-page .table-bordered, .mkdf-meta-box .table-bordered {border: 1px solid #ddd;}
+.mkdf-page .table-bordered > thead > tr > th, .mkdf-page .table-bordered > thead > tr > td, .mkdf-page .table-bordered > tbody > tr > th, .mkdf-page .table-bordered > tbody > tr > td, .mkdf-page .table-bordered > tfoot > tr > th, .mkdf-page .table-bordered > tfoot > tr > td, .mkdf-meta-box .table-bordered > thead > tr > th, .mkdf-meta-box .table-bordered > thead > tr > td, .mkdf-meta-box .table-bordered > tbody > tr > th, .mkdf-meta-box .table-bordered > tbody > tr > td, .mkdf-meta-box .table-bordered > tfoot > tr > th, .mkdf-meta-box .table-bordered > tfoot > tr > td {border: 1px solid #ddd;}
+.mkdf-page .table-bordered > thead > tr > th, .mkdf-page .table-bordered > thead > tr > td, .mkdf-meta-box .table-bordered > thead > tr > th, .mkdf-meta-box .table-bordered > thead > tr > td {border-bottom-width: 2px;}
+.mkdf-page .table-striped > tbody > tr:nth-child(odd) > td, .mkdf-page .table-striped > tbody > tr:nth-child(odd) > th, .mkdf-meta-box .table-striped > tbody > tr:nth-child(odd) > td, .mkdf-meta-box .table-striped > tbody > tr:nth-child(odd) > th {background-color: #f9f9f9;}
+.mkdf-page .table-hover > tbody > tr:hover > td, .mkdf-page .table-hover > tbody > tr:hover > th, .mkdf-meta-box .table-hover > tbody > tr:hover > td, .mkdf-meta-box .table-hover > tbody > tr:hover > th {background-color: whitesmoke;}
+.mkdf-page table col[class*="col-"], .mkdf-meta-box table col[class*="col-"] {position: static;float: none;display: table-column;}
+.mkdf-page table td[class*="col-"], .mkdf-page table th[class*="col-"], .mkdf-meta-box table td[class*="col-"], .mkdf-meta-box table th[class*="col-"] {position: static;float: none;display: table-cell;}
+.mkdf-page .table > thead > tr > td.active, .mkdf-page .table > thead > tr > th.active, .mkdf-page .table > thead > tr.active > td, .mkdf-page .table > thead > tr.active > th, .mkdf-page .table > tbody > tr > td.active, .mkdf-page .table > tbody > tr > th.active, .mkdf-page .table > tbody > tr.active > td, .mkdf-page .table > tbody > tr.active > th, .mkdf-page .table > tfoot > tr > td.active, .mkdf-page .table > tfoot > tr > th.active, .mkdf-page .table > tfoot > tr.active > td, .mkdf-page .table > tfoot > tr.active > th, .mkdf-meta-box .table > thead > tr > td.active, .mkdf-meta-box .table > thead > tr > th.active, .mkdf-meta-box .table > thead > tr.active > td, .mkdf-meta-box .table > thead > tr.active > th, .mkdf-meta-box .table > tbody > tr > td.active, .mkdf-meta-box .table > tbody > tr > th.active, .mkdf-meta-box .table > tbody > tr.active > td, .mkdf-meta-box .table > tbody > tr.active > th, .mkdf-meta-box .table > tfoot > tr > td.active, .mkdf-meta-box .table > tfoot > tr > th.active, .mkdf-meta-box .table > tfoot > tr.active > td, .mkdf-meta-box .table > tfoot > tr.active > th {background-color: whitesmoke;}
+.mkdf-page .table-hover > tbody > tr > td.active:hover, .mkdf-page .table-hover > tbody > tr > th.active:hover, .mkdf-page .table-hover > tbody > tr.active:hover > td, .mkdf-page .table-hover > tbody > tr.active:hover > th, .mkdf-meta-box .table-hover > tbody > tr > td.active:hover, .mkdf-meta-box .table-hover > tbody > tr > th.active:hover, .mkdf-meta-box .table-hover > tbody > tr.active:hover > td, .mkdf-meta-box .table-hover > tbody > tr.active:hover > th {background-color: #e8e8e8;}
+.mkdf-page .table > thead > tr > td.success, .mkdf-page .table > thead > tr > th.success, .mkdf-page .table > thead > tr.success > td, .mkdf-page .table > thead > tr.success > th, .mkdf-page .table > tbody > tr > td.success, .mkdf-page .table > tbody > tr > th.success, .mkdf-page .table > tbody > tr.success > td, .mkdf-page .table > tbody > tr.success > th, .mkdf-page .table > tfoot > tr > td.success, .mkdf-page .table > tfoot > tr > th.success, .mkdf-page .table > tfoot > tr.success > td, .mkdf-page .table > tfoot > tr.success > th, .mkdf-meta-box .table > thead > tr > td.success, .mkdf-meta-box .table > thead > tr > th.success, .mkdf-meta-box .table > thead > tr.success > td, .mkdf-meta-box .table > thead > tr.success > th, .mkdf-meta-box .table > tbody > tr > td.success, .mkdf-meta-box .table > tbody > tr > th.success, .mkdf-meta-box .table > tbody > tr.success > td, .mkdf-meta-box .table > tbody > tr.success > th, .mkdf-meta-box .table > tfoot > tr > td.success, .mkdf-meta-box .table > tfoot > tr > th.success, .mkdf-meta-box .table > tfoot > tr.success > td, .mkdf-meta-box .table > tfoot > tr.success > th {background-color: #dff0d8;}
+.mkdf-page .table-hover > tbody > tr > td.success:hover, .mkdf-page .table-hover > tbody > tr > th.success:hover, .mkdf-page .table-hover > tbody > tr.success:hover > td, .mkdf-page .table-hover > tbody > tr.success:hover > th, .mkdf-meta-box .table-hover > tbody > tr > td.success:hover, .mkdf-meta-box .table-hover > tbody > tr > th.success:hover, .mkdf-meta-box .table-hover > tbody > tr.success:hover > td, .mkdf-meta-box .table-hover > tbody > tr.success:hover > th {background-color: #d0e9c6;}
+.mkdf-page .table > thead > tr > td.info, .mkdf-page .table > thead > tr > th.info, .mkdf-page .table > thead > tr.info > td, .mkdf-page .table > thead > tr.info > th, .mkdf-page .table > tbody > tr > td.info, .mkdf-page .table > tbody > tr > th.info, .mkdf-page .table > tbody > tr.info > td, .mkdf-page .table > tbody > tr.info > th, .mkdf-page .table > tfoot > tr > td.info, .mkdf-page .table > tfoot > tr > th.info, .mkdf-page .table > tfoot > tr.info > td, .mkdf-page .table > tfoot > tr.info > th, .mkdf-meta-box .table > thead > tr > td.info, .mkdf-meta-box .table > thead > tr > th.info, .mkdf-meta-box .table > thead > tr.info > td, .mkdf-meta-box .table > thead > tr.info > th, .mkdf-meta-box .table > tbody > tr > td.info, .mkdf-meta-box .table > tbody > tr > th.info, .mkdf-meta-box .table > tbody > tr.info > td, .mkdf-meta-box .table > tbody > tr.info > th, .mkdf-meta-box .table > tfoot > tr > td.info, .mkdf-meta-box .table > tfoot > tr > th.info, .mkdf-meta-box .table > tfoot > tr.info > td, .mkdf-meta-box .table > tfoot > tr.info > th {background-color: #d9edf7;}
+.mkdf-page .table-hover > tbody > tr > td.info:hover, .mkdf-page .table-hover > tbody > tr > th.info:hover, .mkdf-page .table-hover > tbody > tr.info:hover > td, .mkdf-page .table-hover > tbody > tr.info:hover > th, .mkdf-meta-box .table-hover > tbody > tr > td.info:hover, .mkdf-meta-box .table-hover > tbody > tr > th.info:hover, .mkdf-meta-box .table-hover > tbody > tr.info:hover > td, .mkdf-meta-box .table-hover > tbody > tr.info:hover > th {background-color: #c4e3f3;}
+.mkdf-page .table > thead > tr > td.warning, .mkdf-page .table > thead > tr > th.warning, .mkdf-page .table > thead > tr.warning > td, .mkdf-page .table > thead > tr.warning > th, .mkdf-page .table > tbody > tr > td.warning, .mkdf-page .table > tbody > tr > th.warning, .mkdf-page .table > tbody > tr.warning > td, .mkdf-page .table > tbody > tr.warning > th, .mkdf-page .table > tfoot > tr > td.warning, .mkdf-page .table > tfoot > tr > th.warning, .mkdf-page .table > tfoot > tr.warning > td, .mkdf-page .table > tfoot > tr.warning > th, .mkdf-meta-box .table > thead > tr > td.warning, .mkdf-meta-box .table > thead > tr > th.warning, .mkdf-meta-box .table > thead > tr.warning > td, .mkdf-meta-box .table > thead > tr.warning > th, .mkdf-meta-box .table > tbody > tr > td.warning, .mkdf-meta-box .table > tbody > tr > th.warning, .mkdf-meta-box .table > tbody > tr.warning > td, .mkdf-meta-box .table > tbody > tr.warning > th, .mkdf-meta-box .table > tfoot > tr > td.warning, .mkdf-meta-box .table > tfoot > tr > th.warning, .mkdf-meta-box .table > tfoot > tr.warning > td, .mkdf-meta-box .table > tfoot > tr.warning > th {background-color: #fcf8e3;}
+.mkdf-page .table-hover > tbody > tr > td.warning:hover, .mkdf-page .table-hover > tbody > tr > th.warning:hover, .mkdf-page .table-hover > tbody > tr.warning:hover > td, .mkdf-page .table-hover > tbody > tr.warning:hover > th, .mkdf-meta-box .table-hover > tbody > tr > td.warning:hover, .mkdf-meta-box .table-hover > tbody > tr > th.warning:hover, .mkdf-meta-box .table-hover > tbody > tr.warning:hover > td, .mkdf-meta-box .table-hover > tbody > tr.warning:hover > th {background-color: #faf2cc;}
+.mkdf-page .table > thead > tr > td.danger, .mkdf-page .table > thead > tr > th.danger, .mkdf-page .table > thead > tr.danger > td, .mkdf-page .table > thead > tr.danger > th, .mkdf-page .table > tbody > tr > td.danger, .mkdf-page .table > tbody > tr > th.danger, .mkdf-page .table > tbody > tr.danger > td, .mkdf-page .table > tbody > tr.danger > th, .mkdf-page .table > tfoot > tr > td.danger, .mkdf-page .table > tfoot > tr > th.danger, .mkdf-page .table > tfoot > tr.danger > td, .mkdf-page .table > tfoot > tr.danger > th, .mkdf-meta-box .table > thead > tr > td.danger, .mkdf-meta-box .table > thead > tr > th.danger, .mkdf-meta-box .table > thead > tr.danger > td, .mkdf-meta-box .table > thead > tr.danger > th, .mkdf-meta-box .table > tbody > tr > td.danger, .mkdf-meta-box .table > tbody > tr > th.danger, .mkdf-meta-box .table > tbody > tr.danger > td, .mkdf-meta-box .table > tbody > tr.danger > th, .mkdf-meta-box .table > tfoot > tr > td.danger, .mkdf-meta-box .table > tfoot > tr > th.danger, .mkdf-meta-box .table > tfoot > tr.danger > td, .mkdf-meta-box .table > tfoot > tr.danger > th {background-color: #f2dede;}
+.mkdf-page .table-hover > tbody > tr > td.danger:hover, .mkdf-page .table-hover > tbody > tr > th.danger:hover, .mkdf-page .table-hover > tbody > tr.danger:hover > td, .mkdf-page .table-hover > tbody > tr.danger:hover > th, .mkdf-meta-box .table-hover > tbody > tr > td.danger:hover, .mkdf-meta-box .table-hover > tbody > tr > th.danger:hover, .mkdf-meta-box .table-hover > tbody > tr.danger:hover > td, .mkdf-meta-box .table-hover > tbody > tr.danger:hover > th {background-color: #ebcccc;}
+@media (max-width: 767px) {.mkdf-page .table-responsive, .mkdf-meta-box .table-responsive {width: 100%;margin-bottom: 15px;overflow-y: hidden;overflow-x: scroll;-ms-overflow-style: -ms-autohiding-scrollbar;border: 1px solid #ddd;-webkit-overflow-scrolling: touch;}
+	.mkdf-page .table-responsive > .table, .mkdf-meta-box .table-responsive > .table {margin-bottom: 0;}
+	.mkdf-page .table-responsive > .table > thead > tr > th, .mkdf-page .table-responsive > .table > thead > tr > td, .mkdf-page .table-responsive > .table > tbody > tr > th, .mkdf-page .table-responsive > .table > tbody > tr > td, .mkdf-page .table-responsive > .table > tfoot > tr > th, .mkdf-page .table-responsive > .table > tfoot > tr > td, .mkdf-meta-box .table-responsive > .table > thead > tr > th, .mkdf-meta-box .table-responsive > .table > thead > tr > td, .mkdf-meta-box .table-responsive > .table > tbody > tr > th, .mkdf-meta-box .table-responsive > .table > tbody > tr > td, .mkdf-meta-box .table-responsive > .table > tfoot > tr > th, .mkdf-meta-box .table-responsive > .table > tfoot > tr > td {white-space: nowrap;}
+	.mkdf-page .table-responsive > .table-bordered, .mkdf-meta-box .table-responsive > .table-bordered {border: 0;}
+	.mkdf-page .table-responsive > .table-bordered > thead > tr > th:first-child, .mkdf-page .table-responsive > .table-bordered > thead > tr > td:first-child, .mkdf-page .table-responsive > .table-bordered > tbody > tr > th:first-child, .mkdf-page .table-responsive > .table-bordered > tbody > tr > td:first-child, .mkdf-page .table-responsive > .table-bordered > tfoot > tr > th:first-child, .mkdf-page .table-responsive > .table-bordered > tfoot > tr > td:first-child, .mkdf-meta-box .table-responsive > .table-bordered > thead > tr > th:first-child, .mkdf-meta-box .table-responsive > .table-bordered > thead > tr > td:first-child, .mkdf-meta-box .table-responsive > .table-bordered > tbody > tr > th:first-child, .mkdf-meta-box .table-responsive > .table-bordered > tbody > tr > td:first-child, .mkdf-meta-box .table-responsive > .table-bordered > tfoot > tr > th:first-child, .mkdf-meta-box .table-responsive > .table-bordered > tfoot > tr > td:first-child {border-left: 0;}
+	.mkdf-page .table-responsive > .table-bordered > thead > tr > th:last-child, .mkdf-page .table-responsive > .table-bordered > thead > tr > td:last-child, .mkdf-page .table-responsive > .table-bordered > tbody > tr > th:last-child, .mkdf-page .table-responsive > .table-bordered > tbody > tr > td:last-child, .mkdf-page .table-responsive > .table-bordered > tfoot > tr > th:last-child, .mkdf-page .table-responsive > .table-bordered > tfoot > tr > td:last-child, .mkdf-meta-box .table-responsive > .table-bordered > thead > tr > th:last-child, .mkdf-meta-box .table-responsive > .table-bordered > thead > tr > td:last-child, .mkdf-meta-box .table-responsive > .table-bordered > tbody > tr > th:last-child, .mkdf-meta-box .table-responsive > .table-bordered > tbody > tr > td:last-child, .mkdf-meta-box .table-responsive > .table-bordered > tfoot > tr > th:last-child, .mkdf-meta-box .table-responsive > .table-bordered > tfoot > tr > td:last-child {border-right: 0;}
+	.mkdf-page .table-responsive > .table-bordered > tbody > tr:last-child > th, .mkdf-page .table-responsive > .table-bordered > tbody > tr:last-child > td, .mkdf-page .table-responsive > .table-bordered > tfoot > tr:last-child > th, .mkdf-page .table-responsive > .table-bordered > tfoot > tr:last-child > td, .mkdf-meta-box .table-responsive > .table-bordered > tbody > tr:last-child > th, .mkdf-meta-box .table-responsive > .table-bordered > tbody > tr:last-child > td, .mkdf-meta-box .table-responsive > .table-bordered > tfoot > tr:last-child > th, .mkdf-meta-box .table-responsive > .table-bordered > tfoot > tr:last-child > td {border-bottom: 0;}}
+.mkdf-page fieldset, .mkdf-meta-box fieldset {padding: 0;margin: 0;border: 0;min-width: 0;}
+.mkdf-page legend, .mkdf-meta-box legend {display: block;width: 100%;padding: 0;margin-bottom: 20px;font-size: 21px;line-height: inherit;color: #333;border: 0;border-bottom: 1px solid #e5e5e5;}
+.mkdf-page label, .mkdf-meta-box label {display: inline-block;margin-bottom: 5px;font-weight: bold;}
+.mkdf-page input[type="search"], .mkdf-meta-box input[type="search"] {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.mkdf-page input[type="radio"], .mkdf-page input[type="checkbox"], .mkdf-meta-box input[type="radio"], .mkdf-meta-box input[type="checkbox"] {margin: 4px 0 0;margin-top: 1px \9;line-height: normal;}
+.mkdf-page input[type="file"], .mkdf-meta-box input[type="file"] {display: block;}
+.mkdf-page input[type="range"], .mkdf-meta-box input[type="range"] {display: block;width: 100%;}
+.mkdf-page select[multiple], .mkdf-page select[size], .mkdf-meta-box select[multiple], .mkdf-meta-box select[size] {height: auto;}
+.mkdf-page input[type="file"]:focus, .mkdf-page input[type="radio"]:focus, .mkdf-page input[type="checkbox"]:focus, .mkdf-meta-box input[type="file"]:focus, .mkdf-meta-box input[type="radio"]:focus, .mkdf-meta-box input[type="checkbox"]:focus {outline: thin dotted;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;}
+.mkdf-page output, .mkdf-meta-box output {display: block;padding-top: 7px;font-size: 14px;line-height: 1.42857;color: #555;}
+.mkdf-page .form-control, .mkdf-meta-box .form-control {display: block;width: 100%;height: 34px;padding: 6px 12px;font-size: 14px;line-height: 1.42857;color: #555;background-color: white;background-image: none;border: 1px solid #ccc;border-radius: 4px;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+.mkdf-page .form-control:focus, .mkdf-meta-box .form-control:focus {border-color: #66afe9;outline: 0;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);}
+.mkdf-page .form-control::-moz-placeholder, .mkdf-meta-box .form-control::-moz-placeholder {color: #999;opacity: 1;}
+.mkdf-page .form-control:-ms-input-placeholder, .mkdf-meta-box .form-control:-ms-input-placeholder {color: #999;}
+.mkdf-page .form-control::-webkit-input-placeholder, .mkdf-meta-box .form-control::-webkit-input-placeholder {color: #999;}
+.mkdf-page .form-control[disabled], .mkdf-page .form-control[readonly], fieldset[disabled] .mkdf-page .form-control, .mkdf-meta-box .form-control[disabled], .mkdf-meta-box .form-control[readonly], fieldset[disabled]
+.mkdf-meta-box .form-control {cursor: not-allowed;background-color: #eee;opacity: 1;}
+.mkdf-page textarea.form-control, .mkdf-meta-box textarea.form-control {height: auto;}
+.mkdf-page input[type="search"], .mkdf-meta-box input[type="search"] {-webkit-appearance: none;}
+.mkdf-page input[type="date"], .mkdf-meta-box input[type="date"] {line-height: 34px;}
+.mkdf-page .form-group, .mkdf-meta-box .form-group {margin-bottom: 15px;}
+.mkdf-page .radio, .mkdf-page .checkbox, .mkdf-meta-box .radio, .mkdf-meta-box .checkbox {display: block;min-height: 20px;margin-top: 10px;margin-bottom: 10px;padding-left: 20px;}
+.mkdf-page .radio label, .mkdf-page .checkbox label, .mkdf-meta-box .radio label, .mkdf-meta-box .checkbox label {display: inline;font-weight: normal;cursor: pointer;}
+.mkdf-page .radio input[type="radio"], .mkdf-page .radio-inline input[type="radio"], .mkdf-page .checkbox input[type="checkbox"], .mkdf-page .checkbox-inline input[type="checkbox"], .mkdf-meta-box .radio input[type="radio"], .mkdf-meta-box .radio-inline input[type="radio"], .mkdf-meta-box .checkbox input[type="checkbox"], .mkdf-meta-box .checkbox-inline input[type="checkbox"] {float: left;margin-left: -20px;}
+.mkdf-page .radio + .radio, .mkdf-page .checkbox + .checkbox, .mkdf-meta-box .radio + .radio, .mkdf-meta-box .checkbox + .checkbox {margin-top: -5px;}
+.mkdf-page .radio-inline, .mkdf-page .checkbox-inline, .mkdf-meta-box .radio-inline, .mkdf-meta-box .checkbox-inline {display: inline-block;padding-left: 20px;margin-bottom: 0;vertical-align: middle;font-weight: normal;cursor: pointer;}
+.mkdf-page .mkdf-checkbox-group-holder {position: relative;display: inline-block;vertical-align: middle;width: 100%;clear: both;margin: 0 0 -15px;}
+.mkdf-page .mkdf-checkbox-group-holder .checkbox-inline {float: left;padding: 0;margin: 0 0 20px !important;text-align: left;width: 16.666666666667%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+@media only screen and (max-width: 1600px) {.mkdf-page .mkdf-checkbox-group-holder .checkbox-inline {width: 20%;}}
+@media only screen and (max-width: 1440px) {.mkdf-page .mkdf-checkbox-group-holder .checkbox-inline {width: 25%;}}
+@media only screen and (max-width: 1200px) {.mkdf-page .mkdf-checkbox-group-holder .checkbox-inline {width: 33.33%;}}
+.mkdf-page .mkdf-checkbox-group-holder .checkbox-inline label {font-weight: 400;color: #374a59;}
+.mkdf-page .mkdf-checkbox-group-holder .checkbox-inline input {margin: 0 4px 0 0;float: none;}
+.mkdf-page .radio-inline + .radio-inline, .mkdf-page .checkbox-inline + .checkbox-inline, .mkdf-meta-box .radio-inline + .radio-inline, .mkdf-meta-box .checkbox-inline + .checkbox-inline {margin-top: 0;margin-left: 10px;}
+.mkdf-page input[type="radio"][disabled], fieldset[disabled] .mkdf-page input[type="radio"], .mkdf-page input[type="checkbox"][disabled], fieldset[disabled]
+.mkdf-page input[type="checkbox"], .mkdf-page .radio[disabled], fieldset[disabled]
+.mkdf-page .radio, .mkdf-page .radio-inline[disabled], fieldset[disabled]
+.mkdf-page .radio-inline, .mkdf-page .checkbox[disabled], fieldset[disabled]
+.mkdf-page .checkbox, .mkdf-page .checkbox-inline[disabled], fieldset[disabled]
+.mkdf-page .checkbox-inline, .mkdf-meta-box input[type="radio"][disabled], fieldset[disabled]
+.mkdf-meta-box input[type="radio"], .mkdf-meta-box input[type="checkbox"][disabled], fieldset[disabled]
+.mkdf-meta-box input[type="checkbox"], .mkdf-meta-box .radio[disabled], fieldset[disabled]
+.mkdf-meta-box .radio, .mkdf-meta-box .radio-inline[disabled], fieldset[disabled]
+.mkdf-meta-box .radio-inline, .mkdf-meta-box .checkbox[disabled], fieldset[disabled]
+.mkdf-meta-box .checkbox, .mkdf-meta-box .checkbox-inline[disabled], fieldset[disabled]
+.mkdf-meta-box .checkbox-inline {cursor: not-allowed;}
+.mkdf-page .input-sm, .mkdf-page .input-group-sm > .form-control, .mkdf-page .input-group-sm > .input-group-addon, .mkdf-page .input-group-sm > .input-group-btn > .btn, .mkdf-page .mkdf-meta-box .input-group-sm > .form-control, .mkdf-meta-box .mkdf-page .input-group-sm > .form-control, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > .btn, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > .btn, .mkdf-meta-box .input-sm, .mkdf-meta-box .mkdf-page .input-group-sm > .form-control, .mkdf-page .mkdf-meta-box .input-group-sm > .form-control, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > .btn, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > .btn, .mkdf-meta-box .input-group-sm > .form-control, .mkdf-meta-box .input-group-sm > .input-group-addon, .mkdf-meta-box .input-group-sm > .input-group-btn > .btn {height: 30px;padding: 5px 10px;font-size: 12px;line-height: 1.5;border-radius: 3px;}
+.mkdf-page select.input-sm, .mkdf-page .input-group-sm > select.form-control, .mkdf-page .input-group-sm > select.input-group-addon, .mkdf-page .input-group-sm > .input-group-btn > select.btn, .mkdf-page .mkdf-meta-box .input-group-sm > select.form-control, .mkdf-meta-box .mkdf-page .input-group-sm > select.form-control, .mkdf-page .mkdf-meta-box .input-group-sm > select.input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > select.input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > select.btn, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > select.btn, .mkdf-meta-box select.input-sm, .mkdf-meta-box .mkdf-page .input-group-sm > select.form-control, .mkdf-page .mkdf-meta-box .input-group-sm > select.form-control, .mkdf-meta-box .mkdf-page .input-group-sm > select.input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > select.input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > select.btn, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > select.btn, .mkdf-meta-box .input-group-sm > select.form-control, .mkdf-meta-box .input-group-sm > select.input-group-addon, .mkdf-meta-box .input-group-sm > .input-group-btn > select.btn {height: 30px;line-height: 30px;}
+.mkdf-page textarea.input-sm, .mkdf-page .input-group-sm > textarea.form-control, .mkdf-page .input-group-sm > textarea.input-group-addon, .mkdf-page .input-group-sm > .input-group-btn > textarea.btn, .mkdf-page .mkdf-meta-box .input-group-sm > textarea.form-control, .mkdf-meta-box .mkdf-page .input-group-sm > textarea.form-control, .mkdf-page .mkdf-meta-box .input-group-sm > textarea.input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > textarea.input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > textarea.btn, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > textarea.btn, .mkdf-page select[multiple].input-sm, .mkdf-page .input-group-sm > select[multiple].form-control, .mkdf-page .input-group-sm > select[multiple].input-group-addon, .mkdf-page .input-group-sm > .input-group-btn > select[multiple].btn, .mkdf-page .mkdf-meta-box .input-group-sm > select[multiple].form-control, .mkdf-meta-box .mkdf-page .input-group-sm > select[multiple].form-control, .mkdf-page .mkdf-meta-box .input-group-sm > select[multiple].input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > select[multiple].input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > select[multiple].btn, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > select[multiple].btn, .mkdf-meta-box textarea.input-sm, .mkdf-meta-box .mkdf-page .input-group-sm > textarea.form-control, .mkdf-page .mkdf-meta-box .input-group-sm > textarea.form-control, .mkdf-meta-box .mkdf-page .input-group-sm > textarea.input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > textarea.input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > textarea.btn, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > textarea.btn, .mkdf-meta-box .input-group-sm > textarea.form-control, .mkdf-meta-box .input-group-sm > textarea.input-group-addon, .mkdf-meta-box .input-group-sm > .input-group-btn > textarea.btn, .mkdf-meta-box select[multiple].input-sm, .mkdf-meta-box .mkdf-page .input-group-sm > select[multiple].form-control, .mkdf-page .mkdf-meta-box .input-group-sm > select[multiple].form-control, .mkdf-meta-box .mkdf-page .input-group-sm > select[multiple].input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > select[multiple].input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > select[multiple].btn, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > select[multiple].btn, .mkdf-meta-box .input-group-sm > select[multiple].form-control, .mkdf-meta-box .input-group-sm > select[multiple].input-group-addon, .mkdf-meta-box .input-group-sm > .input-group-btn > select[multiple].btn {height: auto;}
+.mkdf-page .input-lg, .mkdf-page .input-group-lg > .form-control, .mkdf-page .input-group-lg > .input-group-addon, .mkdf-page .input-group-lg > .input-group-btn > .btn, .mkdf-page .mkdf-meta-box .input-group-lg > .form-control, .mkdf-meta-box .mkdf-page .input-group-lg > .form-control, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > .btn, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > .btn, .mkdf-meta-box .input-lg, .mkdf-meta-box .mkdf-page .input-group-lg > .form-control, .mkdf-page .mkdf-meta-box .input-group-lg > .form-control, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > .btn, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > .btn, .mkdf-meta-box .input-group-lg > .form-control, .mkdf-meta-box .input-group-lg > .input-group-addon, .mkdf-meta-box .input-group-lg > .input-group-btn > .btn {height: 46px;padding: 10px 16px;font-size: 18px;line-height: 1.33;border-radius: 6px;}
+.mkdf-page select.input-lg, .mkdf-page .input-group-lg > select.form-control, .mkdf-page .input-group-lg > select.input-group-addon, .mkdf-page .input-group-lg > .input-group-btn > select.btn, .mkdf-page .mkdf-meta-box .input-group-lg > select.form-control, .mkdf-meta-box .mkdf-page .input-group-lg > select.form-control, .mkdf-page .mkdf-meta-box .input-group-lg > select.input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > select.input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > select.btn, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > select.btn, .mkdf-meta-box select.input-lg, .mkdf-meta-box .mkdf-page .input-group-lg > select.form-control, .mkdf-page .mkdf-meta-box .input-group-lg > select.form-control, .mkdf-meta-box .mkdf-page .input-group-lg > select.input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > select.input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > select.btn, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > select.btn, .mkdf-meta-box .input-group-lg > select.form-control, .mkdf-meta-box .input-group-lg > select.input-group-addon, .mkdf-meta-box .input-group-lg > .input-group-btn > select.btn {height: 46px;line-height: 46px;}
+.mkdf-page textarea.input-lg, .mkdf-page .input-group-lg > textarea.form-control, .mkdf-page .input-group-lg > textarea.input-group-addon, .mkdf-page .input-group-lg > .input-group-btn > textarea.btn, .mkdf-page .mkdf-meta-box .input-group-lg > textarea.form-control, .mkdf-meta-box .mkdf-page .input-group-lg > textarea.form-control, .mkdf-page .mkdf-meta-box .input-group-lg > textarea.input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > textarea.input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > textarea.btn, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > textarea.btn, .mkdf-page select[multiple].input-lg, .mkdf-page .input-group-lg > select[multiple].form-control, .mkdf-page .input-group-lg > select[multiple].input-group-addon, .mkdf-page .input-group-lg > .input-group-btn > select[multiple].btn, .mkdf-page .mkdf-meta-box .input-group-lg > select[multiple].form-control, .mkdf-meta-box .mkdf-page .input-group-lg > select[multiple].form-control, .mkdf-page .mkdf-meta-box .input-group-lg > select[multiple].input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > select[multiple].input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > select[multiple].btn, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > select[multiple].btn, .mkdf-meta-box textarea.input-lg, .mkdf-meta-box .mkdf-page .input-group-lg > textarea.form-control, .mkdf-page .mkdf-meta-box .input-group-lg > textarea.form-control, .mkdf-meta-box .mkdf-page .input-group-lg > textarea.input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > textarea.input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > textarea.btn, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > textarea.btn, .mkdf-meta-box .input-group-lg > textarea.form-control, .mkdf-meta-box .input-group-lg > textarea.input-group-addon, .mkdf-meta-box .input-group-lg > .input-group-btn > textarea.btn, .mkdf-meta-box select[multiple].input-lg, .mkdf-meta-box .mkdf-page .input-group-lg > select[multiple].form-control, .mkdf-page .mkdf-meta-box .input-group-lg > select[multiple].form-control, .mkdf-meta-box .mkdf-page .input-group-lg > select[multiple].input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > select[multiple].input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > select[multiple].btn, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > select[multiple].btn, .mkdf-meta-box .input-group-lg > select[multiple].form-control, .mkdf-meta-box .input-group-lg > select[multiple].input-group-addon, .mkdf-meta-box .input-group-lg > .input-group-btn > select[multiple].btn {height: auto;}
+.mkdf-page .has-feedback, .mkdf-meta-box .has-feedback {position: relative;}
+.mkdf-page .has-feedback .form-control, .mkdf-meta-box .has-feedback .form-control {padding-right: 42.5px;}
+.mkdf-page .has-feedback .form-control-feedback, .mkdf-meta-box .has-feedback .form-control-feedback {position: absolute;top: 25px;right: 0;display: block;width: 34px;height: 34px;line-height: 34px;text-align: center;}
+.mkdf-page .has-success .help-block, .mkdf-page .has-success .control-label, .mkdf-page .has-success .radio, .mkdf-page .has-success .checkbox, .mkdf-page .has-success .radio-inline, .mkdf-page .has-success .checkbox-inline, .mkdf-meta-box .has-success .help-block, .mkdf-meta-box .has-success .control-label, .mkdf-meta-box .has-success .radio, .mkdf-meta-box .has-success .checkbox, .mkdf-meta-box .has-success .radio-inline, .mkdf-meta-box .has-success .checkbox-inline {color: #3c763d;}
+.mkdf-page .has-success .form-control, .mkdf-meta-box .has-success .form-control {border-color: #3c763d;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);}
+.mkdf-page .has-success .form-control:focus, .mkdf-meta-box .has-success .form-control:focus {border-color: #2b542c;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #67b168;box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #67b168;}
+.mkdf-page .has-success .input-group-addon, .mkdf-meta-box .has-success .input-group-addon {color: #3c763d;border-color: #3c763d;background-color: #dff0d8;}
+.mkdf-page .has-success .form-control-feedback, .mkdf-meta-box .has-success .form-control-feedback {color: #3c763d;}
+.mkdf-page .has-warning .help-block, .mkdf-page .has-warning .control-label, .mkdf-page .has-warning .radio, .mkdf-page .has-warning .checkbox, .mkdf-page .has-warning .radio-inline, .mkdf-page .has-warning .checkbox-inline, .mkdf-meta-box .has-warning .help-block, .mkdf-meta-box .has-warning .control-label, .mkdf-meta-box .has-warning .radio, .mkdf-meta-box .has-warning .checkbox, .mkdf-meta-box .has-warning .radio-inline, .mkdf-meta-box .has-warning .checkbox-inline {color: #8a6d3b;}
+.mkdf-page .has-warning .form-control, .mkdf-meta-box .has-warning .form-control {border-color: #8a6d3b;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);}
+.mkdf-page .has-warning .form-control:focus, .mkdf-meta-box .has-warning .form-control:focus {border-color: #66512c;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #c0a16b;box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #c0a16b;}
+.mkdf-page .has-warning .input-group-addon, .mkdf-meta-box .has-warning .input-group-addon {color: #8a6d3b;border-color: #8a6d3b;background-color: #fcf8e3;}
+.mkdf-page .has-warning .form-control-feedback, .mkdf-meta-box .has-warning .form-control-feedback {color: #8a6d3b;}
+.mkdf-page .has-error .help-block, .mkdf-page .has-error .control-label, .mkdf-page .has-error .radio, .mkdf-page .has-error .checkbox, .mkdf-page .has-error .radio-inline, .mkdf-page .has-error .checkbox-inline, .mkdf-meta-box .has-error .help-block, .mkdf-meta-box .has-error .control-label, .mkdf-meta-box .has-error .radio, .mkdf-meta-box .has-error .checkbox, .mkdf-meta-box .has-error .radio-inline, .mkdf-meta-box .has-error .checkbox-inline {color: #a94442;}
+.mkdf-page .has-error .form-control, .mkdf-meta-box .has-error .form-control {border-color: #a94442;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);}
+.mkdf-page .has-error .form-control:focus, .mkdf-meta-box .has-error .form-control:focus {border-color: #843534;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483;box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483;}
+.mkdf-page .has-error .input-group-addon, .mkdf-meta-box .has-error .input-group-addon {color: #a94442;border-color: #a94442;background-color: #f2dede;}
+.mkdf-page .has-error .form-control-feedback, .mkdf-meta-box .has-error .form-control-feedback {color: #a94442;}
+.mkdf-page .form-control-static, .mkdf-meta-box .form-control-static {margin-bottom: 0;}
+.mkdf-page .help-block, .mkdf-meta-box .help-block {display: block;margin-top: 5px;margin-bottom: 10px;color: #737373;}
+@media (min-width: 768px) {.mkdf-page .form-inline .form-group, .mkdf-page .navbar-form .form-group, .mkdf-page .mkdf-meta-box .navbar-form .form-group, .mkdf-meta-box .mkdf-page .navbar-form .form-group, .mkdf-meta-box .form-inline .form-group, .mkdf-meta-box .mkdf-page .navbar-form .form-group, .mkdf-page .mkdf-meta-box .navbar-form .form-group, .mkdf-meta-box .navbar-form .form-group {display: inline-block;margin-bottom: 0;vertical-align: middle;}
+	.mkdf-page .form-inline .form-control, .mkdf-page .navbar-form .form-control, .mkdf-page .mkdf-meta-box .navbar-form .form-control, .mkdf-meta-box .mkdf-page .navbar-form .form-control, .mkdf-meta-box .form-inline .form-control, .mkdf-meta-box .mkdf-page .navbar-form .form-control, .mkdf-page .mkdf-meta-box .navbar-form .form-control, .mkdf-meta-box .navbar-form .form-control {display: inline-block;width: auto;vertical-align: middle;}
+	.mkdf-page .form-inline .input-group > .form-control, .mkdf-page .navbar-form .input-group > .form-control, .mkdf-page .mkdf-meta-box .navbar-form .input-group > .form-control, .mkdf-meta-box .mkdf-page .navbar-form .input-group > .form-control, .mkdf-meta-box .form-inline .input-group > .form-control, .mkdf-meta-box .mkdf-page .navbar-form .input-group > .form-control, .mkdf-page .mkdf-meta-box .navbar-form .input-group > .form-control, .mkdf-meta-box .navbar-form .input-group > .form-control {width: 100%;}
+	.mkdf-page .form-inline .control-label, .mkdf-page .navbar-form .control-label, .mkdf-page .mkdf-meta-box .navbar-form .control-label, .mkdf-meta-box .mkdf-page .navbar-form .control-label, .mkdf-meta-box .form-inline .control-label, .mkdf-meta-box .mkdf-page .navbar-form .control-label, .mkdf-page .mkdf-meta-box .navbar-form .control-label, .mkdf-meta-box .navbar-form .control-label {margin-bottom: 0;vertical-align: middle;}
+	.mkdf-page .form-inline .radio, .mkdf-page .navbar-form .radio, .mkdf-page .mkdf-meta-box .navbar-form .radio, .mkdf-meta-box .mkdf-page .navbar-form .radio, .mkdf-page .form-inline .checkbox, .mkdf-page .navbar-form .checkbox, .mkdf-page .mkdf-meta-box .navbar-form .checkbox, .mkdf-meta-box .mkdf-page .navbar-form .checkbox, .mkdf-meta-box .form-inline .radio, .mkdf-meta-box .mkdf-page .navbar-form .radio, .mkdf-page .mkdf-meta-box .navbar-form .radio, .mkdf-meta-box .navbar-form .radio, .mkdf-meta-box .form-inline .checkbox, .mkdf-meta-box .mkdf-page .navbar-form .checkbox, .mkdf-page .mkdf-meta-box .navbar-form .checkbox, .mkdf-meta-box .navbar-form .checkbox {display: inline-block;margin-top: 0;margin-bottom: 0;padding-left: 0;vertical-align: middle;}
+	.mkdf-page .form-inline .radio input[type="radio"], .mkdf-page .navbar-form .radio input[type="radio"], .mkdf-page .mkdf-meta-box .navbar-form .radio input[type="radio"], .mkdf-meta-box .mkdf-page .navbar-form .radio input[type="radio"], .mkdf-page .form-inline .checkbox input[type="checkbox"], .mkdf-page .navbar-form .checkbox input[type="checkbox"], .mkdf-page .mkdf-meta-box .navbar-form .checkbox input[type="checkbox"], .mkdf-meta-box .mkdf-page .navbar-form .checkbox input[type="checkbox"], .mkdf-meta-box .form-inline .radio input[type="radio"], .mkdf-meta-box .mkdf-page .navbar-form .radio input[type="radio"], .mkdf-page .mkdf-meta-box .navbar-form .radio input[type="radio"], .mkdf-meta-box .navbar-form .radio input[type="radio"], .mkdf-meta-box .form-inline .checkbox input[type="checkbox"], .mkdf-meta-box .mkdf-page .navbar-form .checkbox input[type="checkbox"], .mkdf-page .mkdf-meta-box .navbar-form .checkbox input[type="checkbox"], .mkdf-meta-box .navbar-form .checkbox input[type="checkbox"] {float: none;margin-left: 0;}
+	.mkdf-page .form-inline .has-feedback .form-control-feedback, .mkdf-page .navbar-form .has-feedback .form-control-feedback, .mkdf-page .mkdf-meta-box .navbar-form .has-feedback .form-control-feedback, .mkdf-meta-box .mkdf-page .navbar-form .has-feedback .form-control-feedback, .mkdf-meta-box .form-inline .has-feedback .form-control-feedback, .mkdf-meta-box .mkdf-page .navbar-form .has-feedback .form-control-feedback, .mkdf-page .mkdf-meta-box .navbar-form .has-feedback .form-control-feedback, .mkdf-meta-box .navbar-form .has-feedback .form-control-feedback {top: 0;}}
+.mkdf-page .form-horizontal .control-label, .mkdf-page .form-horizontal .radio, .mkdf-page .form-horizontal .checkbox, .mkdf-page .form-horizontal .radio-inline, .mkdf-page .form-horizontal .checkbox-inline, .mkdf-meta-box .form-horizontal .control-label, .mkdf-meta-box .form-horizontal .radio, .mkdf-meta-box .form-horizontal .checkbox, .mkdf-meta-box .form-horizontal .radio-inline, .mkdf-meta-box .form-horizontal .checkbox-inline {margin-top: 0;margin-bottom: 0;padding-top: 7px;}
+.mkdf-page .form-horizontal .radio, .mkdf-page .form-horizontal .checkbox, .mkdf-meta-box .form-horizontal .radio, .mkdf-meta-box .form-horizontal .checkbox {min-height: 27px;}
+.mkdf-page .form-horizontal .form-group, .mkdf-meta-box .form-horizontal .form-group {margin-left: -15px;margin-right: -15px;}
+.mkdf-page .form-horizontal .form-group:before, .mkdf-page .form-horizontal .form-group:after, .mkdf-meta-box .form-horizontal .form-group:before, .mkdf-meta-box .form-horizontal .form-group:after {content: " ";display: table;}
+.mkdf-page .form-horizontal .form-group:after, .mkdf-meta-box .form-horizontal .form-group:after {clear: both;}
+.mkdf-page .form-horizontal .form-control-static, .mkdf-meta-box .form-horizontal .form-control-static {padding-top: 7px;}
+@media (min-width: 768px) {.mkdf-page .form-horizontal .control-label, .mkdf-meta-box .form-horizontal .control-label {text-align: right;}}
+.mkdf-page .form-horizontal .has-feedback .form-control-feedback, .mkdf-meta-box .form-horizontal .has-feedback .form-control-feedback {top: 0;right: 15px;}
+.mkdf-page .btn, .mkdf-meta-box .btn {display: inline-block;margin-bottom: 0;font-weight: normal;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 14px;line-height: 1.42857;border-radius: 4px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.mkdf-page .btn:focus, .mkdf-page .btn:active:focus, .mkdf-page .btn.active:focus, .mkdf-meta-box .btn:focus, .mkdf-meta-box .btn:active:focus, .mkdf-meta-box .btn.active:focus {outline: thin dotted;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;}
+.mkdf-page .btn:hover, .mkdf-page .btn:focus, .mkdf-meta-box .btn:hover, .mkdf-meta-box .btn:focus {color: #333;text-decoration: none;}
+.mkdf-page .btn:active, .mkdf-page .btn.active, .mkdf-meta-box .btn:active, .mkdf-meta-box .btn.active {outline: 0;background-image: none;-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);box-shadow: inset 0 3px 5px rgba(0,0,0,.125);}
+.mkdf-page .btn.disabled, .mkdf-page .btn[disabled], fieldset[disabled] .mkdf-page .btn, .mkdf-meta-box .btn.disabled, .mkdf-meta-box .btn[disabled], fieldset[disabled]
+.mkdf-meta-box .btn {cursor: not-allowed;pointer-events: none;opacity: .65;filter: alpha(opacity=65);-webkit-box-shadow: none;box-shadow: none;}
+.mkdf-page .btn-default, .mkdf-meta-box .btn-default {color: #333;background-color: white;border-color: #ccc;}
+.mkdf-page .btn-default:hover, .mkdf-page .btn-default:focus, .mkdf-page .btn-default:active, .mkdf-page .btn-default.active, .mkdf-meta-box .btn-default:hover, .mkdf-meta-box .btn-default:focus, .mkdf-meta-box .btn-default:active, .mkdf-meta-box .btn-default.active {color: #333;background-color: #ebebeb;border-color: #adadad;}
+.open .mkdf-page .btn-default.dropdown-toggle, .open
+.mkdf-meta-box .btn-default.dropdown-toggle {color: #333;background-color: #ebebeb;border-color: #adadad;}
+.mkdf-page .btn-default:active, .mkdf-page .btn-default.active, .mkdf-meta-box .btn-default:active, .mkdf-meta-box .btn-default.active {background-image: none;}
+.open .mkdf-page .btn-default.dropdown-toggle, .open
+.mkdf-meta-box .btn-default.dropdown-toggle {background-image: none;}
+.mkdf-page .btn-default.disabled, .mkdf-page .btn-default.disabled:hover, .mkdf-page .btn-default.disabled:focus, .mkdf-page .btn-default.disabled:active, .mkdf-page .btn-default.disabled.active, .mkdf-page .btn-default[disabled], .mkdf-page .btn-default[disabled]:hover, .mkdf-page .btn-default[disabled]:focus, .mkdf-page .btn-default[disabled]:active, .mkdf-page .btn-default[disabled].active, fieldset[disabled] .mkdf-page .btn-default, fieldset[disabled] .mkdf-page .btn-default:hover, fieldset[disabled] .mkdf-page .btn-default:focus, fieldset[disabled] .mkdf-page .btn-default:active, fieldset[disabled] .mkdf-page .btn-default.active, .mkdf-meta-box .btn-default.disabled, .mkdf-meta-box .btn-default.disabled:hover, .mkdf-meta-box .btn-default.disabled:focus, .mkdf-meta-box .btn-default.disabled:active, .mkdf-meta-box .btn-default.disabled.active, .mkdf-meta-box .btn-default[disabled], .mkdf-meta-box .btn-default[disabled]:hover, .mkdf-meta-box .btn-default[disabled]:focus, .mkdf-meta-box .btn-default[disabled]:active, .mkdf-meta-box .btn-default[disabled].active, fieldset[disabled]
+.mkdf-meta-box .btn-default, fieldset[disabled]
+.mkdf-meta-box .btn-default:hover, fieldset[disabled]
+.mkdf-meta-box .btn-default:focus, fieldset[disabled]
+.mkdf-meta-box .btn-default:active, fieldset[disabled]
+.mkdf-meta-box .btn-default.active {background-color: white;border-color: #ccc;}
+.mkdf-page .btn-default .badge, .mkdf-meta-box .btn-default .badge {color: white;background-color: #333;}
+.mkdf-page .btn-primary, .mkdf-meta-box .btn-primary {color: white;background-color: #428bca;border-color: #357ebd;}
+.mkdf-page .btn-primary:hover, .mkdf-page .btn-primary:focus, .mkdf-page .btn-primary:active, .mkdf-page .btn-primary.active, .mkdf-meta-box .btn-primary:hover, .mkdf-meta-box .btn-primary:focus, .mkdf-meta-box .btn-primary:active, .mkdf-meta-box .btn-primary.active {color: white;background-color: #3276b1;border-color: #285e8e;}
+.open .mkdf-page .btn-primary.dropdown-toggle, .open
+.mkdf-meta-box .btn-primary.dropdown-toggle {color: white;background-color: #3276b1;border-color: #285e8e;}
+.mkdf-page .btn-primary:active, .mkdf-page .btn-primary.active, .mkdf-meta-box .btn-primary:active, .mkdf-meta-box .btn-primary.active {background-image: none;}
+.open .mkdf-page .btn-primary.dropdown-toggle, .open
+.mkdf-meta-box .btn-primary.dropdown-toggle {background-image: none;}
+.mkdf-page .btn-primary.disabled, .mkdf-page .btn-primary.disabled:hover, .mkdf-page .btn-primary.disabled:focus, .mkdf-page .btn-primary.disabled:active, .mkdf-page .btn-primary.disabled.active, .mkdf-page .btn-primary[disabled], .mkdf-page .btn-primary[disabled]:hover, .mkdf-page .btn-primary[disabled]:focus, .mkdf-page .btn-primary[disabled]:active, .mkdf-page .btn-primary[disabled].active, fieldset[disabled] .mkdf-page .btn-primary, fieldset[disabled] .mkdf-page .btn-primary:hover, fieldset[disabled] .mkdf-page .btn-primary:focus, fieldset[disabled] .mkdf-page .btn-primary:active, fieldset[disabled] .mkdf-page .btn-primary.active, .mkdf-meta-box .btn-primary.disabled, .mkdf-meta-box .btn-primary.disabled:hover, .mkdf-meta-box .btn-primary.disabled:focus, .mkdf-meta-box .btn-primary.disabled:active, .mkdf-meta-box .btn-primary.disabled.active, .mkdf-meta-box .btn-primary[disabled], .mkdf-meta-box .btn-primary[disabled]:hover, .mkdf-meta-box .btn-primary[disabled]:focus, .mkdf-meta-box .btn-primary[disabled]:active, .mkdf-meta-box .btn-primary[disabled].active, fieldset[disabled]
+.mkdf-meta-box .btn-primary, fieldset[disabled]
+.mkdf-meta-box .btn-primary:hover, fieldset[disabled]
+.mkdf-meta-box .btn-primary:focus, fieldset[disabled]
+.mkdf-meta-box .btn-primary:active, fieldset[disabled]
+.mkdf-meta-box .btn-primary.active {background-color: #428bca;border-color: #357ebd;}
+.mkdf-page .btn-primary .badge, .mkdf-meta-box .btn-primary .badge {color: #428bca;background-color: white;}
+.mkdf-page .btn-success, .mkdf-meta-box .btn-success {color: white;background-color: #5cb85c;border-color: #4cae4c;}
+.mkdf-page .btn-success:hover, .mkdf-page .btn-success:focus, .mkdf-page .btn-success:active, .mkdf-page .btn-success.active, .mkdf-meta-box .btn-success:hover, .mkdf-meta-box .btn-success:focus, .mkdf-meta-box .btn-success:active, .mkdf-meta-box .btn-success.active {color: white;background-color: #47a447;border-color: #398439;}
+.open .mkdf-page .btn-success.dropdown-toggle, .open
+.mkdf-meta-box .btn-success.dropdown-toggle {color: white;background-color: #47a447;border-color: #398439;}
+.mkdf-page .btn-success:active, .mkdf-page .btn-success.active, .mkdf-meta-box .btn-success:active, .mkdf-meta-box .btn-success.active {background-image: none;}
+.open .mkdf-page .btn-success.dropdown-toggle, .open
+.mkdf-meta-box .btn-success.dropdown-toggle {background-image: none;}
+.mkdf-page .btn-success.disabled, .mkdf-page .btn-success.disabled:hover, .mkdf-page .btn-success.disabled:focus, .mkdf-page .btn-success.disabled:active, .mkdf-page .btn-success.disabled.active, .mkdf-page .btn-success[disabled], .mkdf-page .btn-success[disabled]:hover, .mkdf-page .btn-success[disabled]:focus, .mkdf-page .btn-success[disabled]:active, .mkdf-page .btn-success[disabled].active, fieldset[disabled] .mkdf-page .btn-success, fieldset[disabled] .mkdf-page .btn-success:hover, fieldset[disabled] .mkdf-page .btn-success:focus, fieldset[disabled] .mkdf-page .btn-success:active, fieldset[disabled] .mkdf-page .btn-success.active, .mkdf-meta-box .btn-success.disabled, .mkdf-meta-box .btn-success.disabled:hover, .mkdf-meta-box .btn-success.disabled:focus, .mkdf-meta-box .btn-success.disabled:active, .mkdf-meta-box .btn-success.disabled.active, .mkdf-meta-box .btn-success[disabled], .mkdf-meta-box .btn-success[disabled]:hover, .mkdf-meta-box .btn-success[disabled]:focus, .mkdf-meta-box .btn-success[disabled]:active, .mkdf-meta-box .btn-success[disabled].active, fieldset[disabled]
+.mkdf-meta-box .btn-success, fieldset[disabled]
+.mkdf-meta-box .btn-success:hover, fieldset[disabled]
+.mkdf-meta-box .btn-success:focus, fieldset[disabled]
+.mkdf-meta-box .btn-success:active, fieldset[disabled]
+.mkdf-meta-box .btn-success.active {background-color: #5cb85c;border-color: #4cae4c;}
+.mkdf-page .btn-success .badge, .mkdf-meta-box .btn-success .badge {color: #5cb85c;background-color: white;}
+.mkdf-page .btn-info, .mkdf-meta-box .btn-info {color: white;background-color: #5bc0de;border-color: #46b8da;}
+.mkdf-page .btn-info:hover, .mkdf-page .btn-info:focus, .mkdf-page .btn-info:active, .mkdf-page .btn-info.active, .mkdf-meta-box .btn-info:hover, .mkdf-meta-box .btn-info:focus, .mkdf-meta-box .btn-info:active, .mkdf-meta-box .btn-info.active {color: white;background-color: #39b3d7;border-color: #269abc;}
+.open .mkdf-page .btn-info.dropdown-toggle, .open
+.mkdf-meta-box .btn-info.dropdown-toggle {color: white;background-color: #39b3d7;border-color: #269abc;}
+.mkdf-page .btn-info:active, .mkdf-page .btn-info.active, .mkdf-meta-box .btn-info:active, .mkdf-meta-box .btn-info.active {background-image: none;}
+.open .mkdf-page .btn-info.dropdown-toggle, .open
+.mkdf-meta-box .btn-info.dropdown-toggle {background-image: none;}
+.mkdf-page .btn-info.disabled, .mkdf-page .btn-info.disabled:hover, .mkdf-page .btn-info.disabled:focus, .mkdf-page .btn-info.disabled:active, .mkdf-page .btn-info.disabled.active, .mkdf-page .btn-info[disabled], .mkdf-page .btn-info[disabled]:hover, .mkdf-page .btn-info[disabled]:focus, .mkdf-page .btn-info[disabled]:active, .mkdf-page .btn-info[disabled].active, fieldset[disabled] .mkdf-page .btn-info, fieldset[disabled] .mkdf-page .btn-info:hover, fieldset[disabled] .mkdf-page .btn-info:focus, fieldset[disabled] .mkdf-page .btn-info:active, fieldset[disabled] .mkdf-page .btn-info.active, .mkdf-meta-box .btn-info.disabled, .mkdf-meta-box .btn-info.disabled:hover, .mkdf-meta-box .btn-info.disabled:focus, .mkdf-meta-box .btn-info.disabled:active, .mkdf-meta-box .btn-info.disabled.active, .mkdf-meta-box .btn-info[disabled], .mkdf-meta-box .btn-info[disabled]:hover, .mkdf-meta-box .btn-info[disabled]:focus, .mkdf-meta-box .btn-info[disabled]:active, .mkdf-meta-box .btn-info[disabled].active, fieldset[disabled]
+.mkdf-meta-box .btn-info, fieldset[disabled]
+.mkdf-meta-box .btn-info:hover, fieldset[disabled]
+.mkdf-meta-box .btn-info:focus, fieldset[disabled]
+.mkdf-meta-box .btn-info:active, fieldset[disabled]
+.mkdf-meta-box .btn-info.active {background-color: #5bc0de;border-color: #46b8da;}
+.mkdf-page .btn-info .badge, .mkdf-meta-box .btn-info .badge {color: #5bc0de;background-color: white;}
+.mkdf-page .btn-warning, .mkdf-meta-box .btn-warning {color: white;background-color: #f0ad4e;border-color: #eea236;}
+.mkdf-page .btn-warning:hover, .mkdf-page .btn-warning:focus, .mkdf-page .btn-warning:active, .mkdf-page .btn-warning.active, .mkdf-meta-box .btn-warning:hover, .mkdf-meta-box .btn-warning:focus, .mkdf-meta-box .btn-warning:active, .mkdf-meta-box .btn-warning.active {color: white;background-color: #ed9c28;border-color: #d58512;}
+.open .mkdf-page .btn-warning.dropdown-toggle, .open
+.mkdf-meta-box .btn-warning.dropdown-toggle {color: white;background-color: #ed9c28;border-color: #d58512;}
+.mkdf-page .btn-warning:active, .mkdf-page .btn-warning.active, .mkdf-meta-box .btn-warning:active, .mkdf-meta-box .btn-warning.active {background-image: none;}
+.open .mkdf-page .btn-warning.dropdown-toggle, .open
+.mkdf-meta-box .btn-warning.dropdown-toggle {background-image: none;}
+.mkdf-page .btn-warning.disabled, .mkdf-page .btn-warning.disabled:hover, .mkdf-page .btn-warning.disabled:focus, .mkdf-page .btn-warning.disabled:active, .mkdf-page .btn-warning.disabled.active, .mkdf-page .btn-warning[disabled], .mkdf-page .btn-warning[disabled]:hover, .mkdf-page .btn-warning[disabled]:focus, .mkdf-page .btn-warning[disabled]:active, .mkdf-page .btn-warning[disabled].active, fieldset[disabled] .mkdf-page .btn-warning, fieldset[disabled] .mkdf-page .btn-warning:hover, fieldset[disabled] .mkdf-page .btn-warning:focus, fieldset[disabled] .mkdf-page .btn-warning:active, fieldset[disabled] .mkdf-page .btn-warning.active, .mkdf-meta-box .btn-warning.disabled, .mkdf-meta-box .btn-warning.disabled:hover, .mkdf-meta-box .btn-warning.disabled:focus, .mkdf-meta-box .btn-warning.disabled:active, .mkdf-meta-box .btn-warning.disabled.active, .mkdf-meta-box .btn-warning[disabled], .mkdf-meta-box .btn-warning[disabled]:hover, .mkdf-meta-box .btn-warning[disabled]:focus, .mkdf-meta-box .btn-warning[disabled]:active, .mkdf-meta-box .btn-warning[disabled].active, fieldset[disabled]
+.mkdf-meta-box .btn-warning, fieldset[disabled]
+.mkdf-meta-box .btn-warning:hover, fieldset[disabled]
+.mkdf-meta-box .btn-warning:focus, fieldset[disabled]
+.mkdf-meta-box .btn-warning:active, fieldset[disabled]
+.mkdf-meta-box .btn-warning.active {background-color: #f0ad4e;border-color: #eea236;}
+.mkdf-page .btn-warning .badge, .mkdf-meta-box .btn-warning .badge {color: #f0ad4e;background-color: white;}
+.mkdf-page .btn-danger, .mkdf-meta-box .btn-danger {color: white;background-color: #d9534f;border-color: #d43f3a;}
+.mkdf-page .btn-danger:hover, .mkdf-page .btn-danger:focus, .mkdf-page .btn-danger:active, .mkdf-page .btn-danger.active, .mkdf-meta-box .btn-danger:hover, .mkdf-meta-box .btn-danger:focus, .mkdf-meta-box .btn-danger:active, .mkdf-meta-box .btn-danger.active {color: white;background-color: #d2322d;border-color: #ac2925;}
+.open .mkdf-page .btn-danger.dropdown-toggle, .open
+.mkdf-meta-box .btn-danger.dropdown-toggle {color: white;background-color: #d2322d;border-color: #ac2925;}
+.mkdf-page .btn-danger:active, .mkdf-page .btn-danger.active, .mkdf-meta-box .btn-danger:active, .mkdf-meta-box .btn-danger.active {background-image: none;}
+.open .mkdf-page .btn-danger.dropdown-toggle, .open
+.mkdf-meta-box .btn-danger.dropdown-toggle {background-image: none;}
+.mkdf-page .btn-danger.disabled, .mkdf-page .btn-danger.disabled:hover, .mkdf-page .btn-danger.disabled:focus, .mkdf-page .btn-danger.disabled:active, .mkdf-page .btn-danger.disabled.active, .mkdf-page .btn-danger[disabled], .mkdf-page .btn-danger[disabled]:hover, .mkdf-page .btn-danger[disabled]:focus, .mkdf-page .btn-danger[disabled]:active, .mkdf-page .btn-danger[disabled].active, fieldset[disabled] .mkdf-page .btn-danger, fieldset[disabled] .mkdf-page .btn-danger:hover, fieldset[disabled] .mkdf-page .btn-danger:focus, fieldset[disabled] .mkdf-page .btn-danger:active, fieldset[disabled] .mkdf-page .btn-danger.active, .mkdf-meta-box .btn-danger.disabled, .mkdf-meta-box .btn-danger.disabled:hover, .mkdf-meta-box .btn-danger.disabled:focus, .mkdf-meta-box .btn-danger.disabled:active, .mkdf-meta-box .btn-danger.disabled.active, .mkdf-meta-box .btn-danger[disabled], .mkdf-meta-box .btn-danger[disabled]:hover, .mkdf-meta-box .btn-danger[disabled]:focus, .mkdf-meta-box .btn-danger[disabled]:active, .mkdf-meta-box .btn-danger[disabled].active, fieldset[disabled]
+.mkdf-meta-box .btn-danger, fieldset[disabled]
+.mkdf-meta-box .btn-danger:hover, fieldset[disabled]
+.mkdf-meta-box .btn-danger:focus, fieldset[disabled]
+.mkdf-meta-box .btn-danger:active, fieldset[disabled]
+.mkdf-meta-box .btn-danger.active {background-color: #d9534f;border-color: #d43f3a;}
+.mkdf-page .btn-danger .badge, .mkdf-meta-box .btn-danger .badge {color: #d9534f;background-color: white;}
+.mkdf-page .btn-link, .mkdf-meta-box .btn-link {color: #428bca;font-weight: normal;cursor: pointer;border-radius: 0;}
+.mkdf-page .btn-link, .mkdf-page .btn-link:active, .mkdf-page .btn-link[disabled], fieldset[disabled] .mkdf-page .btn-link, .mkdf-meta-box .btn-link, .mkdf-meta-box .btn-link:active, .mkdf-meta-box .btn-link[disabled], fieldset[disabled]
+.mkdf-meta-box .btn-link {background-color: transparent;-webkit-box-shadow: none;box-shadow: none;}
+.mkdf-page .btn-link, .mkdf-page .btn-link:hover, .mkdf-page .btn-link:focus, .mkdf-page .btn-link:active, .mkdf-meta-box .btn-link, .mkdf-meta-box .btn-link:hover, .mkdf-meta-box .btn-link:focus, .mkdf-meta-box .btn-link:active {border-color: transparent;}
+.mkdf-page .btn-link:hover, .mkdf-page .btn-link:focus, .mkdf-meta-box .btn-link:hover, .mkdf-meta-box .btn-link:focus {color: #2a6496;text-decoration: underline;background-color: transparent;}
+.mkdf-page .btn-link[disabled]:hover, .mkdf-page .btn-link[disabled]:focus, fieldset[disabled] .mkdf-page .btn-link:hover, fieldset[disabled] .mkdf-page .btn-link:focus, .mkdf-meta-box .btn-link[disabled]:hover, .mkdf-meta-box .btn-link[disabled]:focus, fieldset[disabled]
+.mkdf-meta-box .btn-link:hover, fieldset[disabled]
+.mkdf-meta-box .btn-link:focus {color: #999;text-decoration: none;}
+.mkdf-page .btn-lg, .mkdf-page .btn-group-lg > .btn, .mkdf-page .mkdf-meta-box .btn-group-lg > .btn, .mkdf-meta-box .mkdf-page .btn-group-lg > .btn, .mkdf-meta-box .btn-lg, .mkdf-meta-box .mkdf-page .btn-group-lg > .btn, .mkdf-page .mkdf-meta-box .btn-group-lg > .btn, .mkdf-meta-box .btn-group-lg > .btn {padding: 10px 16px;font-size: 18px;line-height: 1.33;border-radius: 6px;}
+.mkdf-page .btn-sm, .mkdf-page .btn-group-sm > .btn, .mkdf-page .mkdf-meta-box .btn-group-sm > .btn, .mkdf-meta-box .mkdf-page .btn-group-sm > .btn, .mkdf-meta-box .btn-sm, .mkdf-meta-box .mkdf-page .btn-group-sm > .btn, .mkdf-page .mkdf-meta-box .btn-group-sm > .btn, .mkdf-meta-box .btn-group-sm > .btn {padding: 5px 10px;font-size: 12px;line-height: 1.5;border-radius: 3px;}
+.mkdf-page .btn-xs, .mkdf-page .btn-group-xs > .btn, .mkdf-page .mkdf-meta-box .btn-group-xs > .btn, .mkdf-meta-box .mkdf-page .btn-group-xs > .btn, .mkdf-meta-box .btn-xs, .mkdf-meta-box .mkdf-page .btn-group-xs > .btn, .mkdf-page .mkdf-meta-box .btn-group-xs > .btn, .mkdf-meta-box .btn-group-xs > .btn {padding: 1px 5px;font-size: 12px;line-height: 1.5;border-radius: 3px;}
+.mkdf-page .btn-block, .mkdf-meta-box .btn-block {display: block;width: 100%;padding-left: 0;padding-right: 0;}
+.mkdf-page .btn-block + .btn-block, .mkdf-meta-box .btn-block + .btn-block {margin-top: 5px;}
+.mkdf-page input[type="submit"].btn-block, .mkdf-page input[type="reset"].btn-block, .mkdf-page input[type="button"].btn-block, .mkdf-meta-box input[type="submit"].btn-block, .mkdf-meta-box input[type="reset"].btn-block, .mkdf-meta-box input[type="button"].btn-block {width: 100%;}
+.mkdf-page .fade, .mkdf-meta-box .fade {opacity: 0;-webkit-transition: opacity .15s linear;transition: opacity .15s linear;}
+.mkdf-page .fade.in, .mkdf-meta-box .fade.in {opacity: 1;}
+.mkdf-page .collapse, .mkdf-meta-box .collapse {display: none;}
+.mkdf-page .collapse.in, .mkdf-meta-box .collapse.in {display: block;}
+.mkdf-page .collapsing, .mkdf-meta-box .collapsing {position: relative;height: 0;overflow: hidden;-webkit-transition: height .35s ease;transition: height .35s ease;}
+.mkdf-page .caret, .mkdf-meta-box .caret {display: inline-block;width: 0;height: 0;margin-left: 2px;vertical-align: middle;border-top: 4px solid;border-right: 4px solid transparent;border-left: 4px solid transparent;}
+.mkdf-page .dropdown, .mkdf-meta-box .dropdown {position: relative;}
+.mkdf-page .dropdown-toggle:focus, .mkdf-meta-box .dropdown-toggle:focus {outline: 0;}
+.mkdf-page .dropdown-menu, .mkdf-meta-box .dropdown-menu {position: absolute;top: 100%;left: 0;z-index: 1000;display: none;float: left;min-width: 160px;padding: 5px 0;margin: 2px 0 0;list-style: none;font-size: 14px;background-color: white;border: 1px solid #ccc;border: 1px solid rgba(0,0,0,.15);border-radius: 4px;-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);box-shadow: 0 6px 12px rgba(0,0,0,.175);background-clip: padding-box;}
+.mkdf-page .dropdown-menu.pull-right, .mkdf-meta-box .dropdown-menu.pull-right {right: 0;left: auto;}
+.mkdf-page .dropdown-menu .divider, .mkdf-meta-box .dropdown-menu .divider {height: 1px;margin: 9px 0;overflow: hidden;background-color: #e5e5e5;}
+.mkdf-page .dropdown-menu > li > a, .mkdf-meta-box .dropdown-menu > li > a {display: block;padding: 3px 20px;clear: both;font-weight: normal;line-height: 1.42857;color: #333;white-space: nowrap;}
+.mkdf-page .dropdown-menu > li > a:hover, .mkdf-page .dropdown-menu > li > a:focus, .mkdf-meta-box .dropdown-menu > li > a:hover, .mkdf-meta-box .dropdown-menu > li > a:focus {text-decoration: none;color: #262626;background-color: whitesmoke;}
+.mkdf-page .dropdown-menu > .active > a, .mkdf-page .dropdown-menu > .active > a:hover, .mkdf-page .dropdown-menu > .active > a:focus, .mkdf-meta-box .dropdown-menu > .active > a, .mkdf-meta-box .dropdown-menu > .active > a:hover, .mkdf-meta-box .dropdown-menu > .active > a:focus {color: white;text-decoration: none;outline: 0;background-color: #428bca;}
+.mkdf-page .dropdown-menu > .disabled > a, .mkdf-page .dropdown-menu > .disabled > a:hover, .mkdf-page .dropdown-menu > .disabled > a:focus, .mkdf-meta-box .dropdown-menu > .disabled > a, .mkdf-meta-box .dropdown-menu > .disabled > a:hover, .mkdf-meta-box .dropdown-menu > .disabled > a:focus {color: #999;}
+.mkdf-page .dropdown-menu > .disabled > a:hover, .mkdf-page .dropdown-menu > .disabled > a:focus, .mkdf-meta-box .dropdown-menu > .disabled > a:hover, .mkdf-meta-box .dropdown-menu > .disabled > a:focus {text-decoration: none;background-color: transparent;background-image: none;filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);cursor: not-allowed;}
+.mkdf-page .open > .dropdown-menu, .mkdf-meta-box .open > .dropdown-menu {display: block;}
+.mkdf-page .open > a, .mkdf-meta-box .open > a {outline: 0;}
+.mkdf-page .dropdown-menu-right, .mkdf-meta-box .dropdown-menu-right {left: auto;right: 0;}
+.mkdf-page .dropdown-menu-left, .mkdf-meta-box .dropdown-menu-left {left: 0;right: auto;}
+.mkdf-page .dropdown-header, .mkdf-meta-box .dropdown-header {display: block;padding: 3px 20px;font-size: 12px;line-height: 1.42857;color: #999;}
+.mkdf-page .dropdown-backdrop, .mkdf-meta-box .dropdown-backdrop {position: fixed;left: 0;right: 0;bottom: 0;top: 0;z-index: 990;}
+.mkdf-page .pull-right > .dropdown-menu, .mkdf-meta-box .pull-right > .dropdown-menu {right: 0;left: auto;}
+.mkdf-page .dropup .caret, .mkdf-page .navbar-fixed-bottom .dropdown .caret, .mkdf-meta-box .dropup .caret, .mkdf-meta-box .navbar-fixed-bottom .dropdown .caret {border-top: 0;border-bottom: 4px solid;content: "";}
+.mkdf-page .dropup .dropdown-menu, .mkdf-page .navbar-fixed-bottom .dropdown .dropdown-menu, .mkdf-meta-box .dropup .dropdown-menu, .mkdf-meta-box .navbar-fixed-bottom .dropdown .dropdown-menu {top: auto;bottom: 100%;margin-bottom: 1px;}
+@media (min-width: 768px) {.mkdf-page .navbar-right .dropdown-menu, .mkdf-meta-box .navbar-right .dropdown-menu {right: 0;left: auto;}
+	.mkdf-page .navbar-right .dropdown-menu-left, .mkdf-meta-box .navbar-right .dropdown-menu-left {left: 0;right: auto;}}
+.mkdf-page .btn-group, .mkdf-page .btn-group-vertical, .mkdf-meta-box .btn-group, .mkdf-meta-box .btn-group-vertical {position: relative;display: inline-block;vertical-align: middle;}
+.mkdf-page .btn-group > .btn, .mkdf-page .btn-group-vertical > .btn, .mkdf-meta-box .btn-group > .btn, .mkdf-meta-box .btn-group-vertical > .btn {position: relative;float: left;}
+.mkdf-page .btn-group > .btn:hover, .mkdf-page .btn-group > .btn:focus, .mkdf-page .btn-group > .btn:active, .mkdf-page .btn-group > .btn.active, .mkdf-page .btn-group-vertical > .btn:hover, .mkdf-page .btn-group-vertical > .btn:focus, .mkdf-page .btn-group-vertical > .btn:active, .mkdf-page .btn-group-vertical > .btn.active, .mkdf-meta-box .btn-group > .btn:hover, .mkdf-meta-box .btn-group > .btn:focus, .mkdf-meta-box .btn-group > .btn:active, .mkdf-meta-box .btn-group > .btn.active, .mkdf-meta-box .btn-group-vertical > .btn:hover, .mkdf-meta-box .btn-group-vertical > .btn:focus, .mkdf-meta-box .btn-group-vertical > .btn:active, .mkdf-meta-box .btn-group-vertical > .btn.active {z-index: 2;}
+.mkdf-page .btn-group > .btn:focus, .mkdf-page .btn-group-vertical > .btn:focus, .mkdf-meta-box .btn-group > .btn:focus, .mkdf-meta-box .btn-group-vertical > .btn:focus {outline: none;}
+.mkdf-page .btn-group .btn + .btn, .mkdf-page .btn-group .btn + .btn-group, .mkdf-page .btn-group .btn-group + .btn, .mkdf-page .btn-group .btn-group + .btn-group, .mkdf-meta-box .btn-group .btn + .btn, .mkdf-meta-box .btn-group .btn + .btn-group, .mkdf-meta-box .btn-group .btn-group + .btn, .mkdf-meta-box .btn-group .btn-group + .btn-group {margin-left: -1px;}
+.mkdf-page .btn-toolbar, .mkdf-meta-box .btn-toolbar {margin-left: -5px;}
+.mkdf-page .btn-toolbar:before, .mkdf-page .btn-toolbar:after, .mkdf-meta-box .btn-toolbar:before, .mkdf-meta-box .btn-toolbar:after {content: " ";display: table;}
+.mkdf-page .btn-toolbar:after, .mkdf-meta-box .btn-toolbar:after {clear: both;}
+.mkdf-page .btn-toolbar .btn-group, .mkdf-page .btn-toolbar .input-group, .mkdf-meta-box .btn-toolbar .btn-group, .mkdf-meta-box .btn-toolbar .input-group {float: left;}
+.mkdf-page .btn-toolbar > .btn, .mkdf-page .btn-toolbar > .btn-group, .mkdf-page .btn-toolbar > .input-group, .mkdf-meta-box .btn-toolbar > .btn, .mkdf-meta-box .btn-toolbar > .btn-group, .mkdf-meta-box .btn-toolbar > .input-group {margin-left: 5px;}
+.mkdf-page .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .mkdf-meta-box .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {border-radius: 0;}
+.mkdf-page .btn-group > .btn:first-child, .mkdf-meta-box .btn-group > .btn:first-child {margin-left: 0;}
+.mkdf-page .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .mkdf-meta-box .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 0;border-top-right-radius: 0;}
+.mkdf-page .btn-group > .btn:last-child:not(:first-child), .mkdf-page .btn-group > .dropdown-toggle:not(:first-child), .mkdf-meta-box .btn-group > .btn:last-child:not(:first-child), .mkdf-meta-box .btn-group > .dropdown-toggle:not(:first-child) {border-bottom-left-radius: 0;border-top-left-radius: 0;}
+.mkdf-page .btn-group > .btn-group, .mkdf-meta-box .btn-group > .btn-group {float: left;}
+.mkdf-page .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .mkdf-meta-box .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {border-radius: 0;}
+.mkdf-page .btn-group > .btn-group:first-child > .btn:last-child, .mkdf-page .btn-group > .btn-group:first-child > .dropdown-toggle, .mkdf-meta-box .btn-group > .btn-group:first-child > .btn:last-child, .mkdf-meta-box .btn-group > .btn-group:first-child > .dropdown-toggle {border-bottom-right-radius: 0;border-top-right-radius: 0;}
+.mkdf-page .btn-group > .btn-group:last-child > .btn:first-child, .mkdf-meta-box .btn-group > .btn-group:last-child > .btn:first-child {border-bottom-left-radius: 0;border-top-left-radius: 0;}
+.mkdf-page .btn-group .dropdown-toggle:active, .mkdf-page .btn-group.open .dropdown-toggle, .mkdf-meta-box .btn-group .dropdown-toggle:active, .mkdf-meta-box .btn-group.open .dropdown-toggle {outline: 0;}
+.mkdf-page .btn-group > .btn + .dropdown-toggle, .mkdf-meta-box .btn-group > .btn + .dropdown-toggle {padding-left: 8px;padding-right: 8px;}
+.mkdf-page .btn-group > .btn-lg + .dropdown-toggle, .mkdf-page .btn-group-lg.btn-group > .btn + .dropdown-toggle, .mkdf-page .mkdf-meta-box .btn-group-lg.btn-group > .btn + .dropdown-toggle, .mkdf-meta-box .mkdf-page .btn-group-lg.btn-group > .btn + .dropdown-toggle, .mkdf-meta-box .btn-group > .btn-lg + .dropdown-toggle, .mkdf-meta-box .mkdf-page .btn-group-lg.btn-group > .btn + .dropdown-toggle, .mkdf-page .mkdf-meta-box .btn-group-lg.btn-group > .btn + .dropdown-toggle, .mkdf-meta-box .btn-group-lg.btn-group > .btn + .dropdown-toggle {padding-left: 12px;padding-right: 12px;}
+.mkdf-page .btn-group.open .dropdown-toggle, .mkdf-meta-box .btn-group.open .dropdown-toggle {-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);box-shadow: inset 0 3px 5px rgba(0,0,0,.125);}
+.mkdf-page .btn-group.open .dropdown-toggle.btn-link, .mkdf-meta-box .btn-group.open .dropdown-toggle.btn-link {-webkit-box-shadow: none;box-shadow: none;}
+.mkdf-page .btn .caret, .mkdf-meta-box .btn .caret {margin-left: 0;}
+.mkdf-page .btn-lg .caret, .mkdf-page .btn-group-lg > .btn .caret, .mkdf-page .mkdf-meta-box .btn-group-lg > .btn .caret, .mkdf-meta-box .mkdf-page .btn-group-lg > .btn .caret, .mkdf-meta-box .btn-lg .caret, .mkdf-meta-box .mkdf-page .btn-group-lg > .btn .caret, .mkdf-page .mkdf-meta-box .btn-group-lg > .btn .caret, .mkdf-meta-box .btn-group-lg > .btn .caret {border-width: 5px 5px 0;border-bottom-width: 0;}
+.mkdf-page .dropup .btn-lg .caret, .mkdf-page .dropup .btn-group-lg > .btn .caret, .mkdf-page .dropup .mkdf-meta-box .btn-group-lg > .btn .caret, .mkdf-meta-box .mkdf-page .dropup .btn-group-lg > .btn .caret, .mkdf-meta-box .dropup .btn-lg .caret, .mkdf-meta-box .dropup .mkdf-page .btn-group-lg > .btn .caret, .mkdf-page .mkdf-meta-box .dropup .btn-group-lg > .btn .caret, .mkdf-meta-box .dropup .btn-group-lg > .btn .caret {border-width: 0 5px 5px;}
+.mkdf-page .btn-group-vertical > .btn, .mkdf-page .btn-group-vertical > .btn-group, .mkdf-page .btn-group-vertical > .btn-group > .btn, .mkdf-meta-box .btn-group-vertical > .btn, .mkdf-meta-box .btn-group-vertical > .btn-group, .mkdf-meta-box .btn-group-vertical > .btn-group > .btn {display: block;float: none;width: 100%;max-width: 100%;}
+.mkdf-page .btn-group-vertical > .btn-group:before, .mkdf-page .btn-group-vertical > .btn-group:after, .mkdf-meta-box .btn-group-vertical > .btn-group:before, .mkdf-meta-box .btn-group-vertical > .btn-group:after {content: " ";display: table;}
+.mkdf-page .btn-group-vertical > .btn-group:after, .mkdf-meta-box .btn-group-vertical > .btn-group:after {clear: both;}
+.mkdf-page .btn-group-vertical > .btn-group > .btn, .mkdf-meta-box .btn-group-vertical > .btn-group > .btn {float: none;}
+.mkdf-page .btn-group-vertical > .btn + .btn, .mkdf-page .btn-group-vertical > .btn + .btn-group, .mkdf-page .btn-group-vertical > .btn-group + .btn, .mkdf-page .btn-group-vertical > .btn-group + .btn-group, .mkdf-meta-box .btn-group-vertical > .btn + .btn, .mkdf-meta-box .btn-group-vertical > .btn + .btn-group, .mkdf-meta-box .btn-group-vertical > .btn-group + .btn, .mkdf-meta-box .btn-group-vertical > .btn-group + .btn-group {margin-top: -1px;margin-left: 0;}
+.mkdf-page .btn-group-vertical > .btn:not(:first-child):not(:last-child), .mkdf-meta-box .btn-group-vertical > .btn:not(:first-child):not(:last-child) {border-radius: 0;}
+.mkdf-page .btn-group-vertical > .btn:first-child:not(:last-child), .mkdf-meta-box .btn-group-vertical > .btn:first-child:not(:last-child) {border-top-right-radius: 4px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;}
+.mkdf-page .btn-group-vertical > .btn:last-child:not(:first-child), .mkdf-meta-box .btn-group-vertical > .btn:last-child:not(:first-child) {border-bottom-left-radius: 4px;border-top-right-radius: 0;border-top-left-radius: 0;}
+.mkdf-page .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .mkdf-meta-box .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {border-radius: 0;}
+.mkdf-page .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child, .mkdf-page .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle, .mkdf-meta-box .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child, .mkdf-meta-box .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {border-bottom-right-radius: 0;border-bottom-left-radius: 0;}
+.mkdf-page .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .mkdf-meta-box .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {border-top-right-radius: 0;border-top-left-radius: 0;}
+.mkdf-page .btn-group-justified, .mkdf-meta-box .btn-group-justified {display: table;width: 100%;table-layout: fixed;border-collapse: separate;}
+.mkdf-page .btn-group-justified > .btn, .mkdf-page .btn-group-justified > .btn-group, .mkdf-meta-box .btn-group-justified > .btn, .mkdf-meta-box .btn-group-justified > .btn-group {float: none;display: table-cell;width: 1%;}
+.mkdf-page .btn-group-justified > .btn-group .btn, .mkdf-meta-box .btn-group-justified > .btn-group .btn {width: 100%;}
+.mkdf-page [data-toggle="buttons"] > .btn > input[type="radio"], .mkdf-page [data-toggle="buttons"] > .btn > input[type="checkbox"], .mkdf-meta-box [data-toggle="buttons"] > .btn > input[type="radio"], .mkdf-meta-box [data-toggle="buttons"] > .btn > input[type="checkbox"] {display: none;}
+.mkdf-page .input-group, .mkdf-meta-box .input-group {position: relative;display: table;border-collapse: separate;}
+.mkdf-page .input-group[class*="col-"], .mkdf-meta-box .input-group[class*="col-"] {float: none;padding-left: 0;padding-right: 0;}
+.mkdf-page .input-group .form-control, .mkdf-meta-box .input-group .form-control {position: relative;z-index: 2;float: left;width: 100%;margin-bottom: 0;}
+.mkdf-page .input-group-addon, .mkdf-page .input-group-btn, .mkdf-page .input-group .form-control, .mkdf-meta-box .input-group-addon, .mkdf-meta-box .input-group-btn, .mkdf-meta-box .input-group .form-control {display: table-cell;}
+.mkdf-page .input-group-addon:not(:first-child):not(:last-child), .mkdf-page .input-group-btn:not(:first-child):not(:last-child), .mkdf-page .input-group .form-control:not(:first-child):not(:last-child), .mkdf-meta-box .input-group-addon:not(:first-child):not(:last-child), .mkdf-meta-box .input-group-btn:not(:first-child):not(:last-child), .mkdf-meta-box .input-group .form-control:not(:first-child):not(:last-child) {border-radius: 0;}
+.mkdf-page .input-group-addon, .mkdf-page .input-group-btn, .mkdf-meta-box .input-group-addon, .mkdf-meta-box .input-group-btn {width: 1%;white-space: nowrap;vertical-align: middle;}
+.mkdf-page .input-group-addon, .mkdf-meta-box .input-group-addon {padding: 6px 12px;font-size: 14px;font-weight: normal;line-height: 1;color: #555;text-align: center;background-color: #eee;border: 1px solid #ccc;border-radius: 4px;}
+.mkdf-page .input-group-addon.input-sm, .mkdf-page .input-group-sm > .input-group-addon.form-control, .mkdf-page .input-group-sm > .input-group-addon, .mkdf-page .input-group-sm > .input-group-btn > .input-group-addon.btn, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-addon.form-control, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-addon.form-control, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > .input-group-addon.btn, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > .input-group-addon.btn, .mkdf-meta-box .input-group-addon.input-sm, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-addon.form-control, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-addon.form-control, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-addon, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-addon, .mkdf-meta-box .mkdf-page .input-group-sm > .input-group-btn > .input-group-addon.btn, .mkdf-page .mkdf-meta-box .input-group-sm > .input-group-btn > .input-group-addon.btn, .mkdf-meta-box .input-group-sm > .input-group-addon.form-control, .mkdf-meta-box .input-group-sm > .input-group-addon, .mkdf-meta-box .input-group-sm > .input-group-btn > .input-group-addon.btn {padding: 5px 10px;font-size: 12px;border-radius: 3px;}
+.mkdf-page .input-group-addon.input-lg, .mkdf-page .input-group-lg > .input-group-addon.form-control, .mkdf-page .input-group-lg > .input-group-addon, .mkdf-page .input-group-lg > .input-group-btn > .input-group-addon.btn, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-addon.form-control, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-addon.form-control, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > .input-group-addon.btn, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > .input-group-addon.btn, .mkdf-meta-box .input-group-addon.input-lg, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-addon.form-control, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-addon.form-control, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-addon, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-addon, .mkdf-meta-box .mkdf-page .input-group-lg > .input-group-btn > .input-group-addon.btn, .mkdf-page .mkdf-meta-box .input-group-lg > .input-group-btn > .input-group-addon.btn, .mkdf-meta-box .input-group-lg > .input-group-addon.form-control, .mkdf-meta-box .input-group-lg > .input-group-addon, .mkdf-meta-box .input-group-lg > .input-group-btn > .input-group-addon.btn {padding: 10px 16px;font-size: 18px;border-radius: 6px;}
+.mkdf-page .input-group-addon input[type="radio"], .mkdf-page .input-group-addon input[type="checkbox"], .mkdf-meta-box .input-group-addon input[type="radio"], .mkdf-meta-box .input-group-addon input[type="checkbox"] {margin-top: 0;}
+.mkdf-page .input-group .form-control:first-child, .mkdf-page .input-group-addon:first-child, .mkdf-page .input-group-btn:first-child > .btn, .mkdf-page .input-group-btn:first-child > .btn-group > .btn, .mkdf-page .input-group-btn:first-child > .dropdown-toggle, .mkdf-page .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .mkdf-page .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .mkdf-meta-box .input-group .form-control:first-child, .mkdf-meta-box .input-group-addon:first-child, .mkdf-meta-box .input-group-btn:first-child > .btn, .mkdf-meta-box .input-group-btn:first-child > .btn-group > .btn, .mkdf-meta-box .input-group-btn:first-child > .dropdown-toggle, .mkdf-meta-box .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .mkdf-meta-box .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {border-bottom-right-radius: 0;border-top-right-radius: 0;}
+.mkdf-page .input-group-addon:first-child, .mkdf-meta-box .input-group-addon:first-child {border-right: 0;}
+.mkdf-page .input-group .form-control:last-child, .mkdf-page .input-group-addon:last-child, .mkdf-page .input-group-btn:last-child > .btn, .mkdf-page .input-group-btn:last-child > .btn-group > .btn, .mkdf-page .input-group-btn:last-child > .dropdown-toggle, .mkdf-page .input-group-btn:first-child > .btn:not(:first-child), .mkdf-page .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .mkdf-meta-box .input-group .form-control:last-child, .mkdf-meta-box .input-group-addon:last-child, .mkdf-meta-box .input-group-btn:last-child > .btn, .mkdf-meta-box .input-group-btn:last-child > .btn-group > .btn, .mkdf-meta-box .input-group-btn:last-child > .dropdown-toggle, .mkdf-meta-box .input-group-btn:first-child > .btn:not(:first-child), .mkdf-meta-box .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {border-bottom-left-radius: 0;border-top-left-radius: 0;}
+.mkdf-page .input-group-addon:last-child, .mkdf-meta-box .input-group-addon:last-child {border-left: 0;}
+.mkdf-page .input-group-btn, .mkdf-meta-box .input-group-btn {position: relative;font-size: 0;white-space: nowrap;}
+.mkdf-page .input-group-btn > .btn, .mkdf-meta-box .input-group-btn > .btn {position: relative;}
+.mkdf-page .input-group-btn > .btn + .btn, .mkdf-meta-box .input-group-btn > .btn + .btn {margin-left: -1px;}
+.mkdf-page .input-group-btn > .btn:hover, .mkdf-page .input-group-btn > .btn:focus, .mkdf-page .input-group-btn > .btn:active, .mkdf-meta-box .input-group-btn > .btn:hover, .mkdf-meta-box .input-group-btn > .btn:focus, .mkdf-meta-box .input-group-btn > .btn:active {z-index: 2;}
+.mkdf-page .input-group-btn:first-child > .btn, .mkdf-page .input-group-btn:first-child > .btn-group, .mkdf-meta-box .input-group-btn:first-child > .btn, .mkdf-meta-box .input-group-btn:first-child > .btn-group {margin-right: -1px;}
+.mkdf-page .input-group-btn:last-child > .btn, .mkdf-page .input-group-btn:last-child > .btn-group, .mkdf-meta-box .input-group-btn:last-child > .btn, .mkdf-meta-box .input-group-btn:last-child > .btn-group {margin-left: -1px;}
+.mkdf-page .nav, .mkdf-meta-box .nav {margin-bottom: 0;padding-left: 0;list-style: none;}
+.mkdf-page .nav:before, .mkdf-page .nav:after, .mkdf-meta-box .nav:before, .mkdf-meta-box .nav:after {content: " ";display: table;}
+.mkdf-page .nav:after, .mkdf-meta-box .nav:after {clear: both;}
+.mkdf-page .nav > li, .mkdf-meta-box .nav > li {position: relative;display: block;}
+.mkdf-page .nav > li > a, .mkdf-meta-box .nav > li > a {position: relative;display: block;padding: 10px 15px;}
+.mkdf-page .nav > li > a:hover, .mkdf-page .nav > li > a:focus, .mkdf-meta-box .nav > li > a:hover, .mkdf-meta-box .nav > li > a:focus {text-decoration: none;background-color: #eee;}
+.mkdf-page .nav > li.disabled > a, .mkdf-meta-box .nav > li.disabled > a {color: #999;}
+.mkdf-page .nav > li.disabled > a:hover, .mkdf-page .nav > li.disabled > a:focus, .mkdf-meta-box .nav > li.disabled > a:hover, .mkdf-meta-box .nav > li.disabled > a:focus {color: #999;text-decoration: none;background-color: transparent;cursor: not-allowed;}
+.mkdf-page .nav .open > a, .mkdf-page .nav .open > a:hover, .mkdf-page .nav .open > a:focus, .mkdf-meta-box .nav .open > a, .mkdf-meta-box .nav .open > a:hover, .mkdf-meta-box .nav .open > a:focus {background-color: #eee;border-color: #428bca;}
+.mkdf-page .nav .nav-divider, .mkdf-meta-box .nav .nav-divider {height: 1px;margin: 9px 0;overflow: hidden;background-color: #e5e5e5;}
+.mkdf-page .nav > li > a > img, .mkdf-meta-box .nav > li > a > img {max-width: none;}
+.mkdf-page .nav-tabs, .mkdf-meta-box .nav-tabs {border-bottom: 1px solid #ddd;}
+.mkdf-page .nav-tabs > li, .mkdf-meta-box .nav-tabs > li {float: left;margin-bottom: -1px;}
+.mkdf-page .nav-tabs > li > a, .mkdf-meta-box .nav-tabs > li > a {margin-right: 2px;line-height: 1.42857;border: 1px solid transparent;border-radius: 4px 4px 0 0;}
+.mkdf-page .nav-tabs > li > a:hover, .mkdf-meta-box .nav-tabs > li > a:hover {border-color: #eee #eee #ddd;}
+.mkdf-page .nav-tabs > li.active > a, .mkdf-page .nav-tabs > li.active > a:hover, .mkdf-page .nav-tabs > li.active > a:focus, .mkdf-meta-box .nav-tabs > li.active > a, .mkdf-meta-box .nav-tabs > li.active > a:hover, .mkdf-meta-box .nav-tabs > li.active > a:focus {color: #555;background-color: white;border: 1px solid #ddd;border-bottom-color: transparent;cursor: default;}
+.mkdf-page .nav-pills > li, .mkdf-meta-box .nav-pills > li {float: left;}
+.mkdf-page .nav-pills > li > a, .mkdf-meta-box .nav-pills > li > a {border-radius: 4px;}
+.mkdf-page .nav-pills > li + li, .mkdf-meta-box .nav-pills > li + li {margin-left: 2px;}
+.mkdf-page .nav-pills > li.active > a, .mkdf-page .nav-pills > li.active > a:hover, .mkdf-page .nav-pills > li.active > a:focus, .mkdf-meta-box .nav-pills > li.active > a, .mkdf-meta-box .nav-pills > li.active > a:hover, .mkdf-meta-box .nav-pills > li.active > a:focus {color: white;background-color: #428bca;}
+.mkdf-page .nav-stacked > li, .mkdf-meta-box .nav-stacked > li {float: none;}
+.mkdf-page .nav-stacked > li + li, .mkdf-meta-box .nav-stacked > li + li {margin-top: 2px;margin-left: 0;}
+.mkdf-page .nav-justified, .mkdf-page .nav-tabs.nav-justified, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified, .mkdf-meta-box .nav-justified, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified, .mkdf-meta-box .nav-tabs.nav-justified {width: 100%;}
+.mkdf-page .nav-justified > li, .mkdf-page .nav-tabs.nav-justified > li, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li, .mkdf-meta-box .nav-justified > li, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li, .mkdf-meta-box .nav-tabs.nav-justified > li {float: none;}
+.mkdf-page .nav-justified > li > a, .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-meta-box .nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .nav-tabs.nav-justified > li > a {text-align: center;margin-bottom: 5px;}
+.mkdf-page .nav-justified > .dropdown .dropdown-menu, .mkdf-page .nav-tabs.nav-justified > .dropdown .dropdown-menu, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .dropdown .dropdown-menu, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .dropdown .dropdown-menu, .mkdf-meta-box .nav-justified > .dropdown .dropdown-menu, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .dropdown .dropdown-menu, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .dropdown .dropdown-menu, .mkdf-meta-box .nav-tabs.nav-justified > .dropdown .dropdown-menu {top: auto;left: auto;}
+@media (min-width: 768px) {.mkdf-page .nav-justified > li, .mkdf-page .nav-tabs.nav-justified > li, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li, .mkdf-meta-box .nav-justified > li, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li, .mkdf-meta-box .nav-tabs.nav-justified > li {display: table-cell;width: 1%;}
+	.mkdf-page .nav-justified > li > a, .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-meta-box .nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .nav-tabs.nav-justified > li > a {margin-bottom: 0;}}
+.mkdf-page .nav-tabs-justified, .mkdf-page .nav-tabs.nav-justified, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified, .mkdf-meta-box .nav-tabs-justified, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified, .mkdf-meta-box .nav-tabs.nav-justified {border-bottom: 0;}
+.mkdf-page .nav-tabs-justified > li > a, .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-meta-box .nav-tabs-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-meta-box .nav-tabs.nav-justified > li > a {margin-right: 0;border-radius: 4px;}
+.mkdf-page .nav-tabs-justified > .active > a, .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-page .nav-tabs-justified > .active > a:hover, .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .nav-tabs-justified > .active > a:focus, .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .nav-tabs-justified > .active > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .nav-tabs-justified > .active > a:hover, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .nav-tabs-justified > .active > a:focus, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus {border: 1px solid #ddd;}
+@media (min-width: 768px) {.mkdf-page .nav-tabs-justified > li > a, .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-meta-box .nav-tabs-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > li > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > li > a, .mkdf-meta-box .nav-tabs.nav-justified > li > a {border-bottom: 1px solid #ddd;border-radius: 4px 4px 0 0;}
+	.mkdf-page .nav-tabs-justified > .active > a, .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-page .nav-tabs-justified > .active > a:hover, .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .nav-tabs-justified > .active > a:focus, .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .nav-tabs-justified > .active > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .nav-tabs.nav-justified > .active > a, .mkdf-meta-box .nav-tabs-justified > .active > a:hover, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .nav-tabs.nav-justified > .active > a:hover, .mkdf-meta-box .nav-tabs-justified > .active > a:focus, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus, .mkdf-page .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .mkdf-page .nav-tabs.nav-justified > .active > a:focus, .mkdf-meta-box .nav-tabs.nav-justified > .active > a:focus {border-bottom-color: white;}}
+.mkdf-page .tab-content > .tab-pane, .mkdf-meta-box .tab-content > .tab-pane {display: none;}
+.mkdf-page .tab-content > .active, .mkdf-meta-box .tab-content > .active {display: block;}
+.mkdf-page .nav-tabs .dropdown-menu, .mkdf-meta-box .nav-tabs .dropdown-menu {margin-top: -1px;border-top-right-radius: 0;border-top-left-radius: 0;}
+.mkdf-page .navbar, .mkdf-meta-box .navbar {position: relative;min-height: 50px;margin-bottom: 20px;border: 1px solid transparent;}
+.mkdf-page .navbar:before, .mkdf-page .navbar:after, .mkdf-meta-box .navbar:before, .mkdf-meta-box .navbar:after {content: " ";display: table;}
+.mkdf-page .navbar:after, .mkdf-meta-box .navbar:after {clear: both;}
+@media (min-width: 768px) {.mkdf-page .navbar, .mkdf-meta-box .navbar {border-radius: 4px;}}
+.mkdf-page .navbar-header:before, .mkdf-page .navbar-header:after, .mkdf-meta-box .navbar-header:before, .mkdf-meta-box .navbar-header:after {content: " ";display: table;}
+.mkdf-page .navbar-header:after, .mkdf-meta-box .navbar-header:after {clear: both;}
+@media (min-width: 768px) {.mkdf-page .navbar-header, .mkdf-meta-box .navbar-header {float: left;}}
+.mkdf-page .navbar-collapse, .mkdf-meta-box .navbar-collapse {max-height: 340px;overflow-x: visible;padding-right: 15px;padding-left: 15px;border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255,255,255,.1);-webkit-overflow-scrolling: touch;}
+.mkdf-page .navbar-collapse:before, .mkdf-page .navbar-collapse:after, .mkdf-meta-box .navbar-collapse:before, .mkdf-meta-box .navbar-collapse:after {content: " ";display: table;}
+.mkdf-page .navbar-collapse:after, .mkdf-meta-box .navbar-collapse:after {clear: both;}
+.mkdf-page .navbar-collapse.in, .mkdf-meta-box .navbar-collapse.in {overflow-y: auto;}
+@media (min-width: 768px) {.mkdf-page .navbar-collapse, .mkdf-meta-box .navbar-collapse {width: auto;border-top: 0;box-shadow: none;}
+	.mkdf-page .navbar-collapse.collapse, .mkdf-meta-box .navbar-collapse.collapse {display: block !important;height: auto !important;padding-bottom: 0;overflow: visible !important;}
+	.mkdf-page .navbar-collapse.in, .mkdf-meta-box .navbar-collapse.in {overflow-y: visible;}
+	.navbar-fixed-top .mkdf-page .navbar-collapse, .navbar-static-top .mkdf-page .navbar-collapse, .navbar-fixed-bottom .mkdf-page .navbar-collapse, .navbar-fixed-top
+    .mkdf-meta-box .navbar-collapse, .navbar-static-top
+    .mkdf-meta-box .navbar-collapse, .navbar-fixed-bottom
+    .mkdf-meta-box .navbar-collapse {padding-left: 0;padding-right: 0;}}
+.mkdf-page .container > .navbar-header, .mkdf-page .container > .navbar-collapse, .mkdf-page .container-fluid > .navbar-header, .mkdf-page .container-fluid > .navbar-collapse, .mkdf-meta-box .container > .navbar-header, .mkdf-meta-box .container > .navbar-collapse, .mkdf-meta-box .container-fluid > .navbar-header, .mkdf-meta-box .container-fluid > .navbar-collapse {margin-right: -15px;margin-left: -15px;}
+@media (min-width: 768px) {.mkdf-page .container > .navbar-header, .mkdf-page .container > .navbar-collapse, .mkdf-page .container-fluid > .navbar-header, .mkdf-page .container-fluid > .navbar-collapse, .mkdf-meta-box .container > .navbar-header, .mkdf-meta-box .container > .navbar-collapse, .mkdf-meta-box .container-fluid > .navbar-header, .mkdf-meta-box .container-fluid > .navbar-collapse {margin-right: 0;margin-left: 0;}}
+.mkdf-page .navbar-static-top, .mkdf-meta-box .navbar-static-top {z-index: 1000;border-width: 0 0 1px;}
+@media (min-width: 768px) {.mkdf-page .navbar-static-top, .mkdf-meta-box .navbar-static-top {border-radius: 0;}}
+.mkdf-page .navbar-fixed-top, .mkdf-page .navbar-fixed-bottom, .mkdf-meta-box .navbar-fixed-top, .mkdf-meta-box .navbar-fixed-bottom {position: fixed;right: 0;left: 0;z-index: 1030;}
+@media (min-width: 768px) {.mkdf-page .navbar-fixed-top, .mkdf-page .navbar-fixed-bottom, .mkdf-meta-box .navbar-fixed-top, .mkdf-meta-box .navbar-fixed-bottom {border-radius: 0;}}
+.mkdf-page .navbar-fixed-top, .mkdf-meta-box .navbar-fixed-top {top: 0;border-width: 0 0 1px;}
+.mkdf-page .navbar-fixed-bottom, .mkdf-meta-box .navbar-fixed-bottom {bottom: 0;margin-bottom: 0;border-width: 1px 0 0;}
+.mkdf-page .navbar-brand, .mkdf-meta-box .navbar-brand {float: left;padding: 15px 15px;font-size: 18px;line-height: 20px;height: 50px;}
+.mkdf-page .navbar-brand:hover, .mkdf-page .navbar-brand:focus, .mkdf-meta-box .navbar-brand:hover, .mkdf-meta-box .navbar-brand:focus {text-decoration: none;}
+@media (min-width: 768px) {.navbar > .container .mkdf-page .navbar-brand, .navbar > .container-fluid .mkdf-page .navbar-brand, .navbar > .container
+    .mkdf-meta-box .navbar-brand, .navbar > .container-fluid
+    .mkdf-meta-box .navbar-brand {margin-left: -15px;}}
+.mkdf-page .navbar-toggle, .mkdf-meta-box .navbar-toggle {position: relative;float: right;margin-right: 15px;padding: 9px 10px;margin-top: 8px;margin-bottom: 8px;background-color: transparent;background-image: none;border: 1px solid transparent;border-radius: 4px;}
+.mkdf-page .navbar-toggle:focus, .mkdf-meta-box .navbar-toggle:focus {outline: none;}
+.mkdf-page .navbar-toggle .icon-bar, .mkdf-meta-box .navbar-toggle .icon-bar {display: block;width: 22px;height: 2px;border-radius: 1px;}
+.mkdf-page .navbar-toggle .icon-bar + .icon-bar, .mkdf-meta-box .navbar-toggle .icon-bar + .icon-bar {margin-top: 4px;}
+@media (min-width: 768px) {.mkdf-page .navbar-toggle, .mkdf-meta-box .navbar-toggle {display: none;}}
+.mkdf-page .navbar-nav, .mkdf-meta-box .navbar-nav {margin: 7.5px -15px;}
+.mkdf-page .navbar-nav > li > a, .mkdf-meta-box .navbar-nav > li > a {padding-top: 10px;padding-bottom: 10px;line-height: 20px;}
+@media (max-width: 767px) {.mkdf-page .navbar-nav .open .dropdown-menu, .mkdf-meta-box .navbar-nav .open .dropdown-menu {position: static;float: none;width: auto;margin-top: 0;background-color: transparent;border: 0;box-shadow: none;}
+	.mkdf-page .navbar-nav .open .dropdown-menu > li > a, .mkdf-page .navbar-nav .open .dropdown-menu .dropdown-header, .mkdf-meta-box .navbar-nav .open .dropdown-menu > li > a, .mkdf-meta-box .navbar-nav .open .dropdown-menu .dropdown-header {padding: 5px 15px 5px 25px;}
+	.mkdf-page .navbar-nav .open .dropdown-menu > li > a, .mkdf-meta-box .navbar-nav .open .dropdown-menu > li > a {line-height: 20px;}
+	.mkdf-page .navbar-nav .open .dropdown-menu > li > a:hover, .mkdf-page .navbar-nav .open .dropdown-menu > li > a:focus, .mkdf-meta-box .navbar-nav .open .dropdown-menu > li > a:hover, .mkdf-meta-box .navbar-nav .open .dropdown-menu > li > a:focus {background-image: none;}}
+@media (min-width: 768px) {.mkdf-page .navbar-nav, .mkdf-meta-box .navbar-nav {float: left;margin: 0;}
+	.mkdf-page .navbar-nav > li, .mkdf-meta-box .navbar-nav > li {float: left;}
+	.mkdf-page .navbar-nav > li > a, .mkdf-meta-box .navbar-nav > li > a {padding-top: 15px;padding-bottom: 15px;}
+	.mkdf-page .navbar-nav.navbar-right:last-child, .mkdf-meta-box .navbar-nav.navbar-right:last-child {margin-right: -15px;}}
+@media (min-width: 768px) {.mkdf-page .navbar-left, .mkdf-meta-box .navbar-left {float: left !important;}
+	.mkdf-page .navbar-right, .mkdf-meta-box .navbar-right {float: right !important;}}
+.mkdf-page .navbar-form, .mkdf-meta-box .navbar-form {margin-left: -15px;margin-right: -15px;padding: 10px 15px;border-top: 1px solid transparent;border-bottom: 1px solid transparent;-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);margin-top: 8px;margin-bottom: 8px;}
+@media (max-width: 767px) {.mkdf-page .navbar-form .form-group, .mkdf-meta-box .navbar-form .form-group {margin-bottom: 5px;}}
+@media (min-width: 768px) {.mkdf-page .navbar-form, .mkdf-meta-box .navbar-form {width: auto;border: 0;margin-left: 0;margin-right: 0;padding-top: 0;padding-bottom: 0;-webkit-box-shadow: none;box-shadow: none;}
+	.mkdf-page .navbar-form.navbar-right:last-child, .mkdf-meta-box .navbar-form.navbar-right:last-child {margin-right: -15px;}}
+.mkdf-page .navbar-nav > li > .dropdown-menu, .mkdf-meta-box .navbar-nav > li > .dropdown-menu {margin-top: 0;border-top-right-radius: 0;border-top-left-radius: 0;}
+.mkdf-page .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu, .mkdf-meta-box .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {border-bottom-right-radius: 0;border-bottom-left-radius: 0;}
+.mkdf-page .navbar-btn, .mkdf-meta-box .navbar-btn {margin-top: 8px;margin-bottom: 8px;}
+.mkdf-page .navbar-btn.btn-sm, .mkdf-page .btn-group-sm > .navbar-btn.btn, .mkdf-page .mkdf-meta-box .btn-group-sm > .navbar-btn.btn, .mkdf-meta-box .mkdf-page .btn-group-sm > .navbar-btn.btn, .mkdf-meta-box .navbar-btn.btn-sm, .mkdf-meta-box .mkdf-page .btn-group-sm > .navbar-btn.btn, .mkdf-page .mkdf-meta-box .btn-group-sm > .navbar-btn.btn, .mkdf-meta-box .btn-group-sm > .navbar-btn.btn {margin-top: 10px;margin-bottom: 10px;}
+.mkdf-page .navbar-btn.btn-xs, .mkdf-page .btn-group-xs > .navbar-btn.btn, .mkdf-page .mkdf-meta-box .btn-group-xs > .navbar-btn.btn, .mkdf-meta-box .mkdf-page .btn-group-xs > .navbar-btn.btn, .mkdf-meta-box .navbar-btn.btn-xs, .mkdf-meta-box .mkdf-page .btn-group-xs > .navbar-btn.btn, .mkdf-page .mkdf-meta-box .btn-group-xs > .navbar-btn.btn, .mkdf-meta-box .btn-group-xs > .navbar-btn.btn {margin-top: 14px;margin-bottom: 14px;}
+.mkdf-page .navbar-text, .mkdf-meta-box .navbar-text {margin-top: 15px;margin-bottom: 15px;}
+@media (min-width: 768px) {.mkdf-page .navbar-text, .mkdf-meta-box .navbar-text {float: left;margin-left: 15px;margin-right: 15px;}
+	.mkdf-page .navbar-text.navbar-right:last-child, .mkdf-meta-box .navbar-text.navbar-right:last-child {margin-right: 0;}}
+.mkdf-page .navbar-default, .mkdf-meta-box .navbar-default {background-color: #f8f8f8;border-color: #e7e7e7;}
+.mkdf-page .navbar-default .navbar-brand, .mkdf-meta-box .navbar-default .navbar-brand {color: #777;}
+.mkdf-page .navbar-default .navbar-brand:hover, .mkdf-page .navbar-default .navbar-brand:focus, .mkdf-meta-box .navbar-default .navbar-brand:hover, .mkdf-meta-box .navbar-default .navbar-brand:focus {color: #5e5e5e;background-color: transparent;}
+.mkdf-page .navbar-default .navbar-text, .mkdf-meta-box .navbar-default .navbar-text {color: #777;}
+.mkdf-page .navbar-default .navbar-nav > li > a, .mkdf-meta-box .navbar-default .navbar-nav > li > a {color: #777;}
+.mkdf-page .navbar-default .navbar-nav > li > a:hover, .mkdf-page .navbar-default .navbar-nav > li > a:focus, .mkdf-meta-box .navbar-default .navbar-nav > li > a:hover, .mkdf-meta-box .navbar-default .navbar-nav > li > a:focus {color: #333;background-color: transparent;}
+.mkdf-page .navbar-default .navbar-nav > .active > a, .mkdf-page .navbar-default .navbar-nav > .active > a:hover, .mkdf-page .navbar-default .navbar-nav > .active > a:focus, .mkdf-meta-box .navbar-default .navbar-nav > .active > a, .mkdf-meta-box .navbar-default .navbar-nav > .active > a:hover, .mkdf-meta-box .navbar-default .navbar-nav > .active > a:focus {color: #555;background-color: #e7e7e7;}
+.mkdf-page .navbar-default .navbar-nav > .disabled > a, .mkdf-page .navbar-default .navbar-nav > .disabled > a:hover, .mkdf-page .navbar-default .navbar-nav > .disabled > a:focus, .mkdf-meta-box .navbar-default .navbar-nav > .disabled > a, .mkdf-meta-box .navbar-default .navbar-nav > .disabled > a:hover, .mkdf-meta-box .navbar-default .navbar-nav > .disabled > a:focus {color: #ccc;background-color: transparent;}
+.mkdf-page .navbar-default .navbar-toggle, .mkdf-meta-box .navbar-default .navbar-toggle {border-color: #ddd;}
+.mkdf-page .navbar-default .navbar-toggle:hover, .mkdf-page .navbar-default .navbar-toggle:focus, .mkdf-meta-box .navbar-default .navbar-toggle:hover, .mkdf-meta-box .navbar-default .navbar-toggle:focus {background-color: #ddd;}
+.mkdf-page .navbar-default .navbar-toggle .icon-bar, .mkdf-meta-box .navbar-default .navbar-toggle .icon-bar {background-color: #888;}
+.mkdf-page .navbar-default .navbar-collapse, .mkdf-page .navbar-default .navbar-form, .mkdf-meta-box .navbar-default .navbar-collapse, .mkdf-meta-box .navbar-default .navbar-form {border-color: #e7e7e7;}
+.mkdf-page .navbar-default .navbar-nav > .open > a, .mkdf-page .navbar-default .navbar-nav > .open > a:hover, .mkdf-page .navbar-default .navbar-nav > .open > a:focus, .mkdf-meta-box .navbar-default .navbar-nav > .open > a, .mkdf-meta-box .navbar-default .navbar-nav > .open > a:hover, .mkdf-meta-box .navbar-default .navbar-nav > .open > a:focus {background-color: #e7e7e7;color: #555;}
+@media (max-width: 767px) {.mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > li > a, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > li > a {color: #777;}
+	.mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {color: #333;background-color: transparent;}
+	.mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {color: #555;background-color: #e7e7e7;}
+	.mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .mkdf-page .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .mkdf-meta-box .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {color: #ccc;background-color: transparent;}}
+.mkdf-page .navbar-default .navbar-link, .mkdf-meta-box .navbar-default .navbar-link {color: #777;}
+.mkdf-page .navbar-default .navbar-link:hover, .mkdf-meta-box .navbar-default .navbar-link:hover {color: #333;}
+.mkdf-page .navbar-inverse, .mkdf-meta-box .navbar-inverse {background-color: #222;border-color: #090909;}
+.mkdf-page .navbar-inverse .navbar-brand, .mkdf-meta-box .navbar-inverse .navbar-brand {color: #999;}
+.mkdf-page .navbar-inverse .navbar-brand:hover, .mkdf-page .navbar-inverse .navbar-brand:focus, .mkdf-meta-box .navbar-inverse .navbar-brand:hover, .mkdf-meta-box .navbar-inverse .navbar-brand:focus {color: white;background-color: transparent;}
+.mkdf-page .navbar-inverse .navbar-text, .mkdf-meta-box .navbar-inverse .navbar-text {color: #999;}
+.mkdf-page .navbar-inverse .navbar-nav > li > a, .mkdf-meta-box .navbar-inverse .navbar-nav > li > a {color: #999;}
+.mkdf-page .navbar-inverse .navbar-nav > li > a:hover, .mkdf-page .navbar-inverse .navbar-nav > li > a:focus, .mkdf-meta-box .navbar-inverse .navbar-nav > li > a:hover, .mkdf-meta-box .navbar-inverse .navbar-nav > li > a:focus {color: white;background-color: transparent;}
+.mkdf-page .navbar-inverse .navbar-nav > .active > a, .mkdf-page .navbar-inverse .navbar-nav > .active > a:hover, .mkdf-page .navbar-inverse .navbar-nav > .active > a:focus, .mkdf-meta-box .navbar-inverse .navbar-nav > .active > a, .mkdf-meta-box .navbar-inverse .navbar-nav > .active > a:hover, .mkdf-meta-box .navbar-inverse .navbar-nav > .active > a:focus {color: white;background-color: #090909;}
+.mkdf-page .navbar-inverse .navbar-nav > .disabled > a, .mkdf-page .navbar-inverse .navbar-nav > .disabled > a:hover, .mkdf-page .navbar-inverse .navbar-nav > .disabled > a:focus, .mkdf-meta-box .navbar-inverse .navbar-nav > .disabled > a, .mkdf-meta-box .navbar-inverse .navbar-nav > .disabled > a:hover, .mkdf-meta-box .navbar-inverse .navbar-nav > .disabled > a:focus {color: #444;background-color: transparent;}
+.mkdf-page .navbar-inverse .navbar-toggle, .mkdf-meta-box .navbar-inverse .navbar-toggle {border-color: #333;}
+.mkdf-page .navbar-inverse .navbar-toggle:hover, .mkdf-page .navbar-inverse .navbar-toggle:focus, .mkdf-meta-box .navbar-inverse .navbar-toggle:hover, .mkdf-meta-box .navbar-inverse .navbar-toggle:focus {background-color: #333;}
+.mkdf-page .navbar-inverse .navbar-toggle .icon-bar, .mkdf-meta-box .navbar-inverse .navbar-toggle .icon-bar {background-color: white;}
+.mkdf-page .navbar-inverse .navbar-collapse, .mkdf-page .navbar-inverse .navbar-form, .mkdf-meta-box .navbar-inverse .navbar-collapse, .mkdf-meta-box .navbar-inverse .navbar-form {border-color: #101010;}
+.mkdf-page .navbar-inverse .navbar-nav > .open > a, .mkdf-page .navbar-inverse .navbar-nav > .open > a:hover, .mkdf-page .navbar-inverse .navbar-nav > .open > a:focus, .mkdf-meta-box .navbar-inverse .navbar-nav > .open > a, .mkdf-meta-box .navbar-inverse .navbar-nav > .open > a:hover, .mkdf-meta-box .navbar-inverse .navbar-nav > .open > a:focus {background-color: #090909;color: white;}
+@media (max-width: 767px) {.mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {border-color: #090909;}
+	.mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu .divider, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu .divider {background-color: #090909;}
+	.mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {color: #999;}
+	.mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {color: white;background-color: transparent;}
+	.mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {color: white;background-color: #090909;}
+	.mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .mkdf-page .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .mkdf-meta-box .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {color: #444;background-color: transparent;}}
+.mkdf-page .navbar-inverse .navbar-link, .mkdf-meta-box .navbar-inverse .navbar-link {color: #999;}
+.mkdf-page .navbar-inverse .navbar-link:hover, .mkdf-meta-box .navbar-inverse .navbar-link:hover {color: white;}
+.mkdf-page .breadcrumb, .mkdf-meta-box .breadcrumb {padding: 8px 15px;margin-bottom: 20px;list-style: none;background-color: whitesmoke;border-radius: 4px;}
+.mkdf-page .breadcrumb > li, .mkdf-meta-box .breadcrumb > li {display: inline-block;}
+.mkdf-page .breadcrumb > li + li:before, .mkdf-meta-box .breadcrumb > li + li:before {content: "/ ";padding: 0 5px;color: #ccc;}
+.mkdf-page .breadcrumb > .active, .mkdf-meta-box .breadcrumb > .active {color: #999;}
+.mkdf-page .pagination, .mkdf-meta-box .pagination {display: inline-block;padding-left: 0;margin: 20px 0;border-radius: 4px;}
+.mkdf-page .pagination > li, .mkdf-meta-box .pagination > li {display: inline;}
+.mkdf-page .pagination > li > a, .mkdf-page .pagination > li > span, .mkdf-meta-box .pagination > li > a, .mkdf-meta-box .pagination > li > span {position: relative;float: left;padding: 6px 12px;line-height: 1.42857;text-decoration: none;color: #428bca;background-color: white;border: 1px solid #ddd;margin-left: -1px;}
+.mkdf-page .pagination > li:first-child > a, .mkdf-page .pagination > li:first-child > span, .mkdf-meta-box .pagination > li:first-child > a, .mkdf-meta-box .pagination > li:first-child > span {margin-left: 0;border-bottom-left-radius: 4px;border-top-left-radius: 4px;}
+.mkdf-page .pagination > li:last-child > a, .mkdf-page .pagination > li:last-child > span, .mkdf-meta-box .pagination > li:last-child > a, .mkdf-meta-box .pagination > li:last-child > span {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}
+.mkdf-page .pagination > li > a:hover, .mkdf-page .pagination > li > a:focus, .mkdf-page .pagination > li > span:hover, .mkdf-page .pagination > li > span:focus, .mkdf-meta-box .pagination > li > a:hover, .mkdf-meta-box .pagination > li > a:focus, .mkdf-meta-box .pagination > li > span:hover, .mkdf-meta-box .pagination > li > span:focus {color: #2a6496;background-color: #eee;border-color: #ddd;}
+.mkdf-page .pagination > .active > a, .mkdf-page .pagination > .active > a:hover, .mkdf-page .pagination > .active > a:focus, .mkdf-page .pagination > .active > span, .mkdf-page .pagination > .active > span:hover, .mkdf-page .pagination > .active > span:focus, .mkdf-meta-box .pagination > .active > a, .mkdf-meta-box .pagination > .active > a:hover, .mkdf-meta-box .pagination > .active > a:focus, .mkdf-meta-box .pagination > .active > span, .mkdf-meta-box .pagination > .active > span:hover, .mkdf-meta-box .pagination > .active > span:focus {z-index: 2;color: white;background-color: #428bca;border-color: #428bca;cursor: default;}
+.mkdf-page .pagination > .disabled > span, .mkdf-page .pagination > .disabled > span:hover, .mkdf-page .pagination > .disabled > span:focus, .mkdf-page .pagination > .disabled > a, .mkdf-page .pagination > .disabled > a:hover, .mkdf-page .pagination > .disabled > a:focus, .mkdf-meta-box .pagination > .disabled > span, .mkdf-meta-box .pagination > .disabled > span:hover, .mkdf-meta-box .pagination > .disabled > span:focus, .mkdf-meta-box .pagination > .disabled > a, .mkdf-meta-box .pagination > .disabled > a:hover, .mkdf-meta-box .pagination > .disabled > a:focus {color: #999;background-color: white;border-color: #ddd;cursor: not-allowed;}
+.mkdf-page .pagination-lg > li > a, .mkdf-page .pagination-lg > li > span, .mkdf-meta-box .pagination-lg > li > a, .mkdf-meta-box .pagination-lg > li > span {padding: 10px 16px;font-size: 18px;}
+.mkdf-page .pagination-lg > li:first-child > a, .mkdf-page .pagination-lg > li:first-child > span, .mkdf-meta-box .pagination-lg > li:first-child > a, .mkdf-meta-box .pagination-lg > li:first-child > span {border-bottom-left-radius: 6px;border-top-left-radius: 6px;}
+.mkdf-page .pagination-lg > li:last-child > a, .mkdf-page .pagination-lg > li:last-child > span, .mkdf-meta-box .pagination-lg > li:last-child > a, .mkdf-meta-box .pagination-lg > li:last-child > span {border-bottom-right-radius: 6px;border-top-right-radius: 6px;}
+.mkdf-page .pagination-sm > li > a, .mkdf-page .pagination-sm > li > span, .mkdf-meta-box .pagination-sm > li > a, .mkdf-meta-box .pagination-sm > li > span {padding: 5px 10px;font-size: 12px;}
+.mkdf-page .pagination-sm > li:first-child > a, .mkdf-page .pagination-sm > li:first-child > span, .mkdf-meta-box .pagination-sm > li:first-child > a, .mkdf-meta-box .pagination-sm > li:first-child > span {border-bottom-left-radius: 3px;border-top-left-radius: 3px;}
+.mkdf-page .pagination-sm > li:last-child > a, .mkdf-page .pagination-sm > li:last-child > span, .mkdf-meta-box .pagination-sm > li:last-child > a, .mkdf-meta-box .pagination-sm > li:last-child > span {border-bottom-right-radius: 3px;border-top-right-radius: 3px;}
+.mkdf-page .pager, .mkdf-meta-box .pager {padding-left: 0;margin: 20px 0;list-style: none;text-align: center;}
+.mkdf-page .pager:before, .mkdf-page .pager:after, .mkdf-meta-box .pager:before, .mkdf-meta-box .pager:after {content: " ";display: table;}
+.mkdf-page .pager:after, .mkdf-meta-box .pager:after {clear: both;}
+.mkdf-page .pager li, .mkdf-meta-box .pager li {display: inline;}
+.mkdf-page .pager li > a, .mkdf-page .pager li > span, .mkdf-meta-box .pager li > a, .mkdf-meta-box .pager li > span {display: inline-block;padding: 5px 14px;background-color: white;border: 1px solid #ddd;border-radius: 15px;}
+.mkdf-page .pager li > a:hover, .mkdf-page .pager li > a:focus, .mkdf-meta-box .pager li > a:hover, .mkdf-meta-box .pager li > a:focus {text-decoration: none;background-color: #eee;}
+.mkdf-page .pager .next > a, .mkdf-page .pager .next > span, .mkdf-meta-box .pager .next > a, .mkdf-meta-box .pager .next > span {float: right;}
+.mkdf-page .pager .previous > a, .mkdf-page .pager .previous > span, .mkdf-meta-box .pager .previous > a, .mkdf-meta-box .pager .previous > span {float: left;}
+.mkdf-page .pager .disabled > a, .mkdf-page .pager .disabled > a:hover, .mkdf-page .pager .disabled > a:focus, .mkdf-page .pager .disabled > span, .mkdf-meta-box .pager .disabled > a, .mkdf-meta-box .pager .disabled > a:hover, .mkdf-meta-box .pager .disabled > a:focus, .mkdf-meta-box .pager .disabled > span {color: #999;background-color: white;cursor: not-allowed;}
+.mkdf-page .label, .mkdf-meta-box .label {display: inline;padding: .2em .6em .3em;font-size: 75%;font-weight: bold;line-height: 1;color: white;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;}
+.mkdf-page .label[href]:hover, .mkdf-page .label[href]:focus, .mkdf-meta-box .label[href]:hover, .mkdf-meta-box .label[href]:focus {color: white;text-decoration: none;cursor: pointer;}
+.mkdf-page .label:empty, .mkdf-meta-box .label:empty {display: none;}
+.btn .mkdf-page .label, .btn
+.mkdf-meta-box .label {position: relative;top: -1px;}
+.mkdf-page .label-default, .mkdf-meta-box .label-default {background-color: #999;}
+.mkdf-page .label-default[href]:hover, .mkdf-page .label-default[href]:focus, .mkdf-meta-box .label-default[href]:hover, .mkdf-meta-box .label-default[href]:focus {background-color: gray;}
+.mkdf-page .label-primary, .mkdf-meta-box .label-primary {background-color: #428bca;}
+.mkdf-page .label-primary[href]:hover, .mkdf-page .label-primary[href]:focus, .mkdf-meta-box .label-primary[href]:hover, .mkdf-meta-box .label-primary[href]:focus {background-color: #3071a9;}
+.mkdf-page .label-success, .mkdf-meta-box .label-success {background-color: #5cb85c;}
+.mkdf-page .label-success[href]:hover, .mkdf-page .label-success[href]:focus, .mkdf-meta-box .label-success[href]:hover, .mkdf-meta-box .label-success[href]:focus {background-color: #449d44;}
+.mkdf-page .label-info, .mkdf-meta-box .label-info {background-color: #5bc0de;}
+.mkdf-page .label-info[href]:hover, .mkdf-page .label-info[href]:focus, .mkdf-meta-box .label-info[href]:hover, .mkdf-meta-box .label-info[href]:focus {background-color: #31b0d5;}
+.mkdf-page .label-warning, .mkdf-meta-box .label-warning {background-color: #f0ad4e;}
+.mkdf-page .label-warning[href]:hover, .mkdf-page .label-warning[href]:focus, .mkdf-meta-box .label-warning[href]:hover, .mkdf-meta-box .label-warning[href]:focus {background-color: #ec971f;}
+.mkdf-page .label-danger, .mkdf-meta-box .label-danger {background-color: #d9534f;}
+.mkdf-page .label-danger[href]:hover, .mkdf-page .label-danger[href]:focus, .mkdf-meta-box .label-danger[href]:hover, .mkdf-meta-box .label-danger[href]:focus {background-color: #c9302c;}
+.mkdf-page .badge, .mkdf-meta-box .badge {display: inline-block;min-width: 10px;padding: 3px 7px;font-size: 12px;font-weight: bold;color: white;line-height: 1;vertical-align: baseline;white-space: nowrap;text-align: center;background-color: #999;border-radius: 10px;}
+.mkdf-page .badge:empty, .mkdf-meta-box .badge:empty {display: none;}
+.btn .mkdf-page .badge, .btn
+.mkdf-meta-box .badge {position: relative;top: -1px;}
+.btn-xs .mkdf-page .badge, .mkdf-page .btn-group-xs > .btn .mkdf-page .badge, .mkdf-meta-box .btn-group-xs > .btn .mkdf-page .badge, .btn-xs
+.mkdf-meta-box .badge, .mkdf-page .btn-group-xs > .btn
+.mkdf-meta-box .badge, .mkdf-meta-box .btn-group-xs > .btn
+.mkdf-meta-box .badge {top: 0;padding: 1px 5px;}
+.mkdf-page a.badge:hover, .mkdf-page a.badge:focus, .mkdf-meta-box a.badge:hover, .mkdf-meta-box a.badge:focus {color: white;text-decoration: none;cursor: pointer;}
+.mkdf-page a.list-group-item.active > .badge, .mkdf-page .nav-pills > .active > a > .badge, .mkdf-meta-box a.list-group-item.active > .badge, .mkdf-meta-box .nav-pills > .active > a > .badge {color: #428bca;background-color: white;}
+.mkdf-page .nav-pills > li > a > .badge, .mkdf-meta-box .nav-pills > li > a > .badge {margin-left: 3px;}
+.mkdf-page .jumbotron, .mkdf-meta-box .jumbotron {padding: 30px;margin-bottom: 30px;color: inherit;background-color: #eee;}
+.mkdf-page .jumbotron h1, .mkdf-page .jumbotron .h1, .mkdf-meta-box .jumbotron h1, .mkdf-meta-box .jumbotron .h1 {color: inherit;}
+.mkdf-page .jumbotron p, .mkdf-meta-box .jumbotron p {margin-bottom: 15px;font-size: 21px;font-weight: 200;}
+.container .mkdf-page .jumbotron, .container
+.mkdf-meta-box .jumbotron {border-radius: 6px;}
+.mkdf-page .jumbotron .container, .mkdf-meta-box .jumbotron .container {max-width: 100%;}
+@media screen and (min-width: 768px) {.mkdf-page .jumbotron, .mkdf-meta-box .jumbotron {padding-top: 48px;padding-bottom: 48px;}
+	.container .mkdf-page .jumbotron, .container
+    .mkdf-meta-box .jumbotron {padding-left: 60px;padding-right: 60px;}
+	.mkdf-page .jumbotron h1, .mkdf-page .jumbotron .h1, .mkdf-meta-box .jumbotron h1, .mkdf-meta-box .jumbotron .h1 {font-size: 63px;}}
+.mkdf-page .thumbnail, .mkdf-meta-box .thumbnail {display: block;padding: 4px;margin-bottom: 20px;line-height: 1.42857;background-color: white;border: 1px solid #ddd;border-radius: 4px;-webkit-transition: all .2s ease-in-out;transition: all .2s ease-in-out;}
+.mkdf-page .thumbnail > img, .mkdf-page .thumbnail a > img, .mkdf-meta-box .thumbnail > img, .mkdf-meta-box .thumbnail a > img {display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;}
+.mkdf-page .thumbnail .caption, .mkdf-meta-box .thumbnail .caption {padding: 9px;color: #333;}
+.mkdf-page a.thumbnail:hover, .mkdf-page a.thumbnail:focus, .mkdf-page a.thumbnail.active, .mkdf-meta-box a.thumbnail:hover, .mkdf-meta-box a.thumbnail:focus, .mkdf-meta-box a.thumbnail.active {border-color: #428bca;}
+.mkdf-page .alert, .mkdf-meta-box .alert {padding: 15px;margin-bottom: 20px;border: 1px solid transparent;border-radius: 4px;}
+.mkdf-page .alert h4, .mkdf-meta-box .alert h4 {margin-top: 0;color: inherit;}
+.mkdf-page .alert .alert-link, .mkdf-meta-box .alert .alert-link {font-weight: bold;}
+.mkdf-page .alert > p, .mkdf-page .alert > ul, .mkdf-meta-box .alert > p, .mkdf-meta-box .alert > ul {margin-bottom: 0;}
+.mkdf-page .alert > p + p, .mkdf-meta-box .alert > p + p {margin-top: 5px;}
+.mkdf-page .alert-dismissable, .mkdf-meta-box .alert-dismissable {padding-right: 35px;}
+.mkdf-page .alert-dismissable .close, .mkdf-meta-box .alert-dismissable .close {position: relative;top: -2px;right: -21px;color: inherit;}
+.mkdf-page .alert-success, .mkdf-meta-box .alert-success {background-color: #dff0d8;border-color: #d6e9c6;color: #3c763d;}
+.mkdf-page .alert-success hr, .mkdf-meta-box .alert-success hr {border-top-color: #c9e2b3;}
+.mkdf-page .alert-success .alert-link, .mkdf-meta-box .alert-success .alert-link {color: #2b542c;}
+.mkdf-page .alert-info, .mkdf-meta-box .alert-info {background-color: #d9edf7;border-color: #bce8f1;color: #31708f;}
+.mkdf-page .alert-info hr, .mkdf-meta-box .alert-info hr {border-top-color: #a6e1ec;}
+.mkdf-page .alert-info .alert-link, .mkdf-meta-box .alert-info .alert-link {color: #245269;}
+.mkdf-page .alert-warning, .mkdf-meta-box .alert-warning {background-color: #fcf8e3;border-color: #faebcc;color: #8a6d3b;}
+.mkdf-page .alert-warning hr, .mkdf-meta-box .alert-warning hr {border-top-color: #f7e1b5;}
+.mkdf-page .alert-warning .alert-link, .mkdf-meta-box .alert-warning .alert-link {color: #66512c;}
+.mkdf-page .alert-danger, .mkdf-meta-box .alert-danger {background-color: #f2dede;border-color: #ebccd1;color: #a94442;}
+.mkdf-page .alert-danger hr, .mkdf-meta-box .alert-danger hr {border-top-color: #e4b9c0;}
+.mkdf-page .alert-danger .alert-link, .mkdf-meta-box .alert-danger .alert-link {color: #843534;}
+.mkdf-page .media, .mkdf-page .media-body, .mkdf-meta-box .media, .mkdf-meta-box .media-body {overflow: hidden;zoom: 1;}
+.mkdf-page .media, .mkdf-page .media .media, .mkdf-meta-box .media, .mkdf-meta-box .media .media {margin-top: 15px;}
+.mkdf-page .media:first-child, .mkdf-meta-box .media:first-child {margin-top: 0;}
+.mkdf-page .media-object, .mkdf-meta-box .media-object {display: block;}
+.mkdf-page .media-heading, .mkdf-meta-box .media-heading {margin: 0 0 5px;}
+.mkdf-page .media > .pull-left, .mkdf-meta-box .media > .pull-left {margin-right: 10px;}
+.mkdf-page .media > .pull-right, .mkdf-meta-box .media > .pull-right {margin-left: 10px;}
+.mkdf-page .media-list, .mkdf-meta-box .media-list {padding-left: 0;list-style: none;}
+.mkdf-page .list-group, .mkdf-meta-box .list-group {margin-bottom: 20px;padding-left: 0;}
+.mkdf-page .list-group-item, .mkdf-meta-box .list-group-item {position: relative;display: block;padding: 10px 15px;margin-bottom: -1px;background-color: white;border: 1px solid #ddd;}
+.mkdf-page .list-group-item:first-child, .mkdf-meta-box .list-group-item:first-child {border-top-right-radius: 4px;border-top-left-radius: 4px;}
+.mkdf-page .list-group-item:last-child, .mkdf-meta-box .list-group-item:last-child {margin-bottom: 0;border-bottom-right-radius: 4px;border-bottom-left-radius: 4px;}
+.mkdf-page .list-group-item > .badge, .mkdf-meta-box .list-group-item > .badge {float: right;}
+.mkdf-page .list-group-item > .badge + .badge, .mkdf-meta-box .list-group-item > .badge + .badge {margin-right: 5px;}
+.mkdf-page a.list-group-item, .mkdf-meta-box a.list-group-item {color: #555;}
+.mkdf-page a.list-group-item .list-group-item-heading, .mkdf-meta-box a.list-group-item .list-group-item-heading {color: #333;}
+.mkdf-page a.list-group-item:hover, .mkdf-page a.list-group-item:focus, .mkdf-meta-box a.list-group-item:hover, .mkdf-meta-box a.list-group-item:focus {text-decoration: none;background-color: whitesmoke;}
+.mkdf-page a.list-group-item.active, .mkdf-page a.list-group-item.active:hover, .mkdf-page a.list-group-item.active:focus, .mkdf-meta-box a.list-group-item.active, .mkdf-meta-box a.list-group-item.active:hover, .mkdf-meta-box a.list-group-item.active:focus {z-index: 2;color: white;background-color: #428bca;border-color: #428bca;}
+.mkdf-page a.list-group-item.active .list-group-item-heading, .mkdf-page a.list-group-item.active:hover .list-group-item-heading, .mkdf-page a.list-group-item.active:focus .list-group-item-heading, .mkdf-meta-box a.list-group-item.active .list-group-item-heading, .mkdf-meta-box a.list-group-item.active:hover .list-group-item-heading, .mkdf-meta-box a.list-group-item.active:focus .list-group-item-heading {color: inherit;}
+.mkdf-page a.list-group-item.active .list-group-item-text, .mkdf-page a.list-group-item.active:hover .list-group-item-text, .mkdf-page a.list-group-item.active:focus .list-group-item-text, .mkdf-meta-box a.list-group-item.active .list-group-item-text, .mkdf-meta-box a.list-group-item.active:hover .list-group-item-text, .mkdf-meta-box a.list-group-item.active:focus .list-group-item-text {color: #e1edf7;}
+.mkdf-page .list-group-item-success, .mkdf-meta-box .list-group-item-success {color: #3c763d;background-color: #dff0d8;}
+.mkdf-page a.list-group-item-success, .mkdf-meta-box a.list-group-item-success {color: #3c763d;}
+.mkdf-page a.list-group-item-success .list-group-item-heading, .mkdf-meta-box a.list-group-item-success .list-group-item-heading {color: inherit;}
+.mkdf-page a.list-group-item-success:hover, .mkdf-page a.list-group-item-success:focus, .mkdf-meta-box a.list-group-item-success:hover, .mkdf-meta-box a.list-group-item-success:focus {color: #3c763d;background-color: #d0e9c6;}
+.mkdf-page a.list-group-item-success.active, .mkdf-page a.list-group-item-success.active:hover, .mkdf-page a.list-group-item-success.active:focus, .mkdf-meta-box a.list-group-item-success.active, .mkdf-meta-box a.list-group-item-success.active:hover, .mkdf-meta-box a.list-group-item-success.active:focus {color: #fff;background-color: #3c763d;border-color: #3c763d;}
+.mkdf-page .list-group-item-info, .mkdf-meta-box .list-group-item-info {color: #31708f;background-color: #d9edf7;}
+.mkdf-page a.list-group-item-info, .mkdf-meta-box a.list-group-item-info {color: #31708f;}
+.mkdf-page a.list-group-item-info .list-group-item-heading, .mkdf-meta-box a.list-group-item-info .list-group-item-heading {color: inherit;}
+.mkdf-page a.list-group-item-info:hover, .mkdf-page a.list-group-item-info:focus, .mkdf-meta-box a.list-group-item-info:hover, .mkdf-meta-box a.list-group-item-info:focus {color: #31708f;background-color: #c4e3f3;}
+.mkdf-page a.list-group-item-info.active, .mkdf-page a.list-group-item-info.active:hover, .mkdf-page a.list-group-item-info.active:focus, .mkdf-meta-box a.list-group-item-info.active, .mkdf-meta-box a.list-group-item-info.active:hover, .mkdf-meta-box a.list-group-item-info.active:focus {color: #fff;background-color: #31708f;border-color: #31708f;}
+.mkdf-page .list-group-item-warning, .mkdf-meta-box .list-group-item-warning {color: #8a6d3b;background-color: #fcf8e3;}
+.mkdf-page a.list-group-item-warning, .mkdf-meta-box a.list-group-item-warning {color: #8a6d3b;}
+.mkdf-page a.list-group-item-warning .list-group-item-heading, .mkdf-meta-box a.list-group-item-warning .list-group-item-heading {color: inherit;}
+.mkdf-page a.list-group-item-warning:hover, .mkdf-page a.list-group-item-warning:focus, .mkdf-meta-box a.list-group-item-warning:hover, .mkdf-meta-box a.list-group-item-warning:focus {color: #8a6d3b;background-color: #faf2cc;}
+.mkdf-page a.list-group-item-warning.active, .mkdf-page a.list-group-item-warning.active:hover, .mkdf-page a.list-group-item-warning.active:focus, .mkdf-meta-box a.list-group-item-warning.active, .mkdf-meta-box a.list-group-item-warning.active:hover, .mkdf-meta-box a.list-group-item-warning.active:focus {color: #fff;background-color: #8a6d3b;border-color: #8a6d3b;}
+.mkdf-page .list-group-item-danger, .mkdf-meta-box .list-group-item-danger {color: #a94442;background-color: #f2dede;}
+.mkdf-page a.list-group-item-danger, .mkdf-meta-box a.list-group-item-danger {color: #a94442;}
+.mkdf-page a.list-group-item-danger .list-group-item-heading, .mkdf-meta-box a.list-group-item-danger .list-group-item-heading {color: inherit;}
+.mkdf-page a.list-group-item-danger:hover, .mkdf-page a.list-group-item-danger:focus, .mkdf-meta-box a.list-group-item-danger:hover, .mkdf-meta-box a.list-group-item-danger:focus {color: #a94442;background-color: #ebcccc;}
+.mkdf-page a.list-group-item-danger.active, .mkdf-page a.list-group-item-danger.active:hover, .mkdf-page a.list-group-item-danger.active:focus, .mkdf-meta-box a.list-group-item-danger.active, .mkdf-meta-box a.list-group-item-danger.active:hover, .mkdf-meta-box a.list-group-item-danger.active:focus {color: #fff;background-color: #a94442;border-color: #a94442;}
+.mkdf-page .list-group-item-heading, .mkdf-meta-box .list-group-item-heading {margin-top: 0;margin-bottom: 5px;}
+.mkdf-page .list-group-item-text, .mkdf-meta-box .list-group-item-text {margin-bottom: 0;line-height: 1.3;}
+.mkdf-page .panel, .mkdf-meta-box .panel {margin-bottom: 20px;background-color: white;border: 1px solid transparent;border-radius: 4px;-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);box-shadow: 0 1px 1px rgba(0,0,0,.05);}
+.mkdf-page .panel-body, .mkdf-meta-box .panel-body {padding: 15px;}
+.mkdf-page .panel-body:before, .mkdf-page .panel-body:after, .mkdf-meta-box .panel-body:before, .mkdf-meta-box .panel-body:after {content: " ";display: table;}
+.mkdf-page .panel-body:after, .mkdf-meta-box .panel-body:after {clear: both;}
+.mkdf-page .panel-heading, .mkdf-meta-box .panel-heading {padding: 10px 15px;border-bottom: 1px solid transparent;border-top-right-radius: 3px;border-top-left-radius: 3px;}
+.mkdf-page .panel-heading > .dropdown .dropdown-toggle, .mkdf-meta-box .panel-heading > .dropdown .dropdown-toggle {color: inherit;}
+.mkdf-page .panel-title, .mkdf-meta-box .panel-title {margin-top: 0;margin-bottom: 0;font-size: 16px;color: inherit;}
+.mkdf-page .panel-title > a, .mkdf-meta-box .panel-title > a {color: inherit;}
+.mkdf-page .panel-footer, .mkdf-meta-box .panel-footer {padding: 10px 15px;background-color: whitesmoke;border-top: 1px solid #ddd;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;}
+.mkdf-page .panel > .list-group, .mkdf-meta-box .panel > .list-group {margin-bottom: 0;}
+.mkdf-page .panel > .list-group .list-group-item, .mkdf-meta-box .panel > .list-group .list-group-item {border-width: 1px 0;border-radius: 0;}
+.mkdf-page .panel > .list-group:first-child .list-group-item:first-child, .mkdf-meta-box .panel > .list-group:first-child .list-group-item:first-child {border-top: 0;border-top-right-radius: 3px;border-top-left-radius: 3px;}
+.mkdf-page .panel > .list-group:last-child .list-group-item:last-child, .mkdf-meta-box .panel > .list-group:last-child .list-group-item:last-child {border-bottom: 0;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;}
+.mkdf-page .panel-heading + .list-group .list-group-item:first-child, .mkdf-meta-box .panel-heading + .list-group .list-group-item:first-child {border-top-width: 0;}
+.mkdf-page .panel > .table, .mkdf-page .panel > .table-responsive > .table, .mkdf-meta-box .panel > .table, .mkdf-meta-box .panel > .table-responsive > .table {margin-bottom: 0;}
+.mkdf-page .panel > .table:first-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child, .mkdf-meta-box .panel > .table:first-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child {border-top-right-radius: 3px;border-top-left-radius: 3px;}
+.mkdf-page .panel > .table:first-child > thead:first-child > tr:first-child td:first-child, .mkdf-page .panel > .table:first-child > thead:first-child > tr:first-child th:first-child, .mkdf-page .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child, .mkdf-page .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child, .mkdf-meta-box .panel > .table:first-child > thead:first-child > tr:first-child td:first-child, .mkdf-meta-box .panel > .table:first-child > thead:first-child > tr:first-child th:first-child, .mkdf-meta-box .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child, .mkdf-meta-box .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {border-top-left-radius: 3px;}
+.mkdf-page .panel > .table:first-child > thead:first-child > tr:first-child td:last-child, .mkdf-page .panel > .table:first-child > thead:first-child > tr:first-child th:last-child, .mkdf-page .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child, .mkdf-page .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child, .mkdf-page .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child, .mkdf-meta-box .panel > .table:first-child > thead:first-child > tr:first-child td:last-child, .mkdf-meta-box .panel > .table:first-child > thead:first-child > tr:first-child th:last-child, .mkdf-meta-box .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child, .mkdf-meta-box .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child, .mkdf-meta-box .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {border-top-right-radius: 3px;}
+.mkdf-page .panel > .table:last-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child, .mkdf-meta-box .panel > .table:last-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child {border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;}
+.mkdf-page .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child, .mkdf-page .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child, .mkdf-page .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .mkdf-page .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child, .mkdf-meta-box .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child, .mkdf-meta-box .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child, .mkdf-meta-box .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .mkdf-meta-box .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {border-bottom-left-radius: 3px;}
+.mkdf-page .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child, .mkdf-page .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child, .mkdf-page .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .mkdf-page .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .mkdf-page .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child, .mkdf-meta-box .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child, .mkdf-meta-box .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child, .mkdf-meta-box .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .mkdf-meta-box .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .mkdf-meta-box .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {border-bottom-right-radius: 3px;}
+.mkdf-page .panel > .panel-body + .table, .mkdf-page .panel > .panel-body + .table-responsive, .mkdf-meta-box .panel > .panel-body + .table, .mkdf-meta-box .panel > .panel-body + .table-responsive {border-top: 1px solid #ddd;}
+.mkdf-page .panel > .table > tbody:first-child > tr:first-child th, .mkdf-page .panel > .table > tbody:first-child > tr:first-child td, .mkdf-meta-box .panel > .table > tbody:first-child > tr:first-child th, .mkdf-meta-box .panel > .table > tbody:first-child > tr:first-child td {border-top: 0;}
+.mkdf-page .panel > .table-bordered, .mkdf-page .panel > .table-responsive > .table-bordered, .mkdf-meta-box .panel > .table-bordered, .mkdf-meta-box .panel > .table-responsive > .table-bordered {border: 0;}
+.mkdf-page .panel > .table-bordered > thead > tr > th:first-child, .mkdf-page .panel > .table-bordered > thead > tr > td:first-child, .mkdf-page .panel > .table-bordered > tbody > tr > th:first-child, .mkdf-page .panel > .table-bordered > tbody > tr > td:first-child, .mkdf-page .panel > .table-bordered > tfoot > tr > th:first-child, .mkdf-page .panel > .table-bordered > tfoot > tr > td:first-child, .mkdf-page .panel > .table-responsive > .table-bordered > thead > tr > th:first-child, .mkdf-page .panel > .table-responsive > .table-bordered > thead > tr > td:first-child, .mkdf-page .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child, .mkdf-page .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child, .mkdf-page .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child, .mkdf-page .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child, .mkdf-meta-box .panel > .table-bordered > thead > tr > th:first-child, .mkdf-meta-box .panel > .table-bordered > thead > tr > td:first-child, .mkdf-meta-box .panel > .table-bordered > tbody > tr > th:first-child, .mkdf-meta-box .panel > .table-bordered > tbody > tr > td:first-child, .mkdf-meta-box .panel > .table-bordered > tfoot > tr > th:first-child, .mkdf-meta-box .panel > .table-bordered > tfoot > tr > td:first-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > thead > tr > th:first-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > thead > tr > td:first-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {border-left: 0;}
+.mkdf-page .panel > .table-bordered > thead > tr > th:last-child, .mkdf-page .panel > .table-bordered > thead > tr > td:last-child, .mkdf-page .panel > .table-bordered > tbody > tr > th:last-child, .mkdf-page .panel > .table-bordered > tbody > tr > td:last-child, .mkdf-page .panel > .table-bordered > tfoot > tr > th:last-child, .mkdf-page .panel > .table-bordered > tfoot > tr > td:last-child, .mkdf-page .panel > .table-responsive > .table-bordered > thead > tr > th:last-child, .mkdf-page .panel > .table-responsive > .table-bordered > thead > tr > td:last-child, .mkdf-page .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child, .mkdf-page .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child, .mkdf-page .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child, .mkdf-page .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child, .mkdf-meta-box .panel > .table-bordered > thead > tr > th:last-child, .mkdf-meta-box .panel > .table-bordered > thead > tr > td:last-child, .mkdf-meta-box .panel > .table-bordered > tbody > tr > th:last-child, .mkdf-meta-box .panel > .table-bordered > tbody > tr > td:last-child, .mkdf-meta-box .panel > .table-bordered > tfoot > tr > th:last-child, .mkdf-meta-box .panel > .table-bordered > tfoot > tr > td:last-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > thead > tr > th:last-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > thead > tr > td:last-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {border-right: 0;}
+.mkdf-page .panel > .table-bordered > thead > tr:first-child > td, .mkdf-page .panel > .table-bordered > thead > tr:first-child > th, .mkdf-page .panel > .table-bordered > tbody > tr:first-child > td, .mkdf-page .panel > .table-bordered > tbody > tr:first-child > th, .mkdf-page .panel > .table-responsive > .table-bordered > thead > tr:first-child > td, .mkdf-page .panel > .table-responsive > .table-bordered > thead > tr:first-child > th, .mkdf-page .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td, .mkdf-page .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th, .mkdf-meta-box .panel > .table-bordered > thead > tr:first-child > td, .mkdf-meta-box .panel > .table-bordered > thead > tr:first-child > th, .mkdf-meta-box .panel > .table-bordered > tbody > tr:first-child > td, .mkdf-meta-box .panel > .table-bordered > tbody > tr:first-child > th, .mkdf-meta-box .panel > .table-responsive > .table-bordered > thead > tr:first-child > td, .mkdf-meta-box .panel > .table-responsive > .table-bordered > thead > tr:first-child > th, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {border-bottom: 0;}
+.mkdf-page .panel > .table-bordered > tbody > tr:last-child > td, .mkdf-page .panel > .table-bordered > tbody > tr:last-child > th, .mkdf-page .panel > .table-bordered > tfoot > tr:last-child > td, .mkdf-page .panel > .table-bordered > tfoot > tr:last-child > th, .mkdf-page .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td, .mkdf-page .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th, .mkdf-page .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td, .mkdf-page .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th, .mkdf-meta-box .panel > .table-bordered > tbody > tr:last-child > td, .mkdf-meta-box .panel > .table-bordered > tbody > tr:last-child > th, .mkdf-meta-box .panel > .table-bordered > tfoot > tr:last-child > td, .mkdf-meta-box .panel > .table-bordered > tfoot > tr:last-child > th, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td, .mkdf-meta-box .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {border-bottom: 0;}
+.mkdf-page .panel > .table-responsive, .mkdf-meta-box .panel > .table-responsive {border: 0;margin-bottom: 0;}
+.mkdf-page .panel-group, .mkdf-meta-box .panel-group {margin-bottom: 20px;}
+.mkdf-page .panel-group .panel, .mkdf-meta-box .panel-group .panel {margin-bottom: 0;border-radius: 4px;overflow: hidden;}
+.mkdf-page .panel-group .panel + .panel, .mkdf-meta-box .panel-group .panel + .panel {margin-top: 5px;}
+.mkdf-page .panel-group .panel-heading, .mkdf-meta-box .panel-group .panel-heading {border-bottom: 0;}
+.mkdf-page .panel-group .panel-heading + .panel-collapse .panel-body, .mkdf-meta-box .panel-group .panel-heading + .panel-collapse .panel-body {border-top: 1px solid #ddd;}
+.mkdf-page .panel-group .panel-footer, .mkdf-meta-box .panel-group .panel-footer {border-top: 0;}
+.mkdf-page .panel-group .panel-footer + .panel-collapse .panel-body, .mkdf-meta-box .panel-group .panel-footer + .panel-collapse .panel-body {border-bottom: 1px solid #ddd;}
+.mkdf-page .panel-default, .mkdf-meta-box .panel-default {border-color: #ddd;}
+.mkdf-page .panel-default > .panel-heading, .mkdf-meta-box .panel-default > .panel-heading {color: #333;background-color: whitesmoke;border-color: #ddd;}
+.mkdf-page .panel-default > .panel-heading + .panel-collapse .panel-body, .mkdf-meta-box .panel-default > .panel-heading + .panel-collapse .panel-body {border-top-color: #ddd;}
+.mkdf-page .panel-default > .panel-footer + .panel-collapse .panel-body, .mkdf-meta-box .panel-default > .panel-footer + .panel-collapse .panel-body {border-bottom-color: #ddd;}
+.mkdf-page .panel-primary, .mkdf-meta-box .panel-primary {border-color: #428bca;}
+.mkdf-page .panel-primary > .panel-heading, .mkdf-meta-box .panel-primary > .panel-heading {color: white;background-color: #428bca;border-color: #428bca;}
+.mkdf-page .panel-primary > .panel-heading + .panel-collapse .panel-body, .mkdf-meta-box .panel-primary > .panel-heading + .panel-collapse .panel-body {border-top-color: #428bca;}
+.mkdf-page .panel-primary > .panel-footer + .panel-collapse .panel-body, .mkdf-meta-box .panel-primary > .panel-footer + .panel-collapse .panel-body {border-bottom-color: #428bca;}
+.mkdf-page .panel-success, .mkdf-meta-box .panel-success {border-color: #d6e9c6;}
+.mkdf-page .panel-success > .panel-heading, .mkdf-meta-box .panel-success > .panel-heading {color: #3c763d;background-color: #dff0d8;border-color: #d6e9c6;}
+.mkdf-page .panel-success > .panel-heading + .panel-collapse .panel-body, .mkdf-meta-box .panel-success > .panel-heading + .panel-collapse .panel-body {border-top-color: #d6e9c6;}
+.mkdf-page .panel-success > .panel-footer + .panel-collapse .panel-body, .mkdf-meta-box .panel-success > .panel-footer + .panel-collapse .panel-body {border-bottom-color: #d6e9c6;}
+.mkdf-page .panel-info, .mkdf-meta-box .panel-info {border-color: #bce8f1;}
+.mkdf-page .panel-info > .panel-heading, .mkdf-meta-box .panel-info > .panel-heading {color: #31708f;background-color: #d9edf7;border-color: #bce8f1;}
+.mkdf-page .panel-info > .panel-heading + .panel-collapse .panel-body, .mkdf-meta-box .panel-info > .panel-heading + .panel-collapse .panel-body {border-top-color: #bce8f1;}
+.mkdf-page .panel-info > .panel-footer + .panel-collapse .panel-body, .mkdf-meta-box .panel-info > .panel-footer + .panel-collapse .panel-body {border-bottom-color: #bce8f1;}
+.mkdf-page .panel-warning, .mkdf-meta-box .panel-warning {border-color: #faebcc;}
+.mkdf-page .panel-warning > .panel-heading, .mkdf-meta-box .panel-warning > .panel-heading {color: #8a6d3b;background-color: #fcf8e3;border-color: #faebcc;}
+.mkdf-page .panel-warning > .panel-heading + .panel-collapse .panel-body, .mkdf-meta-box .panel-warning > .panel-heading + .panel-collapse .panel-body {border-top-color: #faebcc;}
+.mkdf-page .panel-warning > .panel-footer + .panel-collapse .panel-body, .mkdf-meta-box .panel-warning > .panel-footer + .panel-collapse .panel-body {border-bottom-color: #faebcc;}
+.mkdf-page .panel-danger, .mkdf-meta-box .panel-danger {border-color: #ebccd1;}
+.mkdf-page .panel-danger > .panel-heading, .mkdf-meta-box .panel-danger > .panel-heading {color: #a94442;background-color: #f2dede;border-color: #ebccd1;}
+.mkdf-page .panel-danger > .panel-heading + .panel-collapse .panel-body, .mkdf-meta-box .panel-danger > .panel-heading + .panel-collapse .panel-body {border-top-color: #ebccd1;}
+.mkdf-page .panel-danger > .panel-footer + .panel-collapse .panel-body, .mkdf-meta-box .panel-danger > .panel-footer + .panel-collapse .panel-body {border-bottom-color: #ebccd1;}
+.mkdf-page .well, .mkdf-meta-box .well {min-height: 20px;padding: 19px;margin-bottom: 20px;background-color: whitesmoke;border: 1px solid #e3e3e3;border-radius: 4px;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);box-shadow: inset 0 1px 1px rgba(0,0,0,.05);}
+.mkdf-page .well blockquote, .mkdf-meta-box .well blockquote {border-color: #ddd;border-color: rgba(0,0,0,.15);}
+.mkdf-page .well-lg, .mkdf-meta-box .well-lg {padding: 24px;border-radius: 6px;}
+.mkdf-page .well-sm, .mkdf-meta-box .well-sm {padding: 9px;border-radius: 3px;}
+.mkdf-page .close, .mkdf-meta-box .close {float: right;font-size: 21px;font-weight: bold;line-height: 1;color: black;text-shadow: 0 1px 0 white;opacity: .2;filter: alpha(opacity=20);}
+.mkdf-page .close:hover, .mkdf-page .close:focus, .mkdf-meta-box .close:hover, .mkdf-meta-box .close:focus {color: black;text-decoration: none;cursor: pointer;opacity: .5;filter: alpha(opacity=50);}
+.mkdf-page button.close, .mkdf-meta-box button.close {padding: 0;cursor: pointer;background: transparent;border: 0;-webkit-appearance: none;}
+.mkdf-page .tooltip, .mkdf-meta-box .tooltip {position: absolute;z-index: 1030;display: block;visibility: visible;font-size: 12px;line-height: 1.4;opacity: 0;filter: alpha(opacity=0);}
+.mkdf-page .tooltip.in, .mkdf-meta-box .tooltip.in {opacity: .9;filter: alpha(opacity=90);}
+.mkdf-page .tooltip.top, .mkdf-meta-box .tooltip.top {margin-top: -3px;padding: 5px 0;}
+.mkdf-page .tooltip.right, .mkdf-meta-box .tooltip.right {margin-left: 3px;padding: 0 5px;}
+.mkdf-page .tooltip.bottom, .mkdf-meta-box .tooltip.bottom {margin-top: 3px;padding: 5px 0;}
+.mkdf-page .tooltip.left, .mkdf-meta-box .tooltip.left {margin-left: -3px;padding: 0 5px;}
+.mkdf-page .tooltip-inner, .mkdf-meta-box .tooltip-inner {max-width: 200px;padding: 3px 8px;color: white;text-align: center;text-decoration: none;background-color: black;border-radius: 4px;}
+.mkdf-page .tooltip-arrow, .mkdf-meta-box .tooltip-arrow {position: absolute;width: 0;height: 0;border-color: transparent;border-style: solid;}
+.mkdf-page .tooltip.top .tooltip-arrow, .mkdf-meta-box .tooltip.top .tooltip-arrow {bottom: 0;left: 50%;margin-left: -5px;border-width: 5px 5px 0;border-top-color: black;}
+.mkdf-page .tooltip.top-left .tooltip-arrow, .mkdf-meta-box .tooltip.top-left .tooltip-arrow {bottom: 0;left: 5px;border-width: 5px 5px 0;border-top-color: black;}
+.mkdf-page .tooltip.top-right .tooltip-arrow, .mkdf-meta-box .tooltip.top-right .tooltip-arrow {bottom: 0;right: 5px;border-width: 5px 5px 0;border-top-color: black;}
+.mkdf-page .tooltip.right .tooltip-arrow, .mkdf-meta-box .tooltip.right .tooltip-arrow {top: 50%;left: 0;margin-top: -5px;border-width: 5px 5px 5px 0;border-right-color: black;}
+.mkdf-page .tooltip.left .tooltip-arrow, .mkdf-meta-box .tooltip.left .tooltip-arrow {top: 50%;right: 0;margin-top: -5px;border-width: 5px 0 5px 5px;border-left-color: black;}
+.mkdf-page .tooltip.bottom .tooltip-arrow, .mkdf-meta-box .tooltip.bottom .tooltip-arrow {top: 0;left: 50%;margin-left: -5px;border-width: 0 5px 5px;border-bottom-color: black;}
+.mkdf-page .tooltip.bottom-left .tooltip-arrow, .mkdf-meta-box .tooltip.bottom-left .tooltip-arrow {top: 0;left: 5px;border-width: 0 5px 5px;border-bottom-color: black;}
+.mkdf-page .tooltip.bottom-right .tooltip-arrow, .mkdf-meta-box .tooltip.bottom-right .tooltip-arrow {top: 0;right: 5px;border-width: 0 5px 5px;border-bottom-color: black;}
+.mkdf-page .clearfix:before, .mkdf-page .clearfix:after, .mkdf-meta-box .clearfix:before, .mkdf-meta-box .clearfix:after {content: " ";display: table;}
+.mkdf-page .clearfix:after, .mkdf-meta-box .clearfix:after {clear: both;}
+.mkdf-page .center-block, .mkdf-meta-box .center-block {display: block;margin-left: auto;margin-right: auto;}
+.mkdf-page .pull-right, .mkdf-meta-box .pull-right {float: right !important;}
+.mkdf-page .pull-left, .mkdf-meta-box .pull-left {float: left !important;}
+.mkdf-page .hide, .mkdf-meta-box .hide {display: none !important;}
+.mkdf-page .show, .mkdf-meta-box .show {display: block !important;}
+.mkdf-page .invisible, .mkdf-meta-box .invisible {visibility: hidden;}
+.mkdf-page .text-hide, .mkdf-meta-box .text-hide {font: 0/0 a;color: transparent;text-shadow: none;background-color: transparent;border: 0;}
+.mkdf-page .hidden, .mkdf-meta-box .hidden {display: none !important;visibility: hidden !important;}
+.mkdf-page .affix, .mkdf-meta-box .affix {position: fixed;}
+.mkdf-page .visible-xs, .mkdf-page .visible-sm, .mkdf-page .visible-md, .mkdf-page .visible-lg, .mkdf-meta-box .visible-xs, .mkdf-meta-box .visible-sm, .mkdf-meta-box .visible-md, .mkdf-meta-box .visible-lg {display: none !important;}
+@media (max-width: 767px) {.mkdf-page .visible-xs, .mkdf-meta-box .visible-xs {display: block !important;}
+	.mkdf-page table.visible-xs, .mkdf-meta-box table.visible-xs {display: table;}
+	.mkdf-page tr.visible-xs, .mkdf-meta-box tr.visible-xs {display: table-row !important;}
+	.mkdf-page th.visible-xs, .mkdf-page td.visible-xs, .mkdf-meta-box th.visible-xs, .mkdf-meta-box td.visible-xs {display: table-cell !important;}}
+@media (min-width: 768px) and (max-width: 991px) {.mkdf-page .visible-sm, .mkdf-meta-box .visible-sm {display: block !important;}
+	.mkdf-page table.visible-sm, .mkdf-meta-box table.visible-sm {display: table;}
+	.mkdf-page tr.visible-sm, .mkdf-meta-box tr.visible-sm {display: table-row !important;}
+	.mkdf-page th.visible-sm, .mkdf-page td.visible-sm, .mkdf-meta-box th.visible-sm, .mkdf-meta-box td.visible-sm {display: table-cell !important;}}
+@media (min-width: 992px) and (max-width: 1199px) {.mkdf-page .visible-md, .mkdf-meta-box .visible-md {display: block !important;}
+	.mkdf-page table.visible-md, .mkdf-meta-box table.visible-md {display: table;}
+	.mkdf-page tr.visible-md, .mkdf-meta-box tr.visible-md {display: table-row !important;}
+	.mkdf-page th.visible-md, .mkdf-page td.visible-md, .mkdf-meta-box th.visible-md, .mkdf-meta-box td.visible-md {display: table-cell !important;}}
+@media (min-width: 1200px) {.mkdf-page .visible-lg, .mkdf-meta-box .visible-lg {display: block !important;}
+	.mkdf-page table.visible-lg, .mkdf-meta-box table.visible-lg {display: table;}
+	.mkdf-page tr.visible-lg, .mkdf-meta-box tr.visible-lg {display: table-row !important;}
+	.mkdf-page th.visible-lg, .mkdf-page td.visible-lg, .mkdf-meta-box th.visible-lg, .mkdf-meta-box td.visible-lg {display: table-cell !important;}}
+@media (max-width: 767px) {.mkdf-page .hidden-xs, .mkdf-meta-box .hidden-xs {display: none !important;}}
+@media (min-width: 768px) and (max-width: 991px) {.mkdf-page .hidden-sm, .mkdf-meta-box .hidden-sm {display: none !important;}}
+@media (min-width: 992px) and (max-width: 1199px) {.mkdf-page .hidden-md, .mkdf-meta-box .hidden-md {display: none !important;}}
+@media (min-width: 1200px) {.mkdf-page .hidden-lg, .mkdf-meta-box .hidden-lg {display: none !important;}}
+.mkdf-page .visible-print, .mkdf-meta-box .visible-print {display: none !important;}
+@media print {.mkdf-page .visible-print, .mkdf-meta-box .visible-print {display: block !important;}
+	.mkdf-page table.visible-print, .mkdf-meta-box table.visible-print {display: table;}
+	.mkdf-page tr.visible-print, .mkdf-meta-box tr.visible-print {display: table-row !important;}
+	.mkdf-page th.visible-print, .mkdf-page td.visible-print, .mkdf-meta-box th.visible-print, .mkdf-meta-box td.visible-print {display: table-cell !important;}}
+@media print {.mkdf-page .hidden-print, .mkdf-meta-box .hidden-print {display: none !important;}}
